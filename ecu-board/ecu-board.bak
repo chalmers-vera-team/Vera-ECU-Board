@@ -1,0 +1,33 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5C5704AA
+P 9750 1550
+F 0 "J?" H 9778 1526 50  0000 L CNN
+F 1 "Crank Hall sensor" H 9778 1435 50  0000 L CNN
+F 2 "" H 9750 1550 50  0001 C CNN
+F 3 "~" H 9750 1550 50  0001 C CNN
+	1    9750 1550
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 8350 2150 2400 1950
+U 5C5705F6
+F0 "connectors_sheet" 50
+F1 "connectors.sch" 50
+$EndSheet
+$EndSCHEMATC
