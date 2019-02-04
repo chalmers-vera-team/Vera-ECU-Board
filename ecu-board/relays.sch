@@ -1,0 +1,180 @@
+EESchema Schematic File Version 4
+LIBS:ecu-board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title "Relays"
+Date "2019-02-04"
+Rev "0.1"
+Comp "Chalmers Vera Team"
+Comment1 "Designed by Erik Almbratt (erik.almbratt@gmail.com)"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Relay:DIPxx-1Cxx-51x K1
+U 1 1 5C6BEAC6
+P 4250 3800
+F 0 "K1" V 3683 3800 50  0000 C CNN
+F 1 "Main power relay" V 3774 3800 50  0000 C CNN
+F 2 "" H 4700 3750 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/1736846.pdf?_ga=2.224285851.1892952727.1549112209-881392492.1520553087" H 4250 3800 50  0001 C CNN
+F 4 "1024021" H 4250 3800 50  0001 C CNN "Farnell"
+	1    4250 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:DIPxx-1Cxx-51x K2
+U 1 1 5C6BEC94
+P 7100 3800
+F 0 "K2" V 6533 3800 50  0000 C CNN
+F 1 "Start motor relay" V 6624 3800 50  0000 C CNN
+F 2 "" H 7550 3750 50  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/1736846.pdf?_ga=2.224285851.1892952727.1549112209-881392492.1520553087" H 7100 3800 50  0001 C CNN
+F 4 "1024021" H 7100 3800 50  0001 C CNN "Farnell"
+	1    7100 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5C6BEE87
+P 4250 3000
+F 0 "D2" H 4250 2784 50  0000 C CNN
+F 1 "D" H 4250 2875 50  0000 C CNN
+F 2 "" H 4250 3000 50  0001 C CNN
+F 3 "~" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5C6BEF1F
+P 7100 3000
+F 0 "D3" H 7100 3216 50  0000 C CNN
+F 1 "D" H 7100 3125 50  0000 C CNN
+F 2 "" H 7100 3000 50  0001 C CNN
+F 3 "~" H 7100 3000 50  0001 C CNN
+	1    7100 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3000 3750 3000
+Wire Wire Line
+	3750 3000 3750 3600
+Wire Wire Line
+	3750 3600 3950 3600
+Wire Wire Line
+	4400 3000 4750 3000
+Wire Wire Line
+	4750 3000 4750 3600
+Wire Wire Line
+	4750 3600 4550 3600
+Wire Wire Line
+	6950 3000 6550 3000
+Wire Wire Line
+	6550 3000 6550 3600
+Wire Wire Line
+	6550 3600 6800 3600
+Wire Wire Line
+	7650 3000 7650 3600
+Wire Wire Line
+	7650 3600 7400 3600
+$Comp
+L power:+BATT #PWR026
+U 1 1 5C6C2CF3
+P 3850 3950
+F 0 "#PWR026" H 3850 3800 50  0001 C CNN
+F 1 "+BATT" H 3865 4123 50  0000 C CNN
+F 2 "" H 3850 3950 50  0001 C CNN
+F 3 "" H 3850 3950 50  0001 C CNN
+	1    3850 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3950 3850 4000
+Wire Wire Line
+	3850 4000 3950 4000
+NoConn ~ 7400 3900
+NoConn ~ 4550 3900
+$Comp
+L power:+12V #PWR027
+U 1 1 5C6C5187
+P 4850 4050
+F 0 "#PWR027" H 4850 3900 50  0001 C CNN
+F 1 "+12V" H 4865 4223 50  0000 C CNN
+F 2 "" H 4850 4050 50  0001 C CNN
+F 3 "" H 4850 4050 50  0001 C CNN
+	1    4850 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4050 4850 4100
+Wire Wire Line
+	4850 4100 4550 4100
+Text HLabel 7600 4100 2    50   Output ~ 0
+start_motor_relay_output
+Wire Wire Line
+	7600 4100 7400 4100
+$Comp
+L power:+12V #PWR029
+U 1 1 5C6C6B16
+P 6700 3950
+F 0 "#PWR029" H 6700 3800 50  0001 C CNN
+F 1 "+12V" H 6715 4123 50  0000 C CNN
+F 2 "" H 6700 3950 50  0001 C CNN
+F 3 "" H 6700 3950 50  0001 C CNN
+	1    6700 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3950 6700 4000
+Wire Wire Line
+	6700 4000 6800 4000
+Text HLabel 3550 3600 0    50   Input ~ 0
+main_relay_input
+Wire Wire Line
+	3550 3600 3750 3600
+Connection ~ 3750 3600
+$Comp
+L power:GNDS #PWR028
+U 1 1 5C6C86CC
+P 5150 3650
+F 0 "#PWR028" H 5150 3400 50  0001 C CNN
+F 1 "GNDS" H 5155 3477 50  0000 C CNN
+F 2 "" H 5150 3650 50  0001 C CNN
+F 3 "" H 5150 3650 50  0001 C CNN
+	1    5150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3650 5150 3600
+Wire Wire Line
+	5150 3600 4750 3600
+Connection ~ 4750 3600
+Text HLabel 6450 3600 0    50   Input ~ 0
+start_motor_relay_input
+Wire Wire Line
+	6450 3600 6550 3600
+Connection ~ 6550 3600
+$Comp
+L power:GNDS #PWR030
+U 1 1 5C6CA5AC
+P 7800 3650
+F 0 "#PWR030" H 7800 3400 50  0001 C CNN
+F 1 "GNDS" H 7805 3477 50  0000 C CNN
+F 2 "" H 7800 3650 50  0001 C CNN
+F 3 "" H 7800 3650 50  0001 C CNN
+	1    7800 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 3650 7800 3600
+Wire Wire Line
+	7800 3600 7650 3600
+Connection ~ 7650 3600
+Wire Wire Line
+	7250 3000 7650 3000
+$EndSCHEMATC

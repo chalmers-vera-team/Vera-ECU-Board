@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ecu-board)(type Legacy)(uri /home/e/Documents/Vera-ECU-Board/ecu-board/ecu-board.lib)(options "")(descr ""))
+)
