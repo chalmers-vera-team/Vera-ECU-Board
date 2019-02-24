@@ -21,20 +21,19 @@ F0 "Connectors" 79
 F1 "connectors.sch" 79
 F2 "crankshaft_signal" O R 9400 1900 50 
 F3 "camshaft_signal" O R 9400 2100 50 
-F4 "map_signal" O R 9400 2300 50 
-F5 "ego_signal" O R 9400 2500 50 
-F6 "serial_rx" B L 7400 2700 50 
-F7 "serial_tx" B L 7400 2900 50 
-F8 "injector_input" I L 7400 1900 50 
-F9 "clt_signal" O R 9400 2700 50 
-F10 "iat_signal" O R 9400 2900 50 
-F11 "start_motor_signal" O R 9400 3100 50 
-F12 "main_power_signal" O R 9400 3300 50 
-F13 "start_motor_power" I L 7400 3300 50 
-F14 "ignition1_input" I L 7400 2100 50 
-F15 "ignition2_input" I L 7400 2300 50 
-F16 "serial_GND" U L 7400 3100 50 
-F17 "tachometer_input" I L 7400 2500 50 
+F4 "ego_signal" O R 9400 2500 50 
+F5 "serial_rx" B L 7400 2700 50 
+F6 "serial_tx" B L 7400 2900 50 
+F7 "injector_input" I L 7400 1900 50 
+F8 "clt_signal" O R 9400 2700 50 
+F9 "iat_signal" O R 9400 2900 50 
+F10 "start_motor_signal" O R 9400 3100 50 
+F11 "main_power_signal" O R 9400 3300 50 
+F12 "start_motor_power" I L 7400 3300 50 
+F13 "ignition1_input" I L 7400 2100 50 
+F14 "ignition2_input" I L 7400 2300 50 
+F15 "serial_GND" U L 7400 3100 50 
+F16 "tachometer_input" I L 7400 2500 50 
 $EndSheet
 $Comp
 L ecu-board:MicroSquirt_Connector J1
@@ -225,7 +224,7 @@ Wire Wire Line
 	2450 3700 2250 3700
 NoConn ~ 2250 3900
 NoConn ~ 2250 4000
-Text Label 9700 2300 0    50   ~ 0
+Text Label 4600 2150 2    50   ~ 0
 map_signal
 Wire Wire Line
 	7150 2300 7400 2300
@@ -341,8 +340,63 @@ Wire Wire Line
 	9700 2700 9400 2700
 Wire Wire Line
 	9400 2500 9700 2500
-Wire Wire Line
-	9700 2300 9400 2300
 Text Label 2450 5800 0    50   ~ 0
 ego_signal
+Text Notes 4200 1250 0    79   ~ 16
+MAP sensor
+$Comp
+L power:+5V #PWR?
+U 1 1 5C731B42
+P 5200 1700
+AR Path="/5C5705F6/5C731B42" Ref="#PWR?"  Part="1" 
+AR Path="/5C731B42" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5200 1550 50  0001 C CNN
+F 1 "+5V" H 5215 1873 50  0000 C CNN
+F 2 "" H 5200 1700 50  0001 C CNN
+F 3 "" H 5200 1700 50  0001 C CNN
+	1    5200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C731B4A
+P 5200 2650
+AR Path="/5C5705F6/5C731B4A" Ref="#PWR?"  Part="1" 
+AR Path="/5C731B4A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5200 2400 50  0001 C CNN
+F 1 "GNDS" H 5205 2477 50  0000 C CNN
+F 2 "" H 5200 2650 50  0001 C CNN
+F 3 "" H 5200 2650 50  0001 C CNN
+	1    5200 2650
+	1    0    0    -1  
+$EndComp
+Text Notes 4250 1500 0    50   ~ 0
+MAP Sensor Model: NXP MPX4250AP\nUnibody package
+Wire Notes Line
+	5900 1050 4100 1050
+$Comp
+L ecu-board:MPX4250AP U?
+U 1 1 5C731B59
+P 5200 2150
+AR Path="/5C5705F6/5C731B59" Ref="U?"  Part="1" 
+AR Path="/5C731B59" Ref="U?"  Part="1" 
+F 0 "U?" H 5022 2171 50  0000 R CNN
+F 1 "MPX4250AP" H 5022 2080 50  0000 R CNN
+F 2 "" H 5200 2050 50  0001 C CNN
+F 3 "" H 5200 2050 50  0001 C CNN
+	1    5200 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1700 5200 1750
+Wire Wire Line
+	5200 2600 5200 2650
+Wire Wire Line
+	4600 2150 4700 2150
+Wire Notes Line
+	4100 2950 5900 2950
+Wire Notes Line
+	5900 1050 5900 2950
+Wire Notes Line
+	4100 1050 4100 2950
 $EndSCHEMATC

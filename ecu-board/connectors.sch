@@ -92,50 +92,10 @@ Wire Notes Line
 	10850 900  10850 3400
 Wire Notes Line
 	8350 900  8350 3400
-Text Notes 6350 1100 0    79   ~ 16
-MAP sensor
 Wire Notes Line
 	8350 3400 10850 3400
 Wire Notes Line
 	8350 900  10850 900 
-$Comp
-L power:+5V #PWR017
-U 1 1 5C573391
-P 7050 1600
-F 0 "#PWR017" H 7050 1450 50  0001 C CNN
-F 1 "+5V" H 7065 1773 50  0000 C CNN
-F 2 "" H 7050 1600 50  0001 C CNN
-F 3 "" H 7050 1600 50  0001 C CNN
-	1    7050 1600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 1600 7050 1650
-Wire Wire Line
-	7050 1650 7150 1650
-$Comp
-L power:GNDS #PWR018
-U 1 1 5C57367C
-P 7050 1900
-F 0 "#PWR018" H 7050 1650 50  0001 C CNN
-F 1 "GNDS" H 7055 1727 50  0000 C CNN
-F 2 "" H 7050 1900 50  0001 C CNN
-F 3 "" H 7050 1900 50  0001 C CNN
-	1    7050 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7050 1900 7050 1850
-Text Notes 6450 1250 0    50   ~ 0
-MAP Sensor Model: NXP MPX4250AP
-Wire Notes Line
-	8050 900  8050 2200
-Wire Notes Line
-	6250 2200 6250 900 
-Wire Notes Line
-	8050 900  6250 900 
-Wire Notes Line
-	6250 2200 8050 2200
 Wire Wire Line
 	9250 1750 9450 1750
 Wire Wire Line
@@ -144,8 +104,6 @@ Text HLabel 9250 1750 0    50   Output ~ 0
 crankshaft_signal
 Text HLabel 9250 2650 0    50   Output ~ 0
 camshaft_signal
-Text HLabel 6900 1750 0    50   Output ~ 0
-map_signal
 Text Notes 6350 2600 0    79   ~ 16
 EGO Lambda sensor
 $Comp
@@ -214,33 +172,14 @@ Wire Notes Line
 	5950 900  3700 900 
 Wire Notes Line
 	3700 900  3700 2650
-Text Notes 6350 4000 0    79   ~ 16
+Text Notes 900  5750 0    79   ~ 16
 Injector\n
 Wire Notes Line
-	6250 3800 8050 3800
-$Comp
-L power:+12V #PWR015
-U 1 1 5C57FB87
-P 6550 4550
-F 0 "#PWR015" H 6550 4400 50  0001 C CNN
-F 1 "+12V" H 6565 4723 50  0000 C CNN
-F 2 "" H 6550 4550 50  0001 C CNN
-F 3 "" H 6550 4550 50  0001 C CNN
-	1    6550 4550
-	1    0    0    -1  
-$EndComp
-Text HLabel 6900 4700 0    50   Input ~ 0
+	800  5550 2600 5550
+Text HLabel 1450 6200 0    50   Input ~ 0
 injector_input
-Wire Wire Line
-	6900 4700 7050 4700
-Wire Notes Line
-	6250 3800 6250 4850
-Wire Notes Line
-	6250 4850 8050 4850
-Wire Notes Line
-	8050 4850 8050 3800
-Text Notes 6400 4250 0    50   ~ 0
-Injector input is switched by a \nnormally open dead mans switch.
+Text Notes 950  6000 0    50   ~ 0
+Injector input is switched by a normally open dead man's \nswitch.
 Text Notes 3800 4100 0    79   ~ 16
 Motor Coolant Temperature\n
 Wire Notes Line
@@ -326,13 +265,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J10
 U 1 1 5C594BAE
-P 7250 4600
-F 0 "J10" H 7329 4592 50  0000 L CNN
-F 1 "Injector connector" H 7329 4501 50  0000 L CNN
-F 2 "" H 7250 4600 50  0001 C CNN
-F 3 "~" H 7250 4600 50  0001 C CNN
-F 4 "2314998, 2315061" H 7250 4600 50  0001 C CNN "Farnell"
-	1    7250 4600
+P 2550 6200
+F 0 "J10" H 2629 6192 50  0000 L CNN
+F 1 "Injector connector" H 2629 6101 50  0000 L CNN
+F 2 "" H 2550 6200 50  0001 C CNN
+F 3 "~" H 2550 6200 50  0001 C CNN
+F 4 "2314998, 2315061" H 2550 6200 50  0001 C CNN "Farnell"
+	1    2550 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -419,21 +358,15 @@ Wire Wire Line
 $Comp
 L Device:Fuse_Small F4
 U 1 1 5C5BEADD
-P 6850 4600
-F 0 "F4" H 6850 4785 50  0000 C CNN
-F 1 "5A Fuse" H 6850 4694 50  0000 C CNN
-F 2 "" H 6850 4600 50  0001 C CNN
-F 3 "~" H 6850 4600 50  0001 C CNN
-F 4 "2292904" H 50  100 50  0001 C CNN "Farnell"
-	1    6850 4600
+P 1650 6200
+F 0 "F4" H 1650 6385 50  0000 C CNN
+F 1 "5A Fuse" H 1650 6294 50  0000 C CNN
+F 2 "" H 1650 6200 50  0001 C CNN
+F 3 "~" H 1650 6200 50  0001 C CNN
+F 4 "2292904" H -5150 1700 50  0001 C CNN "Farnell"
+	1    1650 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7050 4600 6950 4600
-Wire Wire Line
-	6750 4600 6550 4600
-Wire Wire Line
-	6550 4600 6550 4550
 $Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 5C5C3CF5
@@ -588,32 +521,8 @@ Wire Notes Line
 	3700 4950 5950 4950
 Wire Notes Line
 	5950 5650 6000 5650
-$Comp
-L Connector:Screw_Terminal_01x02 J6
-U 1 1 5C6199D0
-P 5000 5800
-F 0 "J6" H 5079 5792 50  0000 L CNN
-F 1 "Ignition 1 connector" H 5079 5701 50  0000 L CNN
-F 2 "" H 5000 5800 50  0001 C CNN
-F 3 "~" H 5000 5800 50  0001 C CNN
-F 4 "2314998, 2315061" H 5000 5800 50  0001 C CNN "Farnell"
-	1    5000 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J7
-U 1 1 5C619A32
-P 5000 6250
-F 0 "J7" H 5079 6242 50  0000 L CNN
-F 1 "Ignition 2 connector" H 5079 6151 50  0000 L CNN
-F 2 "" H 5000 6250 50  0001 C CNN
-F 3 "~" H 5000 6250 50  0001 C CNN
-F 4 "2314998, 2315061" H 5000 6250 50  0001 C CNN "Farnell"
-	1    5000 6250
-	1    0    0    -1  
-$EndComp
 Text Notes 3850 5450 0    50   ~ 0
-The electrical system is designed to function with \neither one or two ignition coils. Currently it is not \nyet decided how the final implementation will be.
+The electrical system is designed to function with \neither one or two ignition coils. Currently it is only \nusing Ignition 1.
 $Comp
 L power:+12V #PWR011
 U 1 1 5C628033
@@ -632,32 +541,26 @@ Wire Wire Line
 $Comp
 L power:+12V #PWR012
 U 1 1 5C62A8FD
-P 4700 6200
-F 0 "#PWR012" H 4700 6050 50  0001 C CNN
-F 1 "+12V" H 4715 6373 50  0000 C CNN
-F 2 "" H 4700 6200 50  0001 C CNN
-F 3 "" H 4700 6200 50  0001 C CNN
-	1    4700 6200
+P 4700 6550
+F 0 "#PWR012" H 4700 6400 50  0001 C CNN
+F 1 "+12V" H 4715 6723 50  0000 C CNN
+F 2 "" H 4700 6550 50  0001 C CNN
+F 3 "" H 4700 6550 50  0001 C CNN
+	1    4700 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4700 6200 4700 6250
+	4700 6550 4700 6600
 Wire Wire Line
-	4700 6250 4800 6250
+	4700 6600 4800 6600
 Text HLabel 4550 5900 0    50   Input ~ 0
 ignition1_input
-Text HLabel 4550 6350 0    50   Input ~ 0
+Text HLabel 4550 6700 0    50   Input ~ 0
 ignition2_input
 Wire Wire Line
 	4550 5900 4800 5900
 Wire Wire Line
-	4800 6350 4550 6350
-Wire Notes Line
-	3700 6600 5950 6600
-Wire Notes Line
-	5950 4950 5950 6600
-Wire Notes Line
-	3700 4950 3700 6600
+	4800 6700 4550 6700
 Wire Wire Line
 	4400 2300 4550 2300
 Text HLabel 4400 2300 0    50   UnSpc ~ 0
@@ -735,22 +638,6 @@ F 3 "~" H 7350 3050 50  0001 C CNN
 	1    7350 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6900 1750 7150 1750
-Wire Wire Line
-	7050 1850 7150 1850
-$Comp
-L Connector:Screw_Terminal_01x03 J11
-U 1 1 5C59507A
-P 7350 1750
-F 0 "J11" H 7430 1792 50  0000 L CNN
-F 1 "MAP connector" H 7430 1701 50  0000 L CNN
-F 2 "" H 7350 1750 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7350 1750 50  0001 C CNN
-F 4 "2315020, 2315083" H 7350 1750 50  0001 C CNN "Farnell"
-	1    7350 1750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5C74EE64
@@ -784,4 +671,116 @@ Wire Notes Line
 	3400 2050 3400 900 
 Wire Notes Line
 	800  900  800  2050
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5C773356
+P 5000 5900
+F 0 "J?" H 5080 5942 50  0000 L CNN
+F 1 "Ignition 1 connector" H 5080 5851 50  0000 L CNN
+F 2 "" H 5000 5900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 5000 5900 50  0001 C CNN
+F 4 "2315020, 2315083" H 5000 5900 50  0001 C CNN "Farnell"
+	1    5000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5C77363A
+P 5000 6700
+F 0 "J?" H 5080 6742 50  0000 L CNN
+F 1 "Ignition 2 connector" H 5080 6651 50  0000 L CNN
+F 2 "" H 5000 6700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 5000 6700 50  0001 C CNN
+F 4 "2315020, 2315083" H 5000 6700 50  0001 C CNN "Farnell"
+	1    5000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5C77A9F8
+P 4700 6050
+F 0 "#PWR?" H 4700 5850 50  0001 C CNN
+F 1 "GNDPWR" H 4704 5896 50  0000 C CNN
+F 2 "" H 4700 6000 50  0001 C CNN
+F 3 "" H 4700 6000 50  0001 C CNN
+	1    4700 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6050 4700 6000
+Wire Wire Line
+	4700 6000 4800 6000
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5C77CEFF
+P 4700 6850
+F 0 "#PWR?" H 4700 6650 50  0001 C CNN
+F 1 "GNDPWR" H 4704 6696 50  0000 C CNN
+F 2 "" H 4700 6800 50  0001 C CNN
+F 3 "" H 4700 6800 50  0001 C CNN
+	1    4700 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6850 4700 6800
+Wire Wire Line
+	4700 6800 4800 6800
+Wire Notes Line
+	5950 7150 3700 7150
+Wire Notes Line
+	5950 4950 5950 7150
+Wire Notes Line
+	3700 4950 3700 7150
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C783863
+P 2100 6650
+F 0 "#PWR?" H 2100 6400 50  0001 C CNN
+F 1 "GNDS" H 2105 6477 50  0000 C CNN
+F 2 "" H 2100 6650 50  0001 C CNN
+F 3 "" H 2100 6650 50  0001 C CNN
+	1    2100 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C7A1D9C
+P 1900 6400
+F 0 "R?" H 1970 6446 50  0000 L CNN
+F 1 "10k" H 1970 6355 50  0000 L CNN
+F 2 "" V 1830 6400 50  0001 C CNN
+F 3 "~" H 1900 6400 50  0001 C CNN
+	1    1900 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6250 1900 6200
+Wire Wire Line
+	1450 6200 1550 6200
+Wire Wire Line
+	2350 6300 2250 6300
+Wire Wire Line
+	2100 6650 2100 6600
+Wire Wire Line
+	2100 6600 1900 6600
+Wire Wire Line
+	1900 6600 1900 6550
+Wire Wire Line
+	2100 6600 2250 6600
+Wire Wire Line
+	2250 6300 2250 6600
+Connection ~ 2100 6600
+Wire Notes Line
+	800  5550 800  6950
+Wire Notes Line
+	3400 5550 3400 6950
+Wire Notes Line
+	2650 5550 3400 5550
+Wire Notes Line
+	800  6950 3400 6950
+Connection ~ 1900 6200
+Wire Wire Line
+	1750 6200 1900 6200
+Wire Wire Line
+	1900 6200 2350 6200
 $EndSCHEMATC

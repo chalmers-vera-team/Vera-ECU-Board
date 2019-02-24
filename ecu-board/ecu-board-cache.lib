@@ -233,6 +233,24 @@ X ~ 8 200 -300 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
+# ecu-board_MPX4250AP
+#
+DEF ecu-board_MPX4250AP U 0 40 Y Y 1 F N
+F0 "U" 150 375 50 H V C CNN
+F1 "ecu-board_MPX4250AP" 325 275 50 H V C CNN
+F2 "" 0 -100 50 H I C CNN
+F3 "" 0 -100 50 H I C CNN
+DRAW
+S 300 200 -150 -250 0 1 0 N
+X Vout 1 500 0 200 L 50 50 1 1 I
+X Gnd 2 0 -450 200 U 50 50 1 1 I
+X Vcc 3 0 400 200 D 50 50 1 1 W
+X NC 4 -100 100 200 R 50 50 1 1 N N
+X NC 5 -100 -50 200 R 50 50 1 1 N N
+X NC 6 -100 -200 200 R 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
 # ecu-board_MicroSquirt_Connector
 #
 DEF ecu-board_MicroSquirt_Connector J 0 40 Y Y 1 L N
