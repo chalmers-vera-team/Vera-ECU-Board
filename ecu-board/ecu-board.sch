@@ -32,8 +32,7 @@ F11 "main_power_signal" O R 9400 3300 50
 F12 "start_motor_power" I L 7400 3300 50 
 F13 "ignition1_input" I L 7400 2100 50 
 F14 "ignition2_input" I L 7400 2300 50 
-F15 "serial_GND" U L 7400 3100 50 
-F16 "tachometer_input" I L 7400 2500 50 
+F15 "tachometer_input" I L 7400 2500 50 
 $EndSheet
 $Comp
 L ecu-board:MicroSquirt_Connector J1
@@ -134,12 +133,12 @@ Wire Wire Line
 $Comp
 L power:GNDS #PWR03
 U 1 1 5C63E8F3
-P 3350 4350
-F 0 "#PWR03" H 3350 4100 50  0001 C CNN
-F 1 "GNDS" H 3355 4177 50  0000 C CNN
-F 2 "" H 3350 4350 50  0001 C CNN
-F 3 "" H 3350 4350 50  0001 C CNN
-	1    3350 4350
+P 2600 4100
+F 0 "#PWR03" H 2600 3850 50  0001 C CNN
+F 1 "GNDS" H 2605 3927 50  0000 C CNN
+F 2 "" H 2600 4100 50  0001 C CNN
+F 3 "" H 2600 4100 50  0001 C CNN
+	1    2600 4100
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -189,23 +188,6 @@ Text Label 2450 4400 0    50   ~ 0
 cam_hall_signal
 Wire Wire Line
 	2450 4400 2250 4400
-Wire Wire Line
-	3350 4300 3350 4350
-Wire Wire Line
-	2250 4300 3350 4300
-Wire Wire Line
-	2250 4100 3350 4100
-Wire Wire Line
-	3350 4100 3350 4300
-Connection ~ 3350 4300
-Wire Wire Line
-	2250 4200 2450 4200
-Text Label 7150 3100 2    50   ~ 0
-serial_GND
-Wire Wire Line
-	7150 3100 7400 3100
-Text Label 2450 4200 0    50   ~ 0
-serial_GND
 Text Label 7150 2700 2    50   ~ 0
 serial_RX
 Text Label 7150 2900 2    50   ~ 0
@@ -399,4 +381,18 @@ Wire Notes Line
 	5900 1050 5900 2950
 Wire Notes Line
 	4100 1050 4100 2950
+Wire Wire Line
+	2250 4100 2350 4100
+Wire Wire Line
+	2250 4200 2350 4200
+Wire Wire Line
+	2350 4200 2350 4100
+Connection ~ 2350 4100
+Wire Wire Line
+	2350 4100 2600 4100
+Wire Wire Line
+	2250 4300 2350 4300
+Wire Wire Line
+	2350 4300 2350 4200
+Connection ~ 2350 4200
 $EndSCHEMATC
