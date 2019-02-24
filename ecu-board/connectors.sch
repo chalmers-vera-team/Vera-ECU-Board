@@ -126,8 +126,6 @@ F 3 "" H 7050 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 1900 7050 1850
-Wire Wire Line
-	7050 1850 7150 1850
 Text Notes 6450 1250 0    50   ~ 0
 MAP Sensor Model: NXP MPX4250AP
 Wire Notes Line
@@ -148,8 +146,6 @@ Text HLabel 9250 2850 0    50   Output ~ 0
 camshaft_signal
 Text HLabel 6900 1750 0    50   Output ~ 0
 map_signal
-Wire Wire Line
-	6900 1750 7150 1750
 Text Notes 6350 2600 0    79   ~ 16
 EGO Lambda sensor
 $Comp
@@ -166,24 +162,18 @@ $EndComp
 $Comp
 L power:GNDS #PWR019
 U 1 1 5C573DA1
-P 7050 3200
-F 0 "#PWR019" H 7050 2950 50  0001 C CNN
-F 1 "GNDS" H 7055 3027 50  0000 C CNN
-F 2 "" H 7050 3200 50  0001 C CNN
-F 3 "" H 7050 3200 50  0001 C CNN
-	1    7050 3200
+P 6750 3200
+F 0 "#PWR019" H 6750 2950 50  0001 C CNN
+F 1 "GNDS" H 6755 3027 50  0000 C CNN
+F 2 "" H 6750 3200 50  0001 C CNN
+F 3 "" H 6750 3200 50  0001 C CNN
+	1    6750 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 3200 7050 3150
+	6750 3200 6750 3150
 Text HLabel 6900 3050 0    50   Output ~ 0
 ego_signal
-Wire Notes Line
-	6250 2400 6250 3500
-Wire Notes Line
-	6250 3500 8050 3500
-Wire Notes Line
-	8050 2400 8050 3500
 Wire Notes Line
 	8050 2400 6250 2400
 $Comp
@@ -224,32 +214,32 @@ Wire Notes Line
 	5950 900  3700 900 
 Wire Notes Line
 	3700 900  3700 2650
-Text Notes 6350 3900 0    79   ~ 16
+Text Notes 6350 4000 0    79   ~ 16
 Injector\n
 Wire Notes Line
-	6250 3700 8050 3700
+	6250 3800 8050 3800
 $Comp
 L power:+12V #PWR015
 U 1 1 5C57FB87
-P 6550 4450
-F 0 "#PWR015" H 6550 4300 50  0001 C CNN
-F 1 "+12V" H 6565 4623 50  0000 C CNN
-F 2 "" H 6550 4450 50  0001 C CNN
-F 3 "" H 6550 4450 50  0001 C CNN
-	1    6550 4450
+P 6550 4550
+F 0 "#PWR015" H 6550 4400 50  0001 C CNN
+F 1 "+12V" H 6565 4723 50  0000 C CNN
+F 2 "" H 6550 4550 50  0001 C CNN
+F 3 "" H 6550 4550 50  0001 C CNN
+	1    6550 4550
 	1    0    0    -1  
 $EndComp
-Text HLabel 6900 4600 0    50   Input ~ 0
+Text HLabel 6900 4700 0    50   Input ~ 0
 injector_input
 Wire Wire Line
-	6900 4600 7050 4600
+	6900 4700 7050 4700
 Wire Notes Line
-	6250 3700 6250 4750
+	6250 3800 6250 4850
 Wire Notes Line
-	6250 4750 8050 4750
+	6250 4850 8050 4850
 Wire Notes Line
-	8050 4750 8050 3700
-Text Notes 6400 4150 0    50   ~ 0
+	8050 4850 8050 3800
+Text Notes 6400 4250 0    50   ~ 0
 Injector input is switched by a \nnormally open dead mans switch.
 Text Notes 3800 4100 0    79   ~ 16
 Motor Coolant Temperature\n
@@ -336,37 +326,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J10
 U 1 1 5C594BAE
-P 7250 4500
-F 0 "J10" H 7329 4492 50  0000 L CNN
-F 1 "Injector connector" H 7329 4401 50  0000 L CNN
-F 2 "" H 7250 4500 50  0001 C CNN
-F 3 "~" H 7250 4500 50  0001 C CNN
-F 4 "2314998, 2315061" H 7250 4500 50  0001 C CNN "Farnell"
-	1    7250 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J12
-U 1 1 5C594E4C
-P 7350 3050
-F 0 "J12" H 7430 3092 50  0000 L CNN
-F 1 "EGO connector" H 7430 3001 50  0000 L CNN
-F 2 "" H 7350 3050 50  0001 C CNN
-F 3 "~" H 7350 3050 50  0001 C CNN
-F 4 "2315020, 2315083" H 7350 3050 50  0001 C CNN "Farnell"
-	1    7350 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J11
-U 1 1 5C59507A
-P 7350 1750
-F 0 "J11" H 7430 1792 50  0000 L CNN
-F 1 "MAP connector" H 7430 1701 50  0000 L CNN
-F 2 "" H 7350 1750 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7350 1750 50  0001 C CNN
-F 4 "2315020, 2315083" H 7350 1750 50  0001 C CNN "Farnell"
-	1    7350 1750
+P 7250 4600
+F 0 "J10" H 7329 4592 50  0000 L CNN
+F 1 "Injector connector" H 7329 4501 50  0000 L CNN
+F 2 "" H 7250 4600 50  0001 C CNN
+F 3 "~" H 7250 4600 50  0001 C CNN
+F 4 "2314998, 2315061" H 7250 4600 50  0001 C CNN "Farnell"
+	1    7250 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -519,21 +485,21 @@ Wire Wire Line
 $Comp
 L Device:Fuse_Small F4
 U 1 1 5C5BEADD
-P 6850 4500
-F 0 "F4" H 6850 4685 50  0000 C CNN
-F 1 "5A Fuse" H 6850 4594 50  0000 C CNN
-F 2 "" H 6850 4500 50  0001 C CNN
-F 3 "~" H 6850 4500 50  0001 C CNN
-F 4 "2292904" H 50  0   50  0001 C CNN "Farnell"
-	1    6850 4500
+P 6850 4600
+F 0 "F4" H 6850 4785 50  0000 C CNN
+F 1 "5A Fuse" H 6850 4694 50  0000 C CNN
+F 2 "" H 6850 4600 50  0001 C CNN
+F 3 "~" H 6850 4600 50  0001 C CNN
+F 4 "2292904" H 50  100 50  0001 C CNN "Farnell"
+	1    6850 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 4500 6950 4500
+	7050 4600 6950 4600
 Wire Wire Line
-	6750 4500 6550 4500
+	6750 4600 6550 4600
 Wire Wire Line
-	6550 4500 6550 4450
+	6550 4600 6550 4550
 $Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 5C5C3CF5
@@ -824,6 +790,54 @@ Wire Wire Line
 	7150 3050 6900 3050
 Wire Wire Line
 	7050 2950 7150 2950
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 5C72F789
+P 7350 3050
+F 0 "J?" H 7430 3042 50  0000 L CNN
+F 1 "EGO connector" H 7430 2951 50  0000 L CNN
+F 2 "" H 7350 3050 50  0001 C CNN
+F 3 "~" H 7350 3050 50  0001 C CNN
+	1    7350 3050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7150 3150 7050 3150
+	6900 1750 7150 1750
+Wire Wire Line
+	7050 1850 7150 1850
+$Comp
+L Connector:Screw_Terminal_01x03 J11
+U 1 1 5C59507A
+P 7350 1750
+F 0 "J11" H 7430 1792 50  0000 L CNN
+F 1 "MAP connector" H 7430 1701 50  0000 L CNN
+F 2 "" H 7350 1750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7350 1750 50  0001 C CNN
+F 4 "2315020, 2315083" H 7350 1750 50  0001 C CNN "Farnell"
+	1    7350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5C74EE64
+P 7050 3300
+F 0 "#PWR?" H 7050 3100 50  0001 C CNN
+F 1 "GNDPWR" H 7054 3146 50  0000 C CNN
+F 2 "" H 7050 3250 50  0001 C CNN
+F 3 "" H 7050 3250 50  0001 C CNN
+	1    7050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3300 7050 3250
+Wire Wire Line
+	7050 3250 7150 3250
+Wire Notes Line
+	6250 3600 8050 3600
+Wire Notes Line
+	6250 2400 6250 3600
+Wire Notes Line
+	8050 2400 8050 3600
+Wire Wire Line
+	6750 3150 7150 3150
 $EndSCHEMATC
