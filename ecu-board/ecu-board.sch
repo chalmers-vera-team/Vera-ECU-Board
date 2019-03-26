@@ -261,24 +261,8 @@ Text Label 7150 2100 2    50   ~ 0
 ignition_1
 Text Label 7150 2300 2    50   ~ 0
 ignition_2
-$Comp
-L Device:R R1
-U 1 1 5C68220A
-P 3350 5100
-F 0 "R1" V 3557 5100 50  0000 C CNN
-F 1 "10k" V 3466 5100 50  0000 C CNN
-F 2 "" V 3280 5100 50  0001 C CNN
-F 3 "~" H 3350 5100 50  0001 C CNN
-F 4 "1700251" H 750 250 50  0001 C CNN "Farnell"
-	1    3350 5100
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	3500 5100 3600 5100
-Wire Wire Line
-	2250 5100 3200 5100
-Wire Wire Line
-	2250 5200 3650 5200
+	2250 5200 3050 5200
 NoConn ~ 2250 3000
 NoConn ~ 2250 2900
 NoConn ~ 2250 2800
@@ -291,21 +275,14 @@ NoConn ~ 2250 5600
 $Comp
 L power:+5V #PWR05
 U 1 1 5C692295
-P 3600 5050
-F 0 "#PWR05" H 3600 4900 50  0001 C CNN
-F 1 "+5V" H 3615 5223 50  0000 C CNN
-F 2 "" H 3600 5050 50  0001 C CNN
-F 3 "" H 3600 5050 50  0001 C CNN
-	1    3600 5050
+P 3050 5150
+F 0 "#PWR05" H 3050 5000 50  0001 C CNN
+F 1 "+5V" H 3065 5323 50  0000 C CNN
+F 2 "" H 3050 5150 50  0001 C CNN
+F 3 "" H 3050 5150 50  0001 C CNN
+	1    3050 5150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3650 5100 3650 5200
-Wire Wire Line
-	3600 5100 3600 5050
-Connection ~ 3600 5100
-Wire Wire Line
-	3600 5100 3650 5100
 Wire Wire Line
 	9650 1900 9400 1900
 Wire Wire Line
@@ -395,4 +372,79 @@ Wire Wire Line
 Wire Wire Line
 	2350 4300 2350 4200
 Connection ~ 2350 4200
+Text Notes 4200 3350 0    79   ~ 16
+TPS
+Text Notes 4250 3650 0    50   ~ 0
+As Vera does not have a throttle the \nthrottle position sensor input is given \na constant input. 
+Text Label 2450 5100 0    50   ~ 0
+TPS_input
+Wire Wire Line
+	2450 5100 2250 5100
+Wire Wire Line
+	3050 5150 3050 5200
+Text Label 4700 4350 2    50   ~ 0
+TPS_input
+$Comp
+L Device:R R?
+U 1 1 5C9A98F2
+P 4850 4150
+F 0 "R?" H 4920 4196 50  0000 L CNN
+F 1 "30k" H 4920 4105 50  0000 L CNN
+F 2 "" V 4780 4150 50  0001 C CNN
+F 3 "~" H 4850 4150 50  0001 C CNN
+	1    4850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C9A9924
+P 4850 4550
+F 0 "R?" H 4920 4596 50  0000 L CNN
+F 1 "30k" H 4920 4505 50  0000 L CNN
+F 2 "" V 4780 4550 50  0001 C CNN
+F 3 "~" H 4850 4550 50  0001 C CNN
+	1    4850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4300 4850 4350
+Wire Wire Line
+	4850 4350 4700 4350
+Connection ~ 4850 4350
+Wire Wire Line
+	4850 4350 4850 4400
+Wire Wire Line
+	4850 3950 4850 4000
+$Comp
+L power:GNDS #PWR?
+U 1 1 5C9ADA95
+P 4850 4750
+F 0 "#PWR?" H 4850 4500 50  0001 C CNN
+F 1 "GNDS" H 4855 4577 50  0000 C CNN
+F 2 "" H 4850 4750 50  0001 C CNN
+F 3 "" H 4850 4750 50  0001 C CNN
+	1    4850 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4750 4850 4700
+Wire Notes Line
+	4100 3150 4100 5050
+Wire Notes Line
+	4100 5050 5900 5050
+Wire Notes Line
+	5900 5050 5900 3150
+Wire Notes Line
+	5900 3150 4100 3150
+$Comp
+L power:+5V #PWR?
+U 1 1 5C9B7680
+P 4850 3950
+F 0 "#PWR?" H 4850 3800 50  0001 C CNN
+F 1 "+5V" H 4865 4123 50  0000 C CNN
+F 2 "" H 4850 3950 50  0001 C CNN
+F 3 "" H 4850 3950 50  0001 C CNN
+	1    4850 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
