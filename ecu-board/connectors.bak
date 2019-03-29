@@ -467,52 +467,50 @@ Wire Notes Line
 	800  2500 800  4000
 Wire Notes Line
 	3400 2500 3400 4000
-Text Notes 6150 2700 0    79   ~ 16
+Text Notes 6200 2650 0    79   ~ 16
 Ignition
 Wire Notes Line
-	6050 2500 8300 2500
-Wire Notes Line
-	8300 3200 8350 3200
-Text Notes 6200 3000 0    50   ~ 0
-The electrical system is designed to function with \neither one or two ignition coils. Currently it is only \nusing Ignition 1.
+	8200 3150 8250 3150
+Text Notes 6250 2950 0    50   ~ 0
+The electrical system is designed to function \nwith either one or two ignition coils. Currently \nit is only using Ignition 1.
 $Comp
 L power:+12V #PWR011
 U 1 1 5C628033
-P 7050 3300
-F 0 "#PWR011" H 7050 3150 50  0001 C CNN
-F 1 "+12V" H 7065 3473 50  0000 C CNN
-F 2 "" H 7050 3300 50  0001 C CNN
-F 3 "" H 7050 3300 50  0001 C CNN
-	1    7050 3300
+P 6950 3250
+F 0 "#PWR011" H 6950 3100 50  0001 C CNN
+F 1 "+12V" H 6965 3423 50  0000 C CNN
+F 2 "" H 6950 3250 50  0001 C CNN
+F 3 "" H 6950 3250 50  0001 C CNN
+	1    6950 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 3300 7050 3350
+	6950 3250 6950 3300
 Wire Wire Line
-	7050 3350 7150 3350
+	6950 3300 7050 3300
 $Comp
 L power:+12V #PWR012
 U 1 1 5C62A8FD
-P 7050 4100
-F 0 "#PWR012" H 7050 3950 50  0001 C CNN
-F 1 "+12V" H 7065 4273 50  0000 C CNN
-F 2 "" H 7050 4100 50  0001 C CNN
-F 3 "" H 7050 4100 50  0001 C CNN
-	1    7050 4100
+P 6950 4050
+F 0 "#PWR012" H 6950 3900 50  0001 C CNN
+F 1 "+12V" H 6965 4223 50  0000 C CNN
+F 2 "" H 6950 4050 50  0001 C CNN
+F 3 "" H 6950 4050 50  0001 C CNN
+	1    6950 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 4100 7050 4150
+	6950 4050 6950 4100
 Wire Wire Line
-	7050 4150 7150 4150
-Text HLabel 6900 3450 0    50   Input ~ 0
+	6950 4100 7050 4100
+Text HLabel 6800 3400 0    50   Input ~ 0
 ignition1_input
-Text HLabel 6900 4250 0    50   Input ~ 0
+Text HLabel 6800 4200 0    50   Input ~ 0
 ignition2_input
 Wire Wire Line
-	6900 3450 7150 3450
+	6800 3400 7050 3400
 Wire Wire Line
-	7150 4250 6900 4250
+	7050 4200 6800 4200
 Text Notes 3800 5100 0    79   ~ 16
 Cockpit connections\n
 Text Notes 3850 5400 0    50   ~ 0
@@ -584,63 +582,59 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x03 J?
 U 1 1 5C773356
-P 7350 3450
-F 0 "J?" H 7430 3492 50  0000 L CNN
-F 1 "Ignition 1 connector" H 7430 3401 50  0000 L CNN
-F 2 "" H 7350 3450 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7350 3450 50  0001 C CNN
-F 4 "2315020, 2315083" H 7350 3450 50  0001 C CNN "Farnell"
-	1    7350 3450
+P 7250 3400
+F 0 "J?" H 7330 3442 50  0000 L CNN
+F 1 "Ignition 1 connector" H 7330 3351 50  0000 L CNN
+F 2 "" H 7250 3400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7250 3400 50  0001 C CNN
+F 4 "2315020, 2315083" H 7250 3400 50  0001 C CNN "Farnell"
+	1    7250 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x03 J?
 U 1 1 5C77363A
-P 7350 4250
-F 0 "J?" H 7430 4292 50  0000 L CNN
-F 1 "Ignition 2 connector" H 7430 4201 50  0000 L CNN
-F 2 "" H 7350 4250 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7350 4250 50  0001 C CNN
-F 4 "2315020, 2315083" H 7350 4250 50  0001 C CNN "Farnell"
-	1    7350 4250
+P 7250 4200
+F 0 "J?" H 7330 4242 50  0000 L CNN
+F 1 "Ignition 2 connector" H 7330 4151 50  0000 L CNN
+F 2 "" H 7250 4200 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7250 4200 50  0001 C CNN
+F 4 "2315020, 2315083" H 7250 4200 50  0001 C CNN "Farnell"
+	1    7250 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5C77A9F8
-P 7050 3600
-F 0 "#PWR?" H 7050 3400 50  0001 C CNN
-F 1 "GNDPWR" H 7054 3446 50  0000 C CNN
-F 2 "" H 7050 3550 50  0001 C CNN
-F 3 "" H 7050 3550 50  0001 C CNN
-	1    7050 3600
+P 6950 3550
+F 0 "#PWR?" H 6950 3350 50  0001 C CNN
+F 1 "GNDPWR" H 6954 3396 50  0000 C CNN
+F 2 "" H 6950 3500 50  0001 C CNN
+F 3 "" H 6950 3500 50  0001 C CNN
+	1    6950 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 3600 7050 3550
+	6950 3550 6950 3500
 Wire Wire Line
-	7050 3550 7150 3550
+	6950 3500 7050 3500
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5C77CEFF
-P 7050 4400
-F 0 "#PWR?" H 7050 4200 50  0001 C CNN
-F 1 "GNDPWR" H 7054 4246 50  0000 C CNN
-F 2 "" H 7050 4350 50  0001 C CNN
-F 3 "" H 7050 4350 50  0001 C CNN
-	1    7050 4400
+P 6950 4350
+F 0 "#PWR?" H 6950 4150 50  0001 C CNN
+F 1 "GNDPWR" H 6954 4196 50  0000 C CNN
+F 2 "" H 6950 4300 50  0001 C CNN
+F 3 "" H 6950 4300 50  0001 C CNN
+	1    6950 4350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7050 4400 7050 4350
+	6950 4350 6950 4300
 Wire Wire Line
-	7050 4350 7150 4350
+	6950 4300 7050 4300
 Wire Notes Line
-	8300 4700 6050 4700
-Wire Notes Line
-	8300 2500 8300 4700
-Wire Notes Line
-	6050 2500 6050 4700
+	6100 2450 6100 4650
 $Comp
 L power:GNDS #PWR?
 U 1 1 5C783863
@@ -860,7 +854,7 @@ Connection ~ 9250 4500
 Wire Wire Line
 	9250 4500 9600 4500
 Wire Notes Line
-	8350 1150 8350 5450
+	8350 900  8350 5200
 Wire Notes Line
 	11000 900  11000 5200
 Wire Notes Line
@@ -1150,4 +1144,10 @@ Wire Wire Line
 Connection ~ 2000 4850
 Wire Wire Line
 	2000 4850 2200 4850
+Wire Notes Line
+	8200 2450 8200 4650
+Wire Notes Line
+	8200 2450 6100 2450
+Wire Notes Line
+	6100 4650 8200 4650
 $EndSCHEMATC
