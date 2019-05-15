@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ecu-board-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -381,18 +381,6 @@ Wire Notes Line
 Text Notes 950  2900 0    50   ~ 0
 The start motor power is switched by a normally open \nmonostable switch.
 $Comp
-L Connector:Screw_Terminal_01x02 J4
-U 1 1 5C5E639D
-P 2650 3450
-F 0 "J4" H 2730 3442 50  0000 L CNN
-F 1 "Motor conenctor" H 2730 3351 50  0000 L CNN
-F 2 "" H 2650 3450 50  0001 C CNN
-F 3 "~" H 2650 3450 50  0001 C CNN
-F 4 "1716921, 2859411" H 2650 3450 50  0001 C CNN "Farnell"
-	1    2650 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Fuse_Small F3
 U 1 1 5C5E64A2
 P 1800 3300
@@ -428,13 +416,14 @@ F 3 "" H 2150 3700 50  0001 C CNN
 $EndComp
 $Comp
 L Device:D D1
-U 1 1 5C5ECED0
+U 0 0 5C5ECED0
 P 2150 3500
-F 0 "D1" V 2104 3579 50  0000 L CNN
-F 1 "D" V 2195 3579 50  0000 L CNN
+F 0 "D1" V 2100 3300 50  0000 L CNN
+F 1 "D6025LTP " V 2200 3050 50  0000 L CNN
 F 2 "" H 2150 3500 50  0001 C CNN
 F 3 "~" H 2150 3500 50  0001 C CNN
-	1    2150 3500
+F 4 "2777141" H 2150 3500 50  0001 C CNN "Farnell"
+	0    2150 3500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1003,18 +992,12 @@ Wire Wire Line
 Wire Wire Line
 	1900 3300 2000 3300
 Wire Wire Line
-	2000 3300 2000 3500
-Wire Wire Line
-	2000 3500 1250 3500
-Wire Wire Line
 	1250 3700 1350 3700
 Connection ~ 2000 3300
 Wire Wire Line
 	2000 3300 2150 3300
 Wire Wire Line
 	2000 3700 2150 3700
-Wire Wire Line
-	1250 3500 1250 3700
 Wire Wire Line
 	6850 1650 7000 1650
 Wire Wire Line
@@ -1148,4 +1131,22 @@ Wire Notes Line
 	8200 2450 6100 2450
 Wire Notes Line
 	6100 4650 8200 4650
+Wire Wire Line
+	2000 3300 2000 3400
+Wire Wire Line
+	1250 3400 2000 3400
+Wire Wire Line
+	1250 3400 1250 3700
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5C5E639D
+P 2650 3450
+F 0 "J4" H 2730 3442 50  0000 L CNN
+F 1 "Motor conenctor" H 2730 3351 50  0000 L CNN
+F 2 "" H 2650 3450 50  0001 C CNN
+F 3 "~" H 2650 3450 50  0001 C CNN
+F 4 "1716921, 2859411" H 2650 3450 50  0001 C CNN "Farnell"
+	1    2650 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
