@@ -346,28 +346,16 @@ Battery power is only connected to the main power \nrelay, as well as the normal
 $Comp
 L power:+BATT #PWR06
 U 1 1 5C5D2F4D
-P 950 1650
-F 0 "#PWR06" H 950 1500 50  0001 C CNN
-F 1 "+BATT" H 965 1823 50  0000 C CNN
-F 2 "" H 950 1650 50  0001 C CNN
-F 3 "" H 950 1650 50  0001 C CNN
-	1    950  1650
+P 1150 1650
+F 0 "#PWR06" H 1150 1500 50  0001 C CNN
+F 1 "+BATT" H 1165 1823 50  0000 C CNN
+F 2 "" H 1150 1650 50  0001 C CNN
+F 3 "" H 1150 1650 50  0001 C CNN
+	1    1150 1650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2050 1800 2150 1800
-$Comp
-L Device:Fuse_Small F2
-U 1 1 5C5D4B6E
-P 1200 1700
-F 0 "F2" H 1200 1515 50  0000 C CNN
-F 1 "30A Fuse" H 1200 1606 50  0000 C CNN
-F 2 "" H 1200 1700 50  0001 C CNN
-F 3 "~" H 1200 1700 50  0001 C CNN
-F 4 "2292904" H -5600 -2800 50  0001 C CNN "Farnell"
-	1    1200 1700
-	1    0    0    1   
-$EndComp
 Wire Notes Line
 	3400 2300 800  2300
 Wire Notes Line
@@ -986,9 +974,7 @@ $EndComp
 Wire Wire Line
 	1650 3700 1700 3700
 Wire Wire Line
-	950  1650 950  1700
-Wire Wire Line
-	950  1700 1100 1700
+	1150 1650 1150 1700
 Wire Wire Line
 	1900 3300 2000 3300
 Wire Wire Line
@@ -1035,8 +1021,6 @@ F 3 "" H 7750 1550 50  0001 C CNN
 	1    7750 1550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1300 1700 1400 1700
 $Comp
 L power:GNDS #PWR?
 U 1 1 5CBBE25F
@@ -1149,4 +1133,6 @@ F 4 "1716921, 2859411" H 2650 3450 50  0001 C CNN "Farnell"
 	1    2650 3450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1150 1700 1400 1700
 $EndSCHEMATC
