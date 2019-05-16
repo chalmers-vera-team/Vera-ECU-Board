@@ -1135,4 +1135,62 @@ F 4 "1716921, 2859411" H 2650 3450 50  0001 C CNN "Farnell"
 $EndComp
 Wire Wire Line
 	1150 1700 1400 1700
+Text Notes 6200 5100 0    79   ~ 16
+Camera\n
+Wire Notes Line
+	6100 4800 8200 4800
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5CE57F74
+P 7250 5750
+F 0 "J?" H 7330 5792 50  0000 L CNN
+F 1 "Camera connector" H 7330 5701 50  0000 L CNN
+F 2 "" H 7250 5750 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7250 5750 50  0001 C CNN
+F 4 "2315020, 2315083" H 7250 5750 50  0001 C CNN "Farnell"
+	1    7250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5CE589F7
+P 6950 5600
+F 0 "#PWR?" H 6950 5450 50  0001 C CNN
+F 1 "+12V" H 6965 5773 50  0000 C CNN
+F 2 "" H 6950 5600 50  0001 C CNN
+F 3 "" H 6950 5600 50  0001 C CNN
+	1    6950 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5600 6950 5650
+Wire Wire Line
+	6950 5650 7050 5650
+$Comp
+L power:GNDS #PWR?
+U 1 1 5CE601B5
+P 6950 5900
+F 0 "#PWR?" H 6950 5650 50  0001 C CNN
+F 1 "GNDS" H 6955 5727 50  0000 C CNN
+F 2 "" H 6950 5900 50  0001 C CNN
+F 3 "" H 6950 5900 50  0001 C CNN
+	1    6950 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5900 6950 5850
+Wire Wire Line
+	6950 5850 7050 5850
+Text Label 6800 5750 2    50   ~ 0
+camera
+Wire Wire Line
+	6800 5750 7050 5750
+Text Notes 6250 5300 0    50   ~ 0
+The back camera is connected by RCA to the \nLCD display in the cockpit.
+Wire Notes Line
+	6100 6200 8200 6200
+Wire Notes Line
+	8200 4800 8200 6200
+Wire Notes Line
+	6100 4800 6100 6200
 $EndSCHEMATC
