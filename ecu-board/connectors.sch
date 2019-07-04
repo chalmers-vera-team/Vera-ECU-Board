@@ -43,43 +43,29 @@ Wire Wire Line
 $Comp
 L power:GNDS #PWR021
 U 1 1 5C570990
-P 9500 2450
-F 0 "#PWR021" H 9500 2200 50  0001 C CNN
-F 1 "GNDS" H 9505 2277 50  0000 C CNN
-F 2 "" H 9500 2450 50  0001 C CNN
-F 3 "" H 9500 2450 50  0001 C CNN
-	1    9500 2450
+P 9500 2400
+F 0 "#PWR021" H 9500 2150 50  0001 C CNN
+F 1 "GNDS" H 9505 2227 50  0000 C CNN
+F 2 "" H 9500 2400 50  0001 C CNN
+F 3 "" H 9500 2400 50  0001 C CNN
+	1    9500 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9500 2450 9500 2400
-Wire Wire Line
-	9500 2400 9600 2400
 $Comp
 L power:GNDS #PWR023
 U 1 1 5C5709C2
-P 9500 3600
-F 0 "#PWR023" H 9500 3350 50  0001 C CNN
-F 1 "GNDS" H 9505 3427 50  0000 C CNN
-F 2 "" H 9500 3600 50  0001 C CNN
-F 3 "" H 9500 3600 50  0001 C CNN
-	1    9500 3600
+P 9500 3550
+F 0 "#PWR023" H 9500 3300 50  0001 C CNN
+F 1 "GNDS" H 9505 3377 50  0000 C CNN
+F 2 "" H 9500 3550 50  0001 C CNN
+F 3 "" H 9500 3550 50  0001 C CNN
+	1    9500 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9500 3600 9500 3550
-Wire Wire Line
-	9500 3550 9600 3550
-Wire Wire Line
-	9500 3550 9500 3450
-Wire Wire Line
 	9500 3450 9600 3450
-Connection ~ 9500 3550
-Wire Wire Line
-	9500 2400 9500 2300
 Wire Wire Line
 	9500 2300 9600 2300
-Connection ~ 9500 2400
 Text Notes 8500 1450 0    50   ~ 0
 Hall Sensor Model: Littlefuse 55110-3M-03-A\nCrankshaft Sensor: CYKN8-02CL0\nSecond ground is for potential shielding.\nJumpers enable using other hall sensors.
 Text Notes 8450 1100 0    79   ~ 16
@@ -257,26 +243,26 @@ F 4 "2314998, 2315061" H 2400 6050 50  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 J13
+L Connector:Screw_Terminal_01x03 J13
 U 1 1 5C5953F1
 P 9800 2200
 F 0 "J13" H 9879 2192 50  0000 L CNN
 F 1 "Chrankshaft Hall connector" H 9879 2101 50  0000 L CNN
 F 2 "" H 9800 2200 50  0001 C CNN
 F 3 "~" H 9800 2200 50  0001 C CNN
-F 4 "2315043, 2315064" H 9800 2200 50  0001 C CNN "Farnell"
+F 4 "2315020, 2315083" H 9800 2200 50  0001 C CNN "Farnell"
 	1    9800 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 J14
+L Connector:Screw_Terminal_01x03 J14
 U 1 1 5C596299
 P 9800 3350
 F 0 "J14" H 9880 3342 50  0000 L CNN
 F 1 "Camshaft Hall connector" H 9880 3251 50  0000 L CNN
 F 2 "" H 9800 3350 50  0001 C CNN
 F 3 "~" H 9800 3350 50  0001 C CNN
-F 4 "2315043, 2315064" H 9800 3350 50  0001 C CNN "Farnell"
+F 4 "2315020, 2315083" H 9800 3350 50  0001 C CNN "Farnell"
 	1    9800 3350
 	1    0    0    -1  
 $EndComp
@@ -609,14 +595,14 @@ Wire Notes Line
 Text Label 4700 5950 2    50   ~ 0
 deadmans
 $Comp
-L Connector:Screw_Terminal_01x04 J?
+L Connector:Screw_Terminal_01x03 J?
 U 1 1 5C788398
 P 9800 4500
 F 0 "J?" H 9880 4492 50  0000 L CNN
 F 1 "Wheel Hall connector" H 9880 4401 50  0000 L CNN
 F 2 "" H 9800 4500 50  0001 C CNN
 F 3 "~" H 9800 4500 50  0001 C CNN
-F 4 "2315043, 2315064" H 9800 4500 50  0001 C CNN "Farnell"
+F 4 "2315020, 2315083" H 9800 4500 50  0001 C CNN "Farnell"
 	1    9800 4500
 	1    0    0    -1  
 $EndComp
@@ -634,12 +620,12 @@ $EndComp
 $Comp
 L power:GNDS #PWR?
 U 1 1 5C78841E
-P 9500 4800
-F 0 "#PWR?" H 9500 4550 50  0001 C CNN
-F 1 "GNDS" H 9505 4627 50  0000 C CNN
-F 2 "" H 9500 4800 50  0001 C CNN
-F 3 "" H 9500 4800 50  0001 C CNN
-	1    9500 4800
+P 9500 4700
+F 0 "#PWR?" H 9500 4450 50  0001 C CNN
+F 1 "GNDS" H 9505 4527 50  0000 C CNN
+F 2 "" H 9500 4700 50  0001 C CNN
+F 3 "" H 9500 4700 50  0001 C CNN
+	1    9500 4700
 	1    0    0    -1  
 $EndComp
 Text Label 9150 4500 2    50   ~ 0
@@ -648,13 +634,6 @@ Wire Wire Line
 	9600 4400 9500 4400
 Wire Wire Line
 	9600 4600 9500 4600
-Wire Wire Line
-	9500 4600 9500 4700
-Wire Wire Line
-	9600 4700 9500 4700
-Connection ~ 9500 4700
-Wire Wire Line
-	9500 4700 9500 4800
 Text Label 4700 6050 2    50   ~ 0
 wheel_signal
 Text HLabel 4700 6250 0    50   BiDi ~ 0
@@ -1205,4 +1184,10 @@ Wire Notes Line
 	3400 4150 3400 5250
 Wire Wire Line
 	1650 6050 2000 6050
+Wire Wire Line
+	9500 4700 9500 4600
+Wire Wire Line
+	9500 3550 9500 3450
+Wire Wire Line
+	9500 2400 9500 2300
 $EndSCHEMATC
