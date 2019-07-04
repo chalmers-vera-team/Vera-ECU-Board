@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ecu-board-footprints)(type KiCad)(uri ${KIPRJMOD}/ecu-board-footprints)(options "")(descr ""))
+)
