@@ -598,33 +598,6 @@ Wire Wire Line
 	6950 4300 7050 4300
 Wire Notes Line
 	6100 2450 6100 4650
-$Comp
-L power:GNDS #PWR?
-U 1 1 5C783863
-P 1750 6600
-F 0 "#PWR?" H 1750 6350 50  0001 C CNN
-F 1 "GNDS" H 1755 6427 50  0000 C CNN
-F 2 "" H 1750 6600 50  0001 C CNN
-F 3 "" H 1750 6600 50  0001 C CNN
-	1    1750 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5C7A1D9C
-P 1750 6350
-F 0 "R?" H 1820 6396 50  0000 L CNN
-F 1 "10k" H 1820 6305 50  0000 L CNN
-F 2 "" V 1680 6350 50  0001 C CNN
-F 3 "~" H 1750 6350 50  0001 C CNN
-	1    1750 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1750 6200 1750 6050
-Wire Wire Line
-	1650 6050 1750 6050
-Connection ~ 1750 6050
 Wire Wire Line
 	1350 6050 1450 6050
 Wire Notes Line
@@ -1085,10 +1058,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 6150 2200 6150
 Wire Wire Line
-	1750 6050 2000 6050
-Wire Wire Line
-	1750 6500 1750 6600
-Wire Wire Line
 	2050 6550 2000 6550
 Wire Wire Line
 	2000 6550 2000 6050
@@ -1234,4 +1203,6 @@ Wire Notes Line
 	800  5250 3400 5250
 Wire Notes Line
 	3400 4150 3400 5250
+Wire Wire Line
+	1650 6050 2000 6050
 $EndSCHEMATC
