@@ -142,11 +142,11 @@ Wire Notes Line
 	5950 900  3700 900 
 Wire Notes Line
 	3700 900  3700 2650
-Text Notes 900  5950 0    79   ~ 16
+Text Notes 900  5900 0    79   ~ 16
 Injector\n
-Text HLabel 1600 6500 0    50   Input ~ 0
+Text HLabel 1600 6450 0    50   Input ~ 0
 injector_input
-Text Notes 950  6150 0    50   ~ 0
+Text Notes 950  6100 0    50   ~ 0
 Injector input is switched by a normally open dead man's \nswitch.
 Text Notes 3800 4100 0    79   ~ 16
 Motor Coolant Temperature\n
@@ -233,13 +233,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J10
 U 1 1 5C594BAE
-P 2400 6400
-F 0 "J10" H 2479 6392 50  0000 L CNN
-F 1 "Injector connector" H 2479 6301 50  0000 L CNN
-F 2 "" H 2400 6400 50  0001 C CNN
-F 3 "~" H 2400 6400 50  0001 C CNN
-F 4 "2314998, 2315061" H 2400 6400 50  0001 C CNN "Farnell"
-	1    2400 6400
+P 2400 6350
+F 0 "J10" H 2479 6342 50  0000 L CNN
+F 1 "Injector connector" H 2479 6251 50  0000 L CNN
+F 2 "" H 2400 6350 50  0001 C CNN
+F 3 "~" H 2400 6350 50  0001 C CNN
+F 4 "2314998, 2315061" H 2400 6350 50  0001 C CNN "Farnell"
+	1    2400 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -304,13 +304,13 @@ Wire Wire Line
 $Comp
 L Device:Fuse_Small F4
 U 1 1 5C5BEADD
-P 1550 6400
-F 0 "F4" H 1550 6585 50  0000 C CNN
-F 1 "5A Fuse" H 1550 6494 50  0000 C CNN
-F 2 "" H 1550 6400 50  0001 C CNN
-F 3 "~" H 1550 6400 50  0001 C CNN
-F 4 "2292904" H -5250 1900 50  0001 C CNN "Farnell"
-	1    1550 6400
+P 1550 6350
+F 0 "F4" H 1550 6535 50  0000 C CNN
+F 1 "5A Fuse" H 1550 6444 50  0000 C CNN
+F 2 "" H 1550 6350 50  0001 C CNN
+F 3 "~" H 1550 6350 50  0001 C CNN
+F 4 "2292904" H -5250 1850 50  0001 C CNN "Farnell"
+	1    1550 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -486,7 +486,7 @@ F 3 "" H 4700 6700 50  0001 C CNN
 	1    4700 6700
 	1    0    0    -1  
 $EndComp
-Text HLabel 1900 8250 0    50   Input ~ 0
+Text HLabel 1900 8200 0    50   Input ~ 0
 tachometer_input
 Wire Wire Line
 	4800 6650 4700 6650
@@ -585,13 +585,13 @@ Wire Wire Line
 Wire Notes Line
 	6100 2450 6100 4650
 Wire Wire Line
-	1350 6400 1450 6400
+	1350 6350 1450 6350
 Wire Notes Line
-	3400 7200 800  7200
+	3400 7150 800  7150
 Wire Notes Line
-	800  5750 800  7200
+	800  5700 800  7150
 Wire Notes Line
-	3400 5750 3400 7200
+	3400 5700 3400 7150
 Text Label 4700 5950 2    50   ~ 0
 deadmans
 $Comp
@@ -771,70 +771,70 @@ Wire Notes Line
 Wire Notes Line
 	11000 900  11000 5200
 Wire Notes Line
-	800  8900 3400 8900
+	800  8850 3400 8850
 Wire Notes Line
-	3400 7350 800  7350
-Text Notes 900  7600 0    79   ~ 16
+	3400 7300 800  7300
+Text Notes 900  7550 0    79   ~ 16
 Start motor controller
 $Comp
 L power:+12V #PWR?
 U 1 1 5CA43097
-P 1900 8100
-F 0 "#PWR?" H 1900 7950 50  0001 C CNN
-F 1 "+12V" H 1915 8273 50  0000 C CNN
-F 2 "" H 1900 8100 50  0001 C CNN
-F 3 "" H 1900 8100 50  0001 C CNN
-	1    1900 8100
+P 1900 8050
+F 0 "#PWR?" H 1900 7900 50  0001 C CNN
+F 1 "+12V" H 1915 8223 50  0000 C CNN
+F 2 "" H 1900 8050 50  0001 C CNN
+F 3 "" H 1900 8050 50  0001 C CNN
+	1    1900 8050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDS #PWR?
 U 1 1 5CA430CE
-P 1900 8600
-F 0 "#PWR?" H 1900 8350 50  0001 C CNN
-F 1 "GNDS" H 1905 8427 50  0000 C CNN
-F 2 "" H 1900 8600 50  0001 C CNN
-F 3 "" H 1900 8600 50  0001 C CNN
-	1    1900 8600
+P 1900 8550
+F 0 "#PWR?" H 1900 8300 50  0001 C CNN
+F 1 "GNDS" H 1905 8377 50  0000 C CNN
+F 2 "" H 1900 8550 50  0001 C CNN
+F 3 "" H 1900 8550 50  0001 C CNN
+	1    1900 8550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x05 J?
 U 1 1 5CA4D167
-P 2300 8350
-F 0 "J?" H 2380 8392 50  0000 L CNN
-F 1 "Controller connector" H 2380 8301 50  0000 L CNN
-F 2 "" H 2300 8350 50  0001 C CNN
-F 3 "~" H 2300 8350 50  0001 C CNN
-	1    2300 8350
+P 2300 8300
+F 0 "J?" H 2380 8342 50  0000 L CNN
+F 1 "Controller connector" H 2380 8251 50  0000 L CNN
+F 2 "" H 2300 8300 50  0001 C CNN
+F 3 "~" H 2300 8300 50  0001 C CNN
+	1    2300 8300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 8600 1900 8550
+	1900 8550 1900 8500
 Wire Wire Line
-	1900 8550 2100 8550
+	1900 8500 2100 8500
 Wire Wire Line
-	2100 8450 1900 8450
+	2100 8400 1900 8400
 Wire Wire Line
-	1900 8350 2100 8350
+	1900 8300 2100 8300
 Wire Wire Line
-	2100 8250 1900 8250
+	2100 8200 1900 8200
 Wire Wire Line
-	1900 8100 1900 8150
+	1900 8050 1900 8100
 Wire Wire Line
-	1900 8150 2100 8150
-Text Notes 950  7850 0    50   ~ 0
+	1900 8100 2100 8100
+Text Notes 950  7800 0    50   ~ 0
 Interface to a separate circuit which handles timing of \nstart motor depending on engine RPM.
-Text Label 1900 8350 2    50   ~ 0
+Text Label 1900 8300 2    50   ~ 0
 deadmans
-Text Label 1350 6400 2    50   ~ 0
+Text Label 1350 6350 2    50   ~ 0
 deadmans
-Text HLabel 1900 8450 0    50   Output ~ 0
+Text HLabel 1900 8400 0    50   Output ~ 0
 start_motor_signal
 Wire Notes Line
-	3400 7350 3400 8900
+	3400 7300 3400 8850
 Wire Notes Line
-	800  7350 800  8900
+	800  7300 800  8850
 $Comp
 L Device:LED D?
 U 1 1 5CA85B37
@@ -874,13 +874,13 @@ $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5CA85E2A
-P 2550 6900
-F 0 "D?" H 2542 6645 50  0000 C CNN
-F 1 "LED" H 2542 6736 50  0000 C CNN
-F 2 "LEDs:LED_D3.0mm" H 2550 6900 50  0001 C CNN
-F 3 "~" H 2550 6900 50  0001 C CNN
-F 4 "2251296" H 2550 6900 50  0001 C CNN "Farnell"
-	1    2550 6900
+P 2550 6850
+F 0 "D?" H 2542 6595 50  0000 C CNN
+F 1 "LED" H 2542 6686 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 2550 6850 50  0001 C CNN
+F 3 "~" H 2550 6850 50  0001 C CNN
+F 4 "2251296" H 2550 6850 50  0001 C CNN "Farnell"
+	1    2550 6850
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -990,16 +990,16 @@ Wire Notes Line
 $Comp
 L Device:R R?
 U 1 1 5CBE58C7
-P 2200 6900
-F 0 "R?" V 1993 6900 50  0000 C CNN
-F 1 "1k" V 2084 6900 50  0000 C CNN
-F 2 "" V 2130 6900 50  0001 C CNN
-F 3 "~" H 2200 6900 50  0001 C CNN
-	1    2200 6900
+P 2200 6850
+F 0 "R?" V 1993 6850 50  0000 C CNN
+F 1 "1k" V 2084 6850 50  0000 C CNN
+F 2 "" V 2130 6850 50  0001 C CNN
+F 3 "~" H 2200 6850 50  0001 C CNN
+	1    2200 6850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2400 6900 2350 6900
+	2400 6850 2350 6850
 $Comp
 L Connector:Screw_Terminal_01x10 J?
 U 1 1 5CBEB4A6
@@ -1022,27 +1022,27 @@ Wire Notes Line
 $Comp
 L power:GNDS #PWR?
 U 1 1 5CC14543
-P 2850 6950
-F 0 "#PWR?" H 2850 6700 50  0001 C CNN
-F 1 "GNDS" H 2855 6777 50  0000 C CNN
-F 2 "" H 2850 6950 50  0001 C CNN
-F 3 "" H 2850 6950 50  0001 C CNN
-	1    2850 6950
+P 2850 6900
+F 0 "#PWR?" H 2850 6650 50  0001 C CNN
+F 1 "GNDS" H 2855 6727 50  0000 C CNN
+F 2 "" H 2850 6900 50  0001 C CNN
+F 3 "" H 2850 6900 50  0001 C CNN
+	1    2850 6900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 6900 2850 6900
+	2700 6850 2850 6850
 Wire Wire Line
-	2850 6900 2850 6950
+	2850 6850 2850 6900
 Wire Wire Line
-	1600 6500 2200 6500
+	1600 6450 2200 6450
 Wire Wire Line
-	2050 6900 2000 6900
+	2050 6850 2000 6850
 Wire Wire Line
-	2000 6900 2000 6400
-Connection ~ 2000 6400
+	2000 6850 2000 6350
+Connection ~ 2000 6350
 Wire Wire Line
-	2000 6400 2200 6400
+	2000 6350 2200 6350
 Wire Notes Line
 	8200 2450 8200 4650
 Wire Notes Line
@@ -1140,7 +1140,7 @@ F 4 "1716921, 2859411" H 2650 3450 50  0001 C CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	800  5750 3400 5750
+	800  5700 3400 5700
 Wire Wire Line
 	2400 3700 2400 3550
 Wire Wire Line
@@ -1175,7 +1175,7 @@ Wire Wire Line
 Wire Notes Line
 	800  5550 3400 5550
 Wire Wire Line
-	1650 6400 2000 6400
+	1650 6350 2000 6350
 Wire Wire Line
 	9500 4700 9500 4600
 Wire Wire Line

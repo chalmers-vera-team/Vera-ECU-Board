@@ -15,24 +15,24 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 7400 1750 2000 1700
+S 7700 3000 2000 1700
 U 5C5705F6
 F0 "Connectors" 79
 F1 "connectors.sch" 79
-F2 "crankshaft_signal" O R 9400 1900 50 
-F3 "camshaft_signal" O R 9400 2100 50 
-F4 "ego_signal" O R 9400 2500 50 
-F5 "serial_rx" B L 7400 2700 50 
-F6 "serial_tx" B L 7400 2900 50 
-F7 "injector_input" I L 7400 1900 50 
-F8 "clt_signal" O R 9400 2700 50 
-F9 "iat_signal" O R 9400 2900 50 
-F10 "start_motor_signal" O R 9400 3100 50 
-F11 "main_power_signal" O R 9400 3300 50 
-F12 "start_motor_power" I L 7400 3300 50 
-F13 "ignition1_input" I L 7400 2100 50 
-F14 "ignition2_input" I L 7400 2300 50 
-F15 "tachometer_input" I L 7400 2500 50 
+F2 "crankshaft_signal" O R 9700 3150 50 
+F3 "camshaft_signal" O R 9700 3350 50 
+F4 "ego_signal" O R 9700 3750 50 
+F5 "serial_rx" B L 7700 3950 50 
+F6 "serial_tx" B L 7700 4150 50 
+F7 "injector_input" I L 7700 3150 50 
+F8 "clt_signal" O R 9700 3950 50 
+F9 "iat_signal" O R 9700 4150 50 
+F10 "start_motor_signal" O R 9700 4350 50 
+F11 "main_power_signal" O R 9700 4550 50 
+F12 "start_motor_power" I L 7700 4550 50 
+F13 "ignition1_input" I L 7700 3350 50 
+F14 "ignition2_input" I L 7700 3550 50 
+F15 "tachometer_input" I L 7700 3750 50 
 $EndSheet
 $Comp
 L ecu-board:MicroSquirt_Connector J1
@@ -142,54 +142,54 @@ Wire Notes Line
 Text Notes 1350 1700 0    50   ~ 0
 Connector to the MicroSquirt ECU. The Bootload \njumper is to allow flashing new firmware. The \nconnector must be wired with the same pinout as\nthe MicroSquirt.
 $Sheet
-S 7350 4150 2050 1100
+S 7700 5150 2050 1100
 U 5C640ABF
 F0 "Relays" 79
 F1 "relays.sch" 79
-F2 "main_relay_input" I L 7350 4550 50 
-F3 "start_motor_relay_input" I L 7350 4800 50 
-F4 "start_motor_relay_output" O R 9400 4700 50 
+F2 "main_relay_input" I L 7700 5550 50 
+F3 "start_motor_relay_input" I L 7700 5800 50 
+F4 "start_motor_relay_output" O R 9750 5700 50 
 $EndSheet
-Text Label 9600 4700 0    50   ~ 0
+Text Label 9950 5700 0    50   ~ 0
 relay_to_start_motor
 Wire Wire Line
-	9400 4700 9600 4700
-Text Label 7150 3300 2    50   ~ 0
+	9750 5700 9950 5700
+Text Label 7450 4550 2    50   ~ 0
 relay_to_start_motor
-Text Label 9700 3300 0    50   ~ 0
+Text Label 10000 4550 0    50   ~ 0
 button_to_main_relay
-Text Label 7100 4550 2    50   ~ 0
+Text Label 7450 5550 2    50   ~ 0
 button_to_main_relay
 Wire Wire Line
-	7100 4550 7350 4550
-Text Label 9700 3100 0    50   ~ 0
+	7450 5550 7700 5550
+Text Label 10000 4350 0    50   ~ 0
 button_to_start_motor_relay
-Text Label 7100 4800 2    50   ~ 0
+Text Label 7450 5800 2    50   ~ 0
 button_to_start_motor_relay
 Wire Wire Line
-	7100 4800 7350 4800
-Text Label 9650 1900 0    50   ~ 0
+	7450 5800 7700 5800
+Text Label 9950 3150 0    50   ~ 0
 crank_hall_signal
 Text Label 2450 5700 0    50   ~ 0
 crank_hall_signal
 Wire Wire Line
 	2450 5700 2250 5700
-Text Label 9650 2100 0    50   ~ 0
+Text Label 9950 3350 0    50   ~ 0
 cam_hall_signal
 Wire Wire Line
-	7150 2100 7400 2100
+	7450 3350 7700 3350
 Text Label 2450 4400 0    50   ~ 0
 cam_hall_signal
 Wire Wire Line
 	2450 4400 2250 4400
-Text Label 7150 2700 2    50   ~ 0
+Text Label 7450 3950 2    50   ~ 0
 serial_RX
-Text Label 7150 2900 2    50   ~ 0
+Text Label 7450 4150 2    50   ~ 0
 serial_TX
 Wire Wire Line
-	7150 2900 7400 2900
+	7450 4150 7700 4150
 Wire Wire Line
-	7400 2700 7150 2700
+	7700 3950 7450 3950
 Text Label 2450 3600 0    50   ~ 0
 serial_RX
 Wire Wire Line
@@ -200,44 +200,44 @@ Wire Wire Line
 	2450 3700 2250 3700
 NoConn ~ 2250 3900
 NoConn ~ 2250 4000
-Text Label 4600 2150 2    50   ~ 0
+Text Label 9700 1800 2    50   ~ 0
 map_signal
 Wire Wire Line
-	7150 2300 7400 2300
+	7450 3550 7700 3550
 Text Label 2450 4800 0    50   ~ 0
 map_signal
 Wire Wire Line
 	2450 4800 2250 4800
-Text Label 9700 2700 0    50   ~ 0
+Text Label 10000 3950 0    50   ~ 0
 clt_signal
 Text Label 2450 4900 0    50   ~ 0
 clt_signal
 Wire Wire Line
 	2450 4900 2250 4900
-Text Label 9700 2900 0    50   ~ 0
+Text Label 10000 4150 0    50   ~ 0
 iat_signal
 Text Label 2450 5000 0    50   ~ 0
 iat_signal
 Wire Wire Line
 	2450 5000 2250 5000
-Text Label 9700 2500 0    50   ~ 0
+Text Label 10000 3750 0    50   ~ 0
 ego_signal
 Wire Wire Line
-	7150 2500 7400 2500
+	7450 3750 7700 3750
 Wire Wire Line
 	2450 5800 2250 5800
 Text Label 2450 5900 0    50   ~ 0
 tachometer
 Wire Wire Line
 	2450 5900 2250 5900
-Text Label 7150 2500 2    50   ~ 0
+Text Label 7450 3750 2    50   ~ 0
 tachometer
 NoConn ~ 2250 2400
 NoConn ~ 2250 2500
-Text Label 7150 1900 2    50   ~ 0
+Text Label 7450 3150 2    50   ~ 0
 injector
 Wire Wire Line
-	7150 3300 7400 3300
+	7450 4550 7700 4550
 Text Label 2450 3100 0    50   ~ 0
 injector
 Wire Wire Line
@@ -251,9 +251,9 @@ Wire Wire Line
 	2450 3300 2250 3300
 Wire Wire Line
 	2250 3400 2450 3400
-Text Label 7150 2100 2    50   ~ 0
+Text Label 7450 3350 2    50   ~ 0
 ignition_1
-Text Label 7150 2300 2    50   ~ 0
+Text Label 7450 3550 2    50   ~ 0
 ignition_2
 Wire Wire Line
 	2250 5200 3050 5200
@@ -278,80 +278,80 @@ F 3 "" H 3050 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 1900 9400 1900
+	9950 3150 9700 3150
 Wire Wire Line
-	9400 2100 9650 2100
+	9700 3350 9950 3350
 Wire Wire Line
-	7150 1900 7400 1900
+	7450 3150 7700 3150
 Wire Wire Line
-	9700 3300 9400 3300
+	10000 4550 9700 4550
 Wire Wire Line
-	9400 3100 9700 3100
+	9700 4350 10000 4350
 Wire Wire Line
-	9400 2900 9700 2900
+	9700 4150 10000 4150
 Wire Wire Line
-	9700 2700 9400 2700
+	10000 3950 9700 3950
 Wire Wire Line
-	9400 2500 9700 2500
+	9700 3750 10000 3750
 Text Label 2450 5800 0    50   ~ 0
 ego_signal
-Text Notes 4200 1250 0    79   ~ 16
+Text Notes 9300 900  0    79   ~ 16
 MAP sensor
 $Comp
 L power:+5V #PWR?
 U 1 1 5C731B42
-P 5200 1700
+P 10300 1350
 AR Path="/5C5705F6/5C731B42" Ref="#PWR?"  Part="1" 
 AR Path="/5C731B42" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5200 1550 50  0001 C CNN
-F 1 "+5V" H 5215 1873 50  0000 C CNN
-F 2 "" H 5200 1700 50  0001 C CNN
-F 3 "" H 5200 1700 50  0001 C CNN
-	1    5200 1700
+F 0 "#PWR?" H 10300 1200 50  0001 C CNN
+F 1 "+5V" H 10315 1523 50  0000 C CNN
+F 2 "" H 10300 1350 50  0001 C CNN
+F 3 "" H 10300 1350 50  0001 C CNN
+	1    10300 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDS #PWR?
 U 1 1 5C731B4A
-P 5200 2650
+P 10300 2300
 AR Path="/5C5705F6/5C731B4A" Ref="#PWR?"  Part="1" 
 AR Path="/5C731B4A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5200 2400 50  0001 C CNN
-F 1 "GNDS" H 5205 2477 50  0000 C CNN
-F 2 "" H 5200 2650 50  0001 C CNN
-F 3 "" H 5200 2650 50  0001 C CNN
-	1    5200 2650
+F 0 "#PWR?" H 10300 2050 50  0001 C CNN
+F 1 "GNDS" H 10305 2127 50  0000 C CNN
+F 2 "" H 10300 2300 50  0001 C CNN
+F 3 "" H 10300 2300 50  0001 C CNN
+	1    10300 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 4250 1500 0    50   ~ 0
+Text Notes 9350 1150 0    50   ~ 0
 MAP Sensor Model: NXP MPX4250AP\nUnibody package
 Wire Notes Line
-	5900 1050 4100 1050
+	11000 700  9200 700 
 $Comp
 L ecu-board:MPX4250AP U?
 U 1 1 5C731B59
-P 5200 2150
+P 10300 1800
 AR Path="/5C5705F6/5C731B59" Ref="U?"  Part="1" 
 AR Path="/5C731B59" Ref="U?"  Part="1" 
-F 0 "U?" H 5022 2171 50  0000 R CNN
-F 1 "MPX4250AP" H 5022 2080 50  0000 R CNN
-F 2 "" H 5200 2050 50  0001 C CNN
-F 3 "" H 5200 2050 50  0001 C CNN
-	1    5200 2150
+F 0 "U?" H 10122 1821 50  0000 R CNN
+F 1 "MPX4250AP" H 10122 1730 50  0000 R CNN
+F 2 "" H 10300 1700 50  0001 C CNN
+F 3 "" H 10300 1700 50  0001 C CNN
+	1    10300 1800
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 1700 5200 1750
+	10300 1350 10300 1400
 Wire Wire Line
-	5200 2600 5200 2650
+	10300 2250 10300 2300
 Wire Wire Line
-	4600 2150 4700 2150
+	9700 1800 9800 1800
 Wire Notes Line
-	4100 2950 5900 2950
+	9200 2600 11000 2600
 Wire Notes Line
-	5900 1050 5900 2950
+	11000 700  11000 2600
 Wire Notes Line
-	4100 1050 4100 2950
+	9200 700  9200 2600
 Wire Wire Line
 	2250 4100 2350 4100
 Wire Wire Line
@@ -366,9 +366,9 @@ Wire Wire Line
 Wire Wire Line
 	2350 4300 2350 4200
 Connection ~ 2350 4200
-Text Notes 4200 3350 0    79   ~ 16
+Text Notes 7350 900  0    79   ~ 16
 TPS
-Text Notes 4250 3650 0    50   ~ 0
+Text Notes 7400 1200 0    50   ~ 0
 As Vera does not have a throttle the \nthrottle position sensor input is given \na constant input. 
 Text Label 2450 5100 0    50   ~ 0
 TPS_input
@@ -376,69 +376,69 @@ Wire Wire Line
 	2450 5100 2250 5100
 Wire Wire Line
 	3050 5150 3050 5200
-Text Label 4700 4350 2    50   ~ 0
+Text Label 7850 1900 2    50   ~ 0
 TPS_input
 $Comp
 L Device:R R?
 U 1 1 5C9A98F2
-P 4850 4150
-F 0 "R?" H 4920 4196 50  0000 L CNN
-F 1 "30k" H 4920 4105 50  0000 L CNN
-F 2 "" V 4780 4150 50  0001 C CNN
-F 3 "~" H 4850 4150 50  0001 C CNN
-	1    4850 4150
+P 8000 1700
+F 0 "R?" H 8070 1746 50  0000 L CNN
+F 1 "30k" H 8070 1655 50  0000 L CNN
+F 2 "" V 7930 1700 50  0001 C CNN
+F 3 "~" H 8000 1700 50  0001 C CNN
+	1    8000 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5C9A9924
-P 4850 4550
-F 0 "R?" H 4920 4596 50  0000 L CNN
-F 1 "30k" H 4920 4505 50  0000 L CNN
-F 2 "" V 4780 4550 50  0001 C CNN
-F 3 "~" H 4850 4550 50  0001 C CNN
-	1    4850 4550
+P 8000 2100
+F 0 "R?" H 8070 2146 50  0000 L CNN
+F 1 "30k" H 8070 2055 50  0000 L CNN
+F 2 "" V 7930 2100 50  0001 C CNN
+F 3 "~" H 8000 2100 50  0001 C CNN
+	1    8000 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 4300 4850 4350
+	8000 1850 8000 1900
 Wire Wire Line
-	4850 4350 4700 4350
-Connection ~ 4850 4350
+	8000 1900 7850 1900
+Connection ~ 8000 1900
 Wire Wire Line
-	4850 4350 4850 4400
+	8000 1900 8000 1950
 Wire Wire Line
-	4850 3950 4850 4000
+	8000 1500 8000 1550
 $Comp
 L power:GNDS #PWR?
 U 1 1 5C9ADA95
-P 4850 4750
-F 0 "#PWR?" H 4850 4500 50  0001 C CNN
-F 1 "GNDS" H 4855 4577 50  0000 C CNN
-F 2 "" H 4850 4750 50  0001 C CNN
-F 3 "" H 4850 4750 50  0001 C CNN
-	1    4850 4750
+P 8000 2300
+F 0 "#PWR?" H 8000 2050 50  0001 C CNN
+F 1 "GNDS" H 8005 2127 50  0000 C CNN
+F 2 "" H 8000 2300 50  0001 C CNN
+F 3 "" H 8000 2300 50  0001 C CNN
+	1    8000 2300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 4750 4850 4700
+	8000 2300 8000 2250
 Wire Notes Line
-	4100 3150 4100 5050
+	7250 700  7250 2600
 Wire Notes Line
-	4100 5050 5900 5050
+	7250 2600 9050 2600
 Wire Notes Line
-	5900 5050 5900 3150
+	9050 2600 9050 700 
 Wire Notes Line
-	5900 3150 4100 3150
+	9050 700  7250 700 
 $Comp
 L power:+5V #PWR?
 U 1 1 5C9B7680
-P 4850 3950
-F 0 "#PWR?" H 4850 3800 50  0001 C CNN
-F 1 "+5V" H 4865 4123 50  0000 C CNN
-F 2 "" H 4850 3950 50  0001 C CNN
-F 3 "" H 4850 3950 50  0001 C CNN
-	1    4850 3950
+P 8000 1500
+F 0 "#PWR?" H 8000 1350 50  0001 C CNN
+F 1 "+5V" H 8015 1673 50  0000 C CNN
+F 2 "" H 8000 1500 50  0001 C CNN
+F 3 "" H 8000 1500 50  0001 C CNN
+	1    8000 1500
 	1    0    0    -1  
 $EndComp
 $Comp
