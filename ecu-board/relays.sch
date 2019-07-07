@@ -5,8 +5,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title "Relays"
-Date "2019-02-04"
+Title "Vera ECU Board"
+Date "2019-07-07"
 Rev "0.1"
 Comp "Chalmers Vera Team"
 Comment1 "Designed by Erik Almbratt (erik.almbratt@gmail.com)"

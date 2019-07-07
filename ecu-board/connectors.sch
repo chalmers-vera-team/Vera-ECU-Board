@@ -5,8 +5,8 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
-Title "Connectors"
-Date "2019-02-04"
+Title "Vera ECU Board"
+Date "2019-07-07"
 Rev "0.1"
 Comp "Chalmers Vera Team"
 Comment1 "Designed by Erik Almbratt (erik.almbratt@gmail.com)"

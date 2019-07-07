@@ -486,7 +486,7 @@ F 3 "" H 4700 6700 50  0001 C CNN
 	1    4700 6700
 	1    0    0    -1  
 $EndComp
-Text HLabel 1900 8200 0    50   Input ~ 0
+Text HLabel 1900 8300 0    50   Input ~ 0
 tachometer_input
 Wire Wire Line
 	4800 6650 4700 6650
@@ -771,7 +771,7 @@ Wire Notes Line
 Wire Notes Line
 	11000 900  11000 5200
 Wire Notes Line
-	800  8850 3400 8850
+	800  8950 3400 8950
 Wire Notes Line
 	3400 7300 800  7300
 Text Notes 900  7550 0    79   ~ 16
@@ -779,62 +779,58 @@ Start motor controller
 $Comp
 L power:+12V #PWR?
 U 1 1 5CA43097
-P 1900 8050
-F 0 "#PWR?" H 1900 7900 50  0001 C CNN
-F 1 "+12V" H 1915 8223 50  0000 C CNN
-F 2 "" H 1900 8050 50  0001 C CNN
-F 3 "" H 1900 8050 50  0001 C CNN
-	1    1900 8050
+P 1900 8150
+F 0 "#PWR?" H 1900 8000 50  0001 C CNN
+F 1 "+12V" H 1915 8323 50  0000 C CNN
+F 2 "" H 1900 8150 50  0001 C CNN
+F 3 "" H 1900 8150 50  0001 C CNN
+	1    1900 8150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDS #PWR?
 U 1 1 5CA430CE
-P 1900 8550
-F 0 "#PWR?" H 1900 8300 50  0001 C CNN
-F 1 "GNDS" H 1905 8377 50  0000 C CNN
-F 2 "" H 1900 8550 50  0001 C CNN
-F 3 "" H 1900 8550 50  0001 C CNN
-	1    1900 8550
+P 1900 8650
+F 0 "#PWR?" H 1900 8400 50  0001 C CNN
+F 1 "GNDS" H 1905 8477 50  0000 C CNN
+F 2 "" H 1900 8650 50  0001 C CNN
+F 3 "" H 1900 8650 50  0001 C CNN
+	1    1900 8650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x05 J?
 U 1 1 5CA4D167
-P 2300 8300
-F 0 "J?" H 2380 8342 50  0000 L CNN
-F 1 "Controller connector" H 2380 8251 50  0000 L CNN
-F 2 "" H 2300 8300 50  0001 C CNN
-F 3 "~" H 2300 8300 50  0001 C CNN
-	1    2300 8300
+P 2300 8400
+F 0 "J?" H 2380 8442 50  0000 L CNN
+F 1 "Controller connector" H 2380 8351 50  0000 L CNN
+F 2 "" H 2300 8400 50  0001 C CNN
+F 3 "~" H 2300 8400 50  0001 C CNN
+	1    2300 8400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 8550 1900 8500
+	1900 8650 1900 8600
 Wire Wire Line
-	1900 8500 2100 8500
+	1900 8600 2100 8600
 Wire Wire Line
-	2100 8400 1900 8400
+	2100 8500 1900 8500
 Wire Wire Line
-	1900 8300 2100 8300
+	1900 8400 2100 8400
 Wire Wire Line
-	2100 8200 1900 8200
+	2100 8300 1900 8300
 Wire Wire Line
-	1900 8050 1900 8100
+	1900 8150 1900 8200
 Wire Wire Line
-	1900 8100 2100 8100
-Text Notes 950  7800 0    50   ~ 0
-Interface to a separate circuit which handles timing of \nstart motor depending on engine RPM.
-Text Label 1900 8300 2    50   ~ 0
+	1900 8200 2100 8200
+Text Notes 950  7850 0    50   ~ 0
+Interface to a separate circuit which handles timing of \nstart motor depending on engine RPM. The start motor is \nactivated by pulling start_motor_signal low.
+Text Label 1900 8400 2    50   ~ 0
 deadmans
 Text Label 1350 6350 2    50   ~ 0
 deadmans
-Text HLabel 1900 8400 0    50   Output ~ 0
+Text HLabel 1900 8500 0    50   Output ~ 0
 start_motor_signal
-Wire Notes Line
-	3400 7300 3400 8850
-Wire Notes Line
-	800  7300 800  8850
 $Comp
 L Device:LED D?
 U 1 1 5CA85B37
@@ -1249,4 +1245,8 @@ Wire Notes Line
 	3400 4150 3400 5550
 Wire Notes Line
 	800  4150 800  5550
+Wire Notes Line
+	3400 7300 3400 8950
+Wire Notes Line
+	800  7300 800  8950
 $EndSCHEMATC
