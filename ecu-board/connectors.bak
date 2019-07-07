@@ -5,8 +5,8 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 3
-Title "Connectors"
-Date "2019-02-04"
+Title "Vera ECU Board"
+Date "2019-07-07"
 Rev "0.1"
 Comp "Chalmers Vera Team"
 Comment1 "Designed by Erik Almbratt (erik.almbratt@gmail.com)"
@@ -110,7 +110,7 @@ U 1 1 5C576806
 P 4850 1900
 F 0 "J5" H 5029 1946 50  0000 L CNN
 F 1 "Serial DB9 connector" H 5029 1855 50  0000 L CNN
-F 2 "" H 4850 1900 50  0001 C CNN
+F 2 "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 4850 1900 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1802103.pdf?_ga=2.191290538.1892952727.1549112209-881392492.1520553087" H 4850 1900 50  0001 C CNN
 F 4 "2401183" H 5029 1809 50  0001 L CNN "Farnell"
 	1    4850 1900

@@ -104,18 +104,6 @@ Text HLabel 6900 1750 0    50   Output ~ 0
 ego_signal
 Wire Notes Line
 	8050 900  6250 900 
-$Comp
-L Connector:DB9_Female J5
-U 1 1 5C576806
-P 4850 1900
-F 0 "J5" H 5029 1946 50  0000 L CNN
-F 1 "Serial DB9 connector" H 5029 1855 50  0000 L CNN
-F 2 "" H 4850 1900 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1802103.pdf?_ga=2.191290538.1892952727.1549112209-881392492.1520553087" H 4850 1900 50  0001 C CNN
-F 4 "2401183" H 5029 1809 50  0001 L CNN "Farnell"
-	1    4850 1900
-	1    0    0    -1  
-$EndComp
 Text Notes 3800 1100 0    79   ~ 16
 RS232 Serial Port
 Text HLabel 4400 1700 0    50   BiDi ~ 0
@@ -1249,4 +1237,16 @@ Wire Notes Line
 	3400 7300 3400 8950
 Wire Notes Line
 	800  7300 800  8950
+$Comp
+L Connector:DB9_Female J5
+U 1 1 5C576806
+P 4850 1900
+F 0 "J5" H 5029 1946 50  0000 L CNN
+F 1 "Serial DB9 connector" H 5029 1855 50  0000 L CNN
+F 2 "DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 4850 1900 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1802103.pdf?_ga=2.191290538.1892952727.1549112209-881392492.1520553087" H 4850 1900 50  0001 C CNN
+F 4 "2401183" H 5029 1809 50  0001 L CNN "Farnell"
+	1    4850 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
