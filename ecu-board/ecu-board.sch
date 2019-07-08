@@ -135,7 +135,7 @@ F 3 "" H 2600 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	1200 1150 1200 6400
+	1200 1050 1200 6300
 Wire Notes Line
 	3750 1050 3750 6300
 Text Notes 1350 1950 0    50   ~ 0

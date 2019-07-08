@@ -1205,17 +1205,6 @@ F 4 "2401183" H 5029 1809 50  0001 L CNN "Farnell"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:QM6015D Q1
-U 1 1 5D286CA9
-P 1700 2400
-F 0 "Q1" V 2043 2400 50  0000 C CNN
-F 1 "IPD90P03P4-04" V 1952 2400 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-2" H 1900 2325 50  0001 L CIN
-F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 1700 2400 50  0001 L CNN
-	1    1700 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GNDPWR #PWR035
 U 1 1 5D2BFDAA
 P 1700 2800
@@ -1256,4 +1245,15 @@ Wire Notes Line
 	800  900  800  3100
 Wire Notes Line
 	3400 900  3400 3100
+$Comp
+L Transistor_FET:QM6015D Q1
+U 1 1 5D286CA9
+P 1700 2400
+F 0 "Q1" V 2043 2400 50  0000 C CNN
+F 1 "IPD90P03P4-04" V 1952 2400 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2" H 1900 2325 50  0001 L CIN
+F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 1700 2400 50  0001 L CNN
+	1    1700 2400
+	0    1    -1   0   
+$EndComp
 $EndSCHEMATC
