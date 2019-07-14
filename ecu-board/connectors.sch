@@ -307,7 +307,7 @@ F 2 "" H 2300 2300 50  0001 C CNN
 F 3 "~" H 2300 2300 50  0001 C CNN
 F 4 "1716921, 2859411" H 2300 2300 50  0001 C CNN "Farnell"
 F 5 "AMASS" H 2300 2300 50  0001 C CNN "Manufacturer"
-F 6 "XT60PW-M" H 2300 2300 50  0001 C CNN "Part no."
+F 6 "XT60PW-M" H 2590 2100 50  0000 C CNN "Part no."
 	1    2300 2300
 	1    0    0    -1  
 $EndComp
@@ -1080,20 +1080,6 @@ F 6 "2141 Series" H 2450 5700 50  0001 C CNN "Part no."
 	1    2450 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J4
-U 1 1 5C5E639D
-P 2650 4200
-F 0 "J4" H 2730 4192 50  0000 L CNN
-F 1 "Motor connector" H 2730 4101 50  0000 L CNN
-F 2 "" H 2650 4200 50  0001 C CNN
-F 3 "~" H 2650 4200 50  0001 C CNN
-F 4 "1716921, 2859411" H 2650 4200 50  0001 C CNN "Farnell"
-F 5 "AMASS" H 2650 4200 50  0001 C CNN "Manufacturer"
-F 6 "XT60PW-F" H 2650 4200 50  0001 C CNN "Part no."
-	1    2650 4200
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	800  6450 3400 6450
 Wire Wire Line
@@ -1286,6 +1272,20 @@ F 4 "2314998, 2315061" H 5050 3200 50  0001 C CNN "Farnell"
 F 5 "Würth" H 5050 3200 50  0001 C CNN "Manufacturer"
 F 6 "2141 Series" H 5050 3200 50  0001 C CNN "Part no."
 	1    5050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 5C5E639D
+P 2650 4200
+F 0 "J4" H 2730 4192 50  0000 L CNN
+F 1 "Motor connector" H 2730 4101 50  0000 L CNN
+F 2 "" H 2650 4200 50  0001 C CNN
+F 3 "~" H 2650 4200 50  0001 C CNN
+F 4 "1716921, 2859411" H 2650 4200 50  0001 C CNN "Farnell"
+F 5 "AMASS" H 2650 4200 50  0001 C CNN "Manufacturer"
+F 6 "XT60PW-F" H 2930 4000 50  0000 C CNN "Part no."
+	1    2650 4200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
