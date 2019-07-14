@@ -475,7 +475,7 @@ U 1 1 5C72F789
 P 7200 1750
 F 0 "J12" H 7280 1742 50  0000 L CNN
 F 1 "EGO connector" H 7280 1651 50  0000 L CNN
-F 2 "" H 7200 1750 50  0001 C CNN
+F 2 "ecu-board-footprints:Wurth_2141_04x3.5mm" H 7200 1750 50  0001 C CNN
 F 3 "~" H 7200 1750 50  0001 C CNN
 	1    7200 1750
 	1    0    0    -1  
@@ -775,7 +775,7 @@ U 1 1 5CA4D167
 P 2300 9150
 F 0 "J6" H 2380 9192 50  0000 L CNN
 F 1 "Controller connector" H 2380 9101 50  0000 L CNN
-F 2 "" H 2300 9150 50  0001 C CNN
+F 2 "ecu-board-footprints:Wurth_2141_05x3.5mm" H 2300 9150 50  0001 C CNN
 F 3 "~" H 2300 9150 50  0001 C CNN
 	1    2300 9150
 	1    0    0    -1  
@@ -947,7 +947,7 @@ U 1 1 5CBEB4A6
 P 5000 6050
 F 0 "J11" H 5080 6042 50  0000 L CNN
 F 1 "Cockpit connector" H 5080 5951 50  0000 L CNN
-F 2 "" H 5000 6050 50  0001 C CNN
+F 2 "ecu-board-footprints:Wurth_2141_10x3.5mm" H 5000 6050 50  0001 C CNN
 F 3 "~" H 5000 6050 50  0001 C CNN
 	1    5000 6050
 	1    0    0    -1  
