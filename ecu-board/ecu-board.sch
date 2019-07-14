@@ -38,10 +38,12 @@ $Comp
 L ecu-board:MicroSquirt_Connector J1
 U 1 1 5C598259
 P 1850 4300
-F 0 "J1" H 1650 6450 50  0000 C CNN
-F 1 "MicroSquirt_connector" H 1600 6350 50  0000 L BNN
+F 0 "J1" H 1650 6400 50  0000 C CNN
+F 1 "MicroSquirt_connector" H 1600 6250 50  0000 L BNN
 F 2 "" H 1600 6250 50  0001 L BNN
 F 3 "TE CONNECTIVITY" H 1850 4300 50  0001 L BNN
+F 4 "TE Connectivity" H 1850 4300 50  0001 C CNN "Manufacturer"
+F 5 "1-776230-1" H 1850 4300 50  0001 C CNN "Part no."
 	1    1850 4300
 	-1   0    0    -1  
 $EndComp
@@ -484,7 +486,6 @@ F 0 "J3" H 4050 6100 50  0000 C CNN
 F 1 "MS_breakout_conn" H 3900 6000 50  0000 C CNN
 F 2 "" H 4150 4150 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/gb/products/1791826" H 4150 4150 50  0001 C CNN
-F 4 "Phoenix Contact" H 4150 4150 50  0001 C CNN "Manufacturer"
 	1    4150 4150
 	-1   0    0    -1  
 $EndComp

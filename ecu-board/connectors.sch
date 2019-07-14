@@ -203,19 +203,9 @@ F 1 "CLT connector" H 5129 4101 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_02x3.5mm" H 5050 4200 50  0001 C CNN
 F 3 "~" H 5050 4200 50  0001 C CNN
 F 4 "2314998, 2315061" H 5050 4200 50  0001 C CNN "Farnell"
+F 5 "Würth" H 5050 4200 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 5050 4200 50  0001 C CNN "Part no."
 	1    5050 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J8
-U 1 1 5C594AF2
-P 5050 3200
-F 0 "J8" H 5129 3192 50  0000 L CNN
-F 1 "IAT connector" H 5129 3101 50  0000 L CNN
-F 2 "ecu-board-footprints:Wurth_2141_02x3.5mm" H 5050 3200 50  0001 C CNN
-F 3 "~" H 5050 3200 50  0001 C CNN
-F 4 "2314998, 2315061" H 5050 3200 50  0001 C CNN "Farnell"
-	1    5050 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -227,6 +217,8 @@ F 1 "Injector connector" H 2479 7001 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_02x3.5mm" H 2400 7100 50  0001 C CNN
 F 3 "~" H 2400 7100 50  0001 C CNN
 F 4 "2314998, 2315061" H 2400 7100 50  0001 C CNN "Farnell"
+F 5 "Würth" H 2400 7100 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 2400 7100 50  0001 C CNN "Part no."
 	1    2400 7100
 	1    0    0    -1  
 $EndComp
@@ -239,6 +231,8 @@ F 1 "Chrankshaft Hall connector" H 9879 2101 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_03x3.5mm" H 9800 2200 50  0001 C CNN
 F 3 "~" H 9800 2200 50  0001 C CNN
 F 4 "2315020, 2315083" H 9800 2200 50  0001 C CNN "Farnell"
+F 5 "Würth" H 9800 2200 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 9800 2200 50  0001 C CNN "Part no."
 	1    9800 2200
 	1    0    0    -1  
 $EndComp
@@ -251,6 +245,8 @@ F 1 "Camshaft Hall connector" H 9880 3251 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_03x3.5mm" H 9800 3350 50  0001 C CNN
 F 3 "~" H 9800 3350 50  0001 C CNN
 F 4 "2315020, 2315083" H 9800 3350 50  0001 C CNN "Farnell"
+F 5 "Würth" H 9800 3350 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 9800 3350 50  0001 C CNN "Part no."
 	1    9800 3350
 	1    0    0    -1  
 $EndComp
@@ -310,6 +306,8 @@ F 1 "Battery power conenctor" H 2379 2201 50  0000 L CNN
 F 2 "" H 2300 2300 50  0001 C CNN
 F 3 "~" H 2300 2300 50  0001 C CNN
 F 4 "1716921, 2859411" H 2300 2300 50  0001 C CNN "Farnell"
+F 5 "AMASS" H 2300 2300 50  0001 C CNN "Manufacturer"
+F 6 "XT60PW-M" H 2300 2300 50  0001 C CNN "Part no."
 	1    2300 2300
 	1    0    0    -1  
 $EndComp
@@ -477,6 +475,8 @@ F 0 "J12" H 7280 1742 50  0000 L CNN
 F 1 "EGO connector" H 7280 1651 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_04x3.5mm" H 7200 1750 50  0001 C CNN
 F 3 "~" H 7200 1750 50  0001 C CNN
+F 4 "Würth" H 7200 1750 50  0001 C CNN "Manufacturer"
+F 5 "2141 Series" H 7200 1750 50  0001 C CNN "Part no."
 	1    7200 1750
 	1    0    0    -1  
 $EndComp
@@ -508,6 +508,8 @@ F 1 "Ignition 1 connector" H 7330 3301 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_03x3.5mm" H 7250 3350 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7250 3350 50  0001 C CNN
 F 4 "2315020, 2315083" H 7250 3350 50  0001 C CNN "Farnell"
+F 5 "Würth" H 7250 3350 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 7250 3350 50  0001 C CNN "Part no."
 	1    7250 3350
 	1    0    0    -1  
 $EndComp
@@ -520,6 +522,8 @@ F 1 "Ignition 2 connector" H 7330 4101 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_03x3.5mm" H 7250 4150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7250 4150 50  0001 C CNN
 F 4 "2315020, 2315083" H 7250 4150 50  0001 C CNN "Farnell"
+F 5 "Würth" H 7250 4150 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 7250 4150 50  0001 C CNN "Part no."
 	1    7250 4150
 	1    0    0    -1  
 $EndComp
@@ -574,6 +578,8 @@ F 1 "Wheel Hall connector" H 9880 4401 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_03x3.5mm" H 9800 4500 50  0001 C CNN
 F 3 "~" H 9800 4500 50  0001 C CNN
 F 4 "2315020, 2315083" H 9800 4500 50  0001 C CNN "Farnell"
+F 5 "Würth" H 9800 4500 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 9800 4500 50  0001 C CNN "Part no."
 	1    9800 4500
 	1    0    0    -1  
 $EndComp
@@ -777,6 +783,8 @@ F 0 "J6" H 2380 9192 50  0000 L CNN
 F 1 "Controller connector" H 2380 9101 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_05x3.5mm" H 2300 9150 50  0001 C CNN
 F 3 "~" H 2300 9150 50  0001 C CNN
+F 4 "Würth" H 2300 9150 50  0001 C CNN "Manufacturer"
+F 5 "2141 Series" H 2300 9150 50  0001 C CNN "Part no."
 	1    2300 9150
 	1    0    0    -1  
 $EndComp
@@ -949,6 +957,8 @@ F 0 "J11" H 5080 6042 50  0000 L CNN
 F 1 "Cockpit connector" H 5080 5951 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_10x3.5mm" H 5000 6050 50  0001 C CNN
 F 3 "~" H 5000 6050 50  0001 C CNN
+F 4 "Würth" H 5000 6050 50  0001 C CNN "Manufacturer"
+F 5 "2141 Series" H 5000 6050 50  0001 C CNN "Part no."
 	1    5000 6050
 	1    0    0    -1  
 $EndComp
@@ -1009,6 +1019,8 @@ F 1 "Camera connector" H 7330 5651 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_03x3.5mm" H 7250 5700 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7250 5700 50  0001 C CNN
 F 4 "2315020, 2315083" H 7250 5700 50  0001 C CNN "Farnell"
+F 5 "Würth" H 7250 5700 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 7250 5700 50  0001 C CNN "Part no."
 	1    7250 5700
 	1    0    0    -1  
 $EndComp
@@ -1063,6 +1075,8 @@ F 1 "Backlight connector" H 2530 5601 50  0000 L CNN
 F 2 "ecu-board-footprints:Wurth_2141_02x3.5mm" H 2450 5700 50  0001 C CNN
 F 3 "~" H 2450 5700 50  0001 C CNN
 F 4 "1716921, 2859411" H 2450 5700 50  0001 C CNN "Farnell"
+F 5 "Würth" H 2450 5700 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 2450 5700 50  0001 C CNN "Part no."
 	1    2450 5700
 	1    0    0    -1  
 $EndComp
@@ -1075,6 +1089,8 @@ F 1 "Motor connector" H 2730 4101 50  0000 L CNN
 F 2 "" H 2650 4200 50  0001 C CNN
 F 3 "~" H 2650 4200 50  0001 C CNN
 F 4 "1716921, 2859411" H 2650 4200 50  0001 C CNN "Farnell"
+F 5 "AMASS" H 2650 4200 50  0001 C CNN "Manufacturer"
+F 6 "XT60PW-F" H 2650 4200 50  0001 C CNN "Part no."
 	1    2650 4200
 	1    0    0    -1  
 $EndComp
@@ -1253,7 +1269,23 @@ F 0 "Q1" V 2043 2400 50  0000 C CNN
 F 1 "IPD90P03P4-04" V 1952 2400 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:TO-252-2" H 1900 2325 50  0001 L CIN
 F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 1700 2400 50  0001 L CNN
+F 4 "Infineon" H 1700 2400 50  0001 C CNN "Manufacturer"
+F 5 "IPD90P03P404ATMA1" H 1700 2400 50  0001 C CNN "Part no."
 	1    1700 2400
 	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J8
+U 1 1 5C594AF2
+P 5050 3200
+F 0 "J8" H 5129 3192 50  0000 L CNN
+F 1 "IAT connector" H 5129 3101 50  0000 L CNN
+F 2 "ecu-board-footprints:Wurth_2141_02x3.5mm" H 5050 3200 50  0001 C CNN
+F 3 "~" H 5050 3200 50  0001 C CNN
+F 4 "2314998, 2315061" H 5050 3200 50  0001 C CNN "Farnell"
+F 5 "Würth" H 5050 3200 50  0001 C CNN "Manufacturer"
+F 6 "2141 Series" H 5050 3200 50  0001 C CNN "Part no."
+	1    5050 3200
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
