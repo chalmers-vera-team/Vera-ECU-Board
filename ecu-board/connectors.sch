@@ -325,20 +325,8 @@ Text Notes 900  3450 0    79   ~ 16
 Start motor\n
 Wire Notes Line
 	800  3250 3400 3250
-Text Notes 950  3650 0    50   ~ 0
-The start motor power is switched by a normally open \nmonostable switch.
-$Comp
-L Device:Fuse_Small F3
-U 1 1 5C5E64A2
-P 1800 4050
-F 0 "F3" H 1800 3865 50  0000 C CNN
-F 1 "40A Fuse" H 1800 3956 50  0000 C CNN
-F 2 "" H 1800 4050 50  0001 C CNN
-F 3 "~" H 1800 4050 50  0001 C CNN
-F 4 "2292904" H -5000 -450 50  0001 C CNN "Farnell"
-	1    1800 4050
-	1    0    0    1   
-$EndComp
+Text Notes 950  3750 0    50   ~ 0
+The start motor power is switched by a normally open \nmonostable switch. The motor should be protected by a \n50A in-line fuse.
 $Comp
 L power:GNDPWR #PWR010
 U 1 1 5C5EA469
@@ -371,10 +359,8 @@ Wire Wire Line
 	2150 4450 2150 4500
 Wire Wire Line
 	2150 4050 2150 4100
-Text HLabel 1600 4050 0    50   Input ~ 0
+Text HLabel 1700 4050 0    50   Input ~ 0
 start_motor_power
-Wire Wire Line
-	1600 4050 1700 4050
 Connection ~ 2150 4050
 Wire Notes Line
 	3400 4750 800  4750
@@ -879,8 +865,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 2250 1100 2300
 Wire Wire Line
-	1900 4050 2000 4050
-Wire Wire Line
 	1250 4450 1350 4450
 Connection ~ 2000 4050
 Wire Wire Line
@@ -1277,4 +1261,6 @@ F 5 "XT60PW-F" H 2930 4000 50  0000 C CNN "Part no."
 	1    2650 4200
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1700 4050 2000 4050
 $EndSCHEMATC
