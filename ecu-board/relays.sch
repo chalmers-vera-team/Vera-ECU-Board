@@ -21,8 +21,9 @@ P 4100 3800
 F 0 "K1" V 3533 3800 50  0000 C CNN
 F 1 "Main power relay" V 3624 3800 50  0000 C CNN
 F 2 "" H 4550 3750 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/1736846.pdf?_ga=2.224285851.1892952727.1549112209-881392492.1520553087" H 4100 3800 50  0001 C CNN
-F 4 "1024021" H 4100 3800 50  0001 C CNN "Farnell"
+F 3 "" H 4100 3800 50  0001 C CNN
+F 4 "TE Connectivity" H 4100 3800 50  0001 C CNN "Manufacturer"
+F 5 "V23333-Z0002-A041" H 4100 3800 50  0001 C CNN "Part no."
 	1    4100 3800
 	0    1    1    0   
 $EndComp
@@ -33,8 +34,9 @@ P 6700 3800
 F 0 "K2" V 6133 3800 50  0000 C CNN
 F 1 "Start motor relay" V 6224 3800 50  0000 C CNN
 F 2 "" H 7150 3750 50  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/1736846.pdf?_ga=2.224285851.1892952727.1549112209-881392492.1520553087" H 6700 3800 50  0001 C CNN
-F 4 "1024021" H 6700 3800 50  0001 C CNN "Farnell"
+F 3 "" H 6700 3800 50  0001 C CNN
+F 4 "TE Connectivity" H 6700 3800 50  0001 C CNN "Manufacturer"
+F 5 "V23333-Z0002-A041" H 6700 3800 50  0001 C CNN "Part no."
 	1    6700 3800
 	0    1    1    0   
 $EndComp
@@ -199,4 +201,6 @@ Wire Wire Line
 	5950 3600 5950 3550
 Wire Wire Line
 	5950 3600 6150 3600
+Text Notes 2650 2250 0    50   ~ 0
+Both relays are of type ISO Mini (aka ordinary automotive relay) and must be rated for at least 40 A.
 $EndSCHEMATC

@@ -1254,7 +1254,7 @@ P 1700 2400
 F 0 "Q1" V 2043 2400 50  0000 C CNN
 F 1 "IPD90P03P4-04" V 1952 2400 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:TO-252-2" H 1900 2325 50  0001 L CIN
-F 3 "http://www.jaolen.com/images/pdf/QM6015D.pdf" V 1700 2400 50  0001 L CNN
+F 3 "https://www.infineon.com/dgdl/Infineon-IPD90P03P4_04-DS-v01_00-en.pdf?fileId=db3a30431ddc9372011e07ecafdb27ed" V 1700 2400 50  0001 L CNN
 F 4 "Infineon" H 1700 2400 50  0001 C CNN "Manufacturer"
 F 5 "IPD90P03P404ATMA1" H 1700 2400 50  0001 C CNN "Part no."
 	1    1700 2400
