@@ -326,7 +326,7 @@ Start motor\n
 Wire Notes Line
 	800  3250 3400 3250
 Text Notes 950  3750 0    50   ~ 0
-The start motor power is switched by a normally open \nmonostable switch. The motor should be protected with a \n50A in-line fuse.
+The start motor power is switched by a normally open \nmonostable switch. The motor should be protected by a \n50A in-line fuse.
 $Comp
 L power:GNDPWR #PWR010
 U 1 1 5C5EA469
