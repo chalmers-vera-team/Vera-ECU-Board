@@ -83,7 +83,7 @@ U 1 1 5C63D82C
 P 3250 3900
 F 0 "JP1" H 3250 4085 50  0000 C CNN
 F 1 "Bootload Jumper" H 3250 3994 50  0000 C CNN
-F 2 "" H 3250 3900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3250 3900 50  0001 C CNN
 F 3 "~" H 3250 3900 50  0001 C CNN
 F 4 "2x2.54mm Pin Header" H 3250 3900 50  0001 C CNN "Part no."
 	1    3250 3900
