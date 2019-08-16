@@ -934,7 +934,7 @@ U 1 1 5CBEB4A6
 P 5000 6050
 F 0 "J11" H 5080 6042 50  0000 L CNN
 F 1 "Cockpit connector" H 5080 5951 50  0000 L CNN
-F 2 "Connectors_TE-Connectivity:TE_1-84953-0_1x10_P1.0mm_Horizontal" H 5000 6050 50  0001 C CNN
+F 2 "ecu-board-footprints:Wurth_2141_10x3.5mm" H 5000 6050 50  0001 C CNN
 F 3 "~" H 5000 6050 50  0001 C CNN
 F 4 "Würth" H 5000 6050 50  0001 C CNN "Manufacturer"
 F 5 "2141 Series" H 5000 6050 50  0001 C CNN "Part no."
