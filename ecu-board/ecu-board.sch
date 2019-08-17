@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:ecu-board-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -323,7 +323,7 @@ AR Path="/5C5705F6/5C731B59" Ref="U?"  Part="1"
 AR Path="/5C731B59" Ref="U1"  Part="1" 
 F 0 "U1" H 10122 1821 50  0000 R CNN
 F 1 "MAP Sensor" H 10122 1730 50  0000 R CNN
-F 2 "" H 10300 1700 50  0001 C CNN
+F 2 "ecu-board-footprints:SOT1852-1" H 10300 1700 50  0001 C CNN
 F 3 "" H 10300 1700 50  0001 C CNN
 F 4 "NXP" H 10300 1800 50  0001 C CNN "Manufacturer"
 F 5 "MPX4250AP" H 9900 1650 50  0000 C CNN "Part no."
