@@ -1181,7 +1181,7 @@ F 1 "Serial DB9 connector" H 5029 1855 50  0000 L CNN
 F 2 "ecu-board-footprints:TE_5747844-4" H 4850 1900 50  0001 C CNN
 F 3 "" H 4850 1900 50  0001 C CNN
 F 4 "TE Connectivity" H 4850 1900 50  0001 C CNN "Manufacturer"
-F 5 "5747844-4" H 4850 1900 50  0001 C CNN "Part no."
+F 5 "5747844-4" H 5250 1750 50  0000 C CNN "Part no."
 	1    4850 1900
 	1    0    0    -1  
 $EndComp
