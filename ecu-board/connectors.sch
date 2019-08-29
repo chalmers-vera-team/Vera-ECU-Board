@@ -274,7 +274,7 @@ F 1 "5A Fuse" H 6600 1744 50  0000 C CNN
 F 2 "" H 6600 1650 50  0001 C CNN
 F 3 "~" H 6600 1650 50  0001 C CNN
 F 4 "Littelfuse" H 6600 1650 50  0001 C CNN "Manufacturer"
-F 5 "01530008Z" H 6600 1650 50  0001 C CNN "Part no."
+F 5 "178.4265.0002" H 6600 1650 50  0001 C CNN "Part no."
 	1    6600 1650
 	1    0    0    -1  
 $EndComp
@@ -291,7 +291,7 @@ F 1 "5A Fuse" H 1550 7194 50  0000 C CNN
 F 2 "" H 1550 7100 50  0001 C CNN
 F 3 "~" H 1550 7100 50  0001 C CNN
 F 4 "Littelfuse" H 1550 7100 50  0001 C CNN "Manufacturer"
-F 5 "01530008Z" H 1550 7100 50  0001 C CNN "Part no."
+F 5 "178.4265.0002" H 1550 7100 50  0001 C CNN "Part no."
 	1    1550 7100
 	1    0    0    -1  
 $EndComp
@@ -1141,7 +1141,7 @@ F 1 "3A Fuse" H 1800 5644 50  0000 C CNN
 F 2 "" H 1800 5550 50  0001 C CNN
 F 3 "~" H 1800 5550 50  0001 C CNN
 F 4 "Littelfuse" H 1800 5550 50  0001 C CNN "Manufacturer"
-F 5 "01530008Z" H 1800 5550 50  0001 C CNN "Part no."
+F 5 "178.4265.0002" H 1800 5550 50  0001 C CNN "Part no."
 	1    1800 5550
 	1    0    0    -1  
 $EndComp
