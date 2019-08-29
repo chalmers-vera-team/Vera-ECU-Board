@@ -487,7 +487,7 @@ U 1 1 5D2253E4
 P 4150 4150
 F 0 "J3" H 4050 6100 50  0000 C CNN
 F 1 "MS_breakout_conn" H 3900 6000 50  0000 C CNN
-F 2 "" H 4150 4150 50  0001 C CNN
+F 2 "ecu-board-footprints:MicroSquirt_35Pin" H 4150 4150 50  0001 C CNN
 F 3 "https://www.phoenixcontact.com/gb/products/1791826" H 4150 4150 50  0001 C CNN
 	1    4150 4150
 	-1   0    0    -1  
