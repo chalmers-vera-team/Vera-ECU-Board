@@ -59,7 +59,7 @@ U 1 1 5C5C2E0F
 P 3200 2500
 F 0 "F1" H 3200 2685 50  0000 C CNN
 F 1 "3A Fuse" H 3200 2594 50  0000 C CNN
-F 2 "" H 3200 2500 50  0001 C CNN
+F 2 "ecu-board-footprints:Fuseholder_ATO_Blade_Littelfuse_Pudenz_4_Pin" H 3200 2500 50  0001 C CNN
 F 3 "~" H 3200 2500 50  0001 C CNN
 F 4 "Littelfuse" H 3200 2500 50  0001 C CNN "Manufacturer"
 F 5 "178.4265.0002" H 3200 2500 50  0001 C CNN "Part no."
@@ -563,7 +563,7 @@ U 1 1 5D294179
 P 5300 2450
 F 0 "F2" H 5300 2635 50  0000 C CNN
 F 1 "5A Fuse" H 5300 2544 50  0000 C CNN
-F 2 "" H 5300 2450 50  0001 C CNN
+F 2 "ecu-board-footprints:Fuseholder_ATO_Blade_Littelfuse_Pudenz_4_Pin" H 5300 2450 50  0001 C CNN
 F 3 "~" H 5300 2450 50  0001 C CNN
 F 4 "Littelfuse" H 5300 2450 50  0001 C CNN "Manufacturer"
 F 5 "178.4265.0002" H 5300 2450 50  0001 C CNN "Part no."
