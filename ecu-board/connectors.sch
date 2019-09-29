@@ -6,7 +6,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 3
 Title "Vera ECU Board"
-Date "2019-07-07"
+Date "2019-09-29"
 Rev "0.1"
 Comp "Chalmers Vera Team"
 Comment1 "Designed by Erik Almbratt (erik.almbratt@gmail.com)"
@@ -298,15 +298,15 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J2
 U 1 1 5C5C3CF5
-P 2300 2300
-F 0 "J2" H 2379 2292 50  0000 L CNN
-F 1 "Battery power conenctor" H 2379 2201 50  0000 L CNN
-F 2 "ecu-board-footprints:AMASS_XT60PW" H 2300 2300 50  0001 C CNN
-F 3 "~" H 2300 2300 50  0001 C CNN
-F 4 "AMASS" H 2300 2300 50  0001 C CNN "Manufacturer"
-F 5 "XT60PW-M" H 2590 2100 50  0000 C CNN "Part no."
-	1    2300 2300
-	1    0    0    -1  
+P 2300 2400
+F 0 "J2" H 2379 2392 50  0000 L CNN
+F 1 "Battery power conenctor" H 2379 2301 50  0000 L CNN
+F 2 "ecu-board-footprints:AMASS_XT60PW" H 2300 2400 50  0001 C CNN
+F 3 "~" H 2300 2400 50  0001 C CNN
+F 4 "AMASS" H 2300 2400 50  0001 C CNN "Manufacturer"
+F 5 "XT60PW-M" H 2590 2200 50  0000 C CNN "Part no."
+	1    2300 2400
+	1    0    0    1   
 $EndComp
 $Comp
 L power:+BATT #PWR06
@@ -1277,10 +1277,10 @@ Wire Notes Line
 Text Notes 3800 8450 0    79   ~ 16
 Speed sensor input
 $Comp
-L Connector:Screw_Terminal_01x03 J?
+L Connector:Screw_Terminal_01x03 J19
 U 1 1 5DA598D9
 P 4800 8950
-F 0 "J?" H 4880 8942 50  0000 L CNN
+F 0 "J19" H 4880 8942 50  0000 L CNN
 F 1 "Speed sensor connector" H 4880 8851 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 4800 8950 50  0001 C CNN
 F 3 "~" H 4800 8950 50  0001 C CNN
@@ -1290,10 +1290,10 @@ F 5 "2141 Series" H 4800 8950 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR?
+L power:GNDS #PWR051
 U 1 1 5DA6AA4C
 P 4400 9150
-F 0 "#PWR?" H 4400 8900 50  0001 C CNN
+F 0 "#PWR051" H 4400 8900 50  0001 C CNN
 F 1 "GNDS" H 4405 8977 50  0000 C CNN
 F 2 "" H 4400 9150 50  0001 C CNN
 F 3 "" H 4400 9150 50  0001 C CNN
@@ -1301,10 +1301,10 @@ F 3 "" H 4400 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR050
 U 1 1 5DA6B84B
 P 4400 8750
-F 0 "#PWR?" H 4400 8600 50  0001 C CNN
+F 0 "#PWR050" H 4400 8600 50  0001 C CNN
 F 1 "+12V" H 4415 8923 50  0000 C CNN
 F 2 "" H 4400 8750 50  0001 C CNN
 F 3 "" H 4400 8750 50  0001 C CNN
@@ -1348,12 +1348,12 @@ Connection ~ 4450 7800
 Wire Wire Line
 	4450 7650 4450 7800
 $Comp
-L Device:R R?
+L Device:R R11
 U 1 1 5DAC1E2A
 P 4600 7650
-F 0 "R?" V 4393 7650 50  0000 C CNN
-F 1 "140R" V 4484 7650 50  0000 C CNN
-F 2 "" V 4530 7650 50  0001 C CNN
+F 0 "R11" V 4393 7650 50  0000 C CNN
+F 1 "120R" V 4484 7650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4530 7650 50  0001 C CNN
 F 3 "~" H 4600 7650 50  0001 C CNN
 	1    4600 7650
 	0    1    1    0   
@@ -1367,10 +1367,10 @@ CANL
 Text HLabel 4350 7800 0    50   Input ~ 0
 CANH
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J20
 U 1 1 5D94B35C
 P 5000 7800
-F 0 "J?" H 5080 7792 50  0000 L CNN
+F 0 "J20" H 5080 7792 50  0000 L CNN
 F 1 "CAN connector" H 5080 7701 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5000 7800 50  0001 C CNN
 F 3 "~" H 5000 7800 50  0001 C CNN

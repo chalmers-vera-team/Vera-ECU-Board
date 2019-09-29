@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "Vera ECU Board"
-Date "2019-07-07"
+Date "2019-09-29"
 Rev "0.1"
 Comp "Chalmers Vera Team"
 Comment1 "Designed by Erik Almbratt (erik.almbratt@gmail.com)"
