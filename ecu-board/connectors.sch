@@ -1299,4 +1299,61 @@ Wire Notes Line
 	5950 7750 5950 7050
 Wire Notes Line
 	5950 7050 3700 7050
+Text Notes 3800 8100 0    79   ~ 16
+Speed sensor input
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5DA598D9
+P 4800 8600
+F 0 "J?" H 4880 8592 50  0000 L CNN
+F 1 "Speed sensor connector" H 4880 8501 50  0000 L CNN
+F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 4800 8600 50  0001 C CNN
+F 3 "~" H 4800 8600 50  0001 C CNN
+F 4 "Würth" H 4800 8600 50  0001 C CNN "Manufacturer"
+F 5 "2141 Series" H 4800 8600 50  0001 C CNN "Part no."
+	1    4800 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR?
+U 1 1 5DA6AA4C
+P 4400 8800
+F 0 "#PWR?" H 4400 8550 50  0001 C CNN
+F 1 "GNDS" H 4405 8627 50  0000 C CNN
+F 2 "" H 4400 8800 50  0001 C CNN
+F 3 "" H 4400 8800 50  0001 C CNN
+	1    4400 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5DA6B84B
+P 4400 8400
+F 0 "#PWR?" H 4400 8250 50  0001 C CNN
+F 1 "+12V" H 4415 8573 50  0000 C CNN
+F 2 "" H 4400 8400 50  0001 C CNN
+F 3 "" H 4400 8400 50  0001 C CNN
+	1    4400 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 8400 4400 8500
+Wire Wire Line
+	4400 8500 4600 8500
+Wire Wire Line
+	4600 8700 4400 8700
+Wire Wire Line
+	4400 8700 4400 8800
+Text HLabel 4400 8600 0    50   Output ~ 0
+speed_sensor
+Wire Wire Line
+	4400 8600 4600 8600
+Wire Notes Line
+	3700 7900 5950 7900
+Wire Notes Line
+	5950 7900 5950 9150
+Wire Notes Line
+	5950 9150 3700 9150
+Wire Notes Line
+	3700 9150 3700 7900
 $EndSCHEMATC

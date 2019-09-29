@@ -436,10 +436,6 @@ Text Label 2250 4100 2    50   Italic 0
 warm-up
 Wire Wire Line
 	2250 4100 1850 4100
-Text Label 2250 5300 2    50   Italic 0
-spare_in1
-Wire Wire Line
-	2250 5300 1850 5300
 Text Label 2250 5400 2    50   Italic 0
 opto_in+
 Text Label 2250 5500 2    50   Italic 0
@@ -668,10 +664,6 @@ Text Label 4700 4050 2    50   Italic 0
 warm-up
 Wire Wire Line
 	4700 4050 4300 4050
-Text Label 4700 5250 2    50   Italic 0
-spare_in1
-Wire Wire Line
-	4700 5250 4300 5250
 Text Label 4700 5350 2    50   Italic 0
 opto_in+
 Text Label 4700 5450 2    50   Italic 0
@@ -778,6 +770,8 @@ F13 "ignition2_input" I L 7700 3550 50
 F14 "~start_motor_signal~" O R 9700 4350 50 
 F15 "CANH" I L 7700 4350 50 
 F16 "CANL" I L 7700 4550 50 
+F17 "tachometer" I L 7700 3750 50 
+F18 "speed_sensor" O R 9700 4750 50 
 $EndSheet
 Wire Wire Line
 	1850 2500 2550 2500
@@ -823,4 +817,16 @@ Wire Notes Line
 	3850 6300 6250 6300
 Wire Notes Line
 	3850 1050 6250 1050
+Text Label 10000 4750 0    50   ~ 0
+speed_sensor
+Wire Wire Line
+	10000 4750 9700 4750
+Text Label 2050 5300 0    50   ~ 0
+speed_sensor
+Wire Wire Line
+	2050 5300 1850 5300
+Text Label 4500 5250 0    50   ~ 0
+speed_sensor
+Wire Wire Line
+	4500 5250 4300 5250
 $EndSCHEMATC
