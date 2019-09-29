@@ -102,8 +102,6 @@ F 3 "" H 3100 3450 50  0001 C CNN
 	1    3100 3450
 	1    0    0    -1  
 $EndComp
-Text HLabel 6500 3400 0    50   Input ~ 0
-start_motor_relay_input
 Text Notes 2700 2650 0    79   ~ 16
 Main power relay
 Text Notes 5550 2650 0    79   ~ 16
@@ -205,4 +203,6 @@ Wire Wire Line
 	3650 2950 3350 2950
 Wire Wire Line
 	3950 2950 4250 2950
+Text HLabel 6500 3400 0    50   Input ~ 0
+~start_motor_relay_input~
 $EndSCHEMATC

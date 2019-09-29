@@ -14,26 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 7700 3000 2000 1700
-U 5C5705F6
-F0 "Connectors" 79
-F1 "connectors.sch" 79
-F2 "crankshaft_signal" O R 9700 3150 50 
-F3 "camshaft_signal" O R 9700 3350 50 
-F4 "ego_signal" O R 9700 3750 50 
-F5 "serial_rx" B L 7700 3950 50 
-F6 "serial_tx" B L 7700 4150 50 
-F7 "injector_input" I L 7700 3150 50 
-F8 "clt_signal" O R 9700 3950 50 
-F9 "iat_signal" O R 9700 4150 50 
-F10 "start_motor_signal" O R 9700 4350 50 
-F11 "main_power_signal" O R 9700 4550 50 
-F12 "start_motor_power" I L 7700 4550 50 
-F13 "ignition1_input" I L 7700 3350 50 
-F14 "ignition2_input" I L 7700 3550 50 
-F15 "tachometer_input" I L 7700 3750 50 
-$EndSheet
 $Comp
 L ecu-board:MicroSquirt_Connector J1
 U 1 1 5C598259
@@ -149,8 +129,8 @@ U 5C640ABF
 F0 "Relays" 79
 F1 "relays.sch" 79
 F2 "main_relay_input" I L 7700 5550 50 
-F3 "start_motor_relay_input" I L 7700 5800 50 
-F4 "start_motor_relay_output" O R 9750 5700 50 
+F3 "start_motor_relay_output" O R 9750 5700 50 
+F4 "~start_motor_relay_input~" I L 7700 5800 50 
 $EndSheet
 Text Label 9950 5700 0    50   ~ 0
 relay_to_start_motor
@@ -814,4 +794,24 @@ Wire Notes Line
 	5950 1050 3900 1050
 Wire Wire Line
 	4750 3850 4350 3850
+$Sheet
+S 7700 3000 2000 1700
+U 5C5705F6
+F0 "Connectors" 79
+F1 "connectors.sch" 79
+F2 "crankshaft_signal" O R 9700 3150 50 
+F3 "camshaft_signal" O R 9700 3350 50 
+F4 "ego_signal" O R 9700 3750 50 
+F5 "serial_rx" B L 7700 3950 50 
+F6 "serial_tx" B L 7700 4150 50 
+F7 "injector_input" I L 7700 3150 50 
+F8 "clt_signal" O R 9700 3950 50 
+F9 "iat_signal" O R 9700 4150 50 
+F10 "main_power_signal" O R 9700 4550 50 
+F11 "start_motor_power" I L 7700 4550 50 
+F12 "ignition1_input" I L 7700 3350 50 
+F13 "ignition2_input" I L 7700 3550 50 
+F14 "tachometer" O L 7700 3750 50 
+F15 "~start_motor_signal~" O R 9700 4350 50 
+$EndSheet
 $EndSCHEMATC

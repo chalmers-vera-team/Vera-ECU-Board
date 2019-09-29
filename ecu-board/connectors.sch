@@ -439,8 +439,8 @@ F 3 "" H 4700 6600 50  0001 C CNN
 	1    4700 6600
 	1    0    0    -1  
 $EndComp
-Text HLabel 1900 9050 0    50   Input ~ 0
-tachometer_input
+Text HLabel 1900 9050 0    50   Output ~ 0
+tachometer
 Wire Wire Line
 	4800 6550 4700 6550
 Wire Wire Line
@@ -790,7 +790,7 @@ deadmans
 Text Label 1350 7100 2    50   ~ 0
 deadmans
 Text HLabel 1900 9250 0    50   Output ~ 0
-start_motor_signal
+~start_motor_signal~
 $Comp
 L Device:LED D6
 U 1 1 5CA85B37
@@ -942,7 +942,7 @@ F 5 "2141 Series" H 5000 6050 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 Text HLabel 4700 6450 0    50   Output ~ 0
-start_motor_signal
+~start_motor_signal~
 Wire Wire Line
 	4700 6450 4800 6450
 Wire Notes Line
