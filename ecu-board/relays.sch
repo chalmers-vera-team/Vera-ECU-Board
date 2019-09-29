@@ -91,17 +91,6 @@ F 3 "" H 6550 3750 50  0001 C CNN
 $EndComp
 Text HLabel 4400 3400 2    50   Input ~ 0
 main_relay_input
-$Comp
-L power:GNDS #PWR028
-U 1 1 5C6C86CC
-P 3100 3450
-F 0 "#PWR028" H 3100 3200 50  0001 C CNN
-F 1 "GNDS" H 3105 3277 50  0000 C CNN
-F 2 "" H 3100 3450 50  0001 C CNN
-F 3 "" H 3100 3450 50  0001 C CNN
-	1    3100 3450
-	1    0    0    -1  
-$EndComp
 Text Notes 2700 2650 0    79   ~ 16
 Main power relay
 Text Notes 5550 2650 0    79   ~ 16
@@ -205,4 +194,15 @@ Wire Wire Line
 	3950 2950 4250 2950
 Text HLabel 6500 3400 0    50   Input ~ 0
 ~start_motor_relay_input~
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5D9BFA94
+P 3100 3450
+F 0 "#PWR?" H 3100 3250 50  0001 C CNN
+F 1 "GNDPWR" H 3104 3296 50  0000 C CNN
+F 2 "" H 3100 3400 50  0001 C CNN
+F 3 "" H 3100 3400 50  0001 C CNN
+	1    3100 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
