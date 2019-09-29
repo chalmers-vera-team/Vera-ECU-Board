@@ -1197,13 +1197,7 @@ F 3 "" H 1700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1100 2300 1500 2300
-Wire Wire Line
-	1900 2300 2100 2300
-Wire Wire Line
 	2000 2400 2000 2700
-Wire Wire Line
-	1700 2600 1700 2700
 Connection ~ 1700 2700
 Wire Wire Line
 	1700 2700 2000 2700
@@ -1220,25 +1214,12 @@ Wire Wire Line
 Connection ~ 1100 2300
 Wire Wire Line
 	1600 2700 1700 2700
-Text Notes 950  1900 0    50   ~ 0
-Battery power is only connected to the main power \nrelay, as well as the normally open bistable power \nswitch controlling said relay.\n\nThe battery input must be protected by an external fuse. \n\nThe p-channel MOSFET provides reverse polarity \nprotection. It should be rated for the load current \n(>40A) and as low Rds(on) (<5mOhm) as possible.
+Text Notes 950  1600 0    50   ~ 0
+Battery power is only connected to the main power \nrelay, as well as the normally open bistable power \nswitch controlling said relay.\n\nThe battery input must be protected by an external fuse. 
 Wire Notes Line
 	800  900  800  3100
 Wire Notes Line
 	3400 900  3400 3100
-$Comp
-L Transistor_FET:QM6015D Q1
-U 1 1 5D286CA9
-P 1700 2400
-F 0 "Q1" V 2043 2400 50  0000 C CNN
-F 1 "IPD90P03P4-04" V 1952 2400 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-2" H 1900 2325 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/Infineon-IPD90P03P4_04-DS-v01_00-en.pdf?fileId=db3a30431ddc9372011e07ecafdb27ed" V 1700 2400 50  0001 L CNN
-F 4 "Infineon" H 1700 2400 50  0001 C CNN "Manufacturer"
-F 5 "IPD90P03P404ATMA1" H 1700 2400 50  0001 C CNN "Part no."
-	1    1700 2400
-	0    1    -1   0   
-$EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J8
 U 1 1 5C594AF2
@@ -1267,4 +1248,24 @@ F 5 "XT60PW-F" H 2930 4000 50  0000 C CNN "Part no."
 $EndComp
 Wire Wire Line
 	1700 4050 2000 4050
+$Comp
+L Device:D D11
+U 1 1 5D917DEF
+P 1700 2500
+F 0 "D11" V 1654 2579 50  0000 L CNN
+F 1 "1N5820G" V 1745 2579 50  0000 L CNN
+F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 1700 2500 50  0001 C CNN
+F 3 "~" H 1700 2500 50  0001 C CNN
+	1    1700 2500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1700 2700 1700 2650
+Wire Wire Line
+	1100 2300 1700 2300
+Wire Wire Line
+	1700 2300 1700 2350
+Connection ~ 1700 2300
+Wire Wire Line
+	1700 2300 2100 2300
 $EndSCHEMATC
