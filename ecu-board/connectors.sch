@@ -439,7 +439,7 @@ F 3 "" H 4700 6600 50  0001 C CNN
 	1    4700 6600
 	1    0    0    -1  
 $EndComp
-Text HLabel 1900 9050 0    50   Output ~ 0
+Text HLabel 1900 9050 0    50   Input ~ 0
 tachometer
 Wire Wire Line
 	4800 6550 4700 6550
@@ -1268,4 +1268,35 @@ Wire Wire Line
 Connection ~ 1700 2300
 Wire Wire Line
 	1700 2300 2100 2300
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5D94B35C
+P 5000 7400
+F 0 "J?" H 5080 7392 50  0000 L CNN
+F 1 "CAN connector" H 5080 7301 50  0000 L CNN
+F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5000 7400 50  0001 C CNN
+F 3 "~" H 5000 7400 50  0001 C CNN
+F 4 "Würth" H 5000 7400 50  0001 C CNN "Manufacturer"
+F 5 "2141 Series" H 5000 7400 50  0001 C CNN "Part no."
+	1    5000 7400
+	1    0    0    -1  
+$EndComp
+Text Notes 3800 7250 0    79   ~ 16
+CAN
+Text HLabel 4350 7400 0    50   Input ~ 0
+CANH
+Text HLabel 4350 7500 0    50   Input ~ 0
+CANL
+Wire Wire Line
+	4350 7500 4800 7500
+Wire Wire Line
+	4800 7400 4350 7400
+Wire Notes Line
+	3700 7050 3700 7750
+Wire Notes Line
+	3700 7750 5950 7750
+Wire Notes Line
+	5950 7750 5950 7050
+Wire Notes Line
+	5950 7050 3700 7050
 $EndSCHEMATC
