@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title "Vera ECU Board"
 Date "2019-07-07"
 Rev "0.1"
@@ -106,9 +106,9 @@ Wire Notes Line
 	7900 900  6100 900 
 Text Notes 3800 1100 0    79   ~ 16
 RS232 Serial Port
-Text HLabel 4400 1700 0    50   BiDi ~ 0
-serial_rx
 Text HLabel 4400 1900 0    50   BiDi ~ 0
+serial_rx
+Text HLabel 4400 1700 0    50   BiDi ~ 0
 serial_tx
 Text Notes 3850 1250 0    50   ~ 0
 DB9 serial connector for mapping of MicroSquirt.\n
