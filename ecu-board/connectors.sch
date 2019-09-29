@@ -1268,92 +1268,115 @@ Wire Wire Line
 Connection ~ 1700 2300
 Wire Wire Line
 	1700 2300 2100 2300
-$Comp
-L Connector:Screw_Terminal_01x02 J?
-U 1 1 5D94B35C
-P 5000 7400
-F 0 "J?" H 5080 7392 50  0000 L CNN
-F 1 "CAN connector" H 5080 7301 50  0000 L CNN
-F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5000 7400 50  0001 C CNN
-F 3 "~" H 5000 7400 50  0001 C CNN
-F 4 "Würth" H 5000 7400 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 5000 7400 50  0001 C CNN "Part no."
-	1    5000 7400
-	1    0    0    -1  
-$EndComp
 Text Notes 3800 7250 0    79   ~ 16
 CAN
-Text HLabel 4350 7400 0    50   Input ~ 0
-CANH
-Text HLabel 4350 7500 0    50   Input ~ 0
-CANL
-Wire Wire Line
-	4350 7500 4800 7500
-Wire Wire Line
-	4800 7400 4350 7400
 Wire Notes Line
-	3700 7050 3700 7750
-Wire Notes Line
-	3700 7750 5950 7750
-Wire Notes Line
-	5950 7750 5950 7050
+	3700 8100 5950 8100
 Wire Notes Line
 	5950 7050 3700 7050
-Text Notes 3800 8100 0    79   ~ 16
+Text Notes 3800 8450 0    79   ~ 16
 Speed sensor input
 $Comp
 L Connector:Screw_Terminal_01x03 J?
 U 1 1 5DA598D9
-P 4800 8600
-F 0 "J?" H 4880 8592 50  0000 L CNN
-F 1 "Speed sensor connector" H 4880 8501 50  0000 L CNN
-F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 4800 8600 50  0001 C CNN
-F 3 "~" H 4800 8600 50  0001 C CNN
-F 4 "Würth" H 4800 8600 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 4800 8600 50  0001 C CNN "Part no."
-	1    4800 8600
+P 4800 8950
+F 0 "J?" H 4880 8942 50  0000 L CNN
+F 1 "Speed sensor connector" H 4880 8851 50  0000 L CNN
+F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 4800 8950 50  0001 C CNN
+F 3 "~" H 4800 8950 50  0001 C CNN
+F 4 "Würth" H 4800 8950 50  0001 C CNN "Manufacturer"
+F 5 "2141 Series" H 4800 8950 50  0001 C CNN "Part no."
+	1    4800 8950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDS #PWR?
 U 1 1 5DA6AA4C
-P 4400 8800
-F 0 "#PWR?" H 4400 8550 50  0001 C CNN
-F 1 "GNDS" H 4405 8627 50  0000 C CNN
-F 2 "" H 4400 8800 50  0001 C CNN
-F 3 "" H 4400 8800 50  0001 C CNN
-	1    4400 8800
+P 4400 9150
+F 0 "#PWR?" H 4400 8900 50  0001 C CNN
+F 1 "GNDS" H 4405 8977 50  0000 C CNN
+F 2 "" H 4400 9150 50  0001 C CNN
+F 3 "" H 4400 9150 50  0001 C CNN
+	1    4400 9150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR?
 U 1 1 5DA6B84B
-P 4400 8400
-F 0 "#PWR?" H 4400 8250 50  0001 C CNN
-F 1 "+12V" H 4415 8573 50  0000 C CNN
-F 2 "" H 4400 8400 50  0001 C CNN
-F 3 "" H 4400 8400 50  0001 C CNN
-	1    4400 8400
+P 4400 8750
+F 0 "#PWR?" H 4400 8600 50  0001 C CNN
+F 1 "+12V" H 4415 8923 50  0000 C CNN
+F 2 "" H 4400 8750 50  0001 C CNN
+F 3 "" H 4400 8750 50  0001 C CNN
+	1    4400 8750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 8400 4400 8500
+	4400 8750 4400 8850
 Wire Wire Line
-	4400 8500 4600 8500
+	4400 8850 4600 8850
 Wire Wire Line
-	4600 8700 4400 8700
+	4600 9050 4400 9050
 Wire Wire Line
-	4400 8700 4400 8800
-Text HLabel 4400 8600 0    50   Output ~ 0
+	4400 9050 4400 9150
+Text HLabel 4400 8950 0    50   Output ~ 0
 speed_sensor
 Wire Wire Line
-	4400 8600 4600 8600
+	4400 8950 4600 8950
 Wire Notes Line
-	3700 7900 5950 7900
+	3700 8250 5950 8250
 Wire Notes Line
-	5950 7900 5950 9150
+	5950 8250 5950 9500
 Wire Notes Line
-	5950 9150 3700 9150
+	5950 9500 3700 9500
 Wire Notes Line
-	3700 9150 3700 7900
+	3700 9500 3700 8250
+Text Notes 3850 7350 0    50   ~ 0
+With termination resistor.
+Wire Notes Line
+	3700 7050 3700 8100
+Wire Notes Line
+	5950 7050 5950 8100
+Wire Wire Line
+	4750 7900 4800 7900
+Connection ~ 4750 7900
+Wire Wire Line
+	4750 7650 4750 7900
+Wire Wire Line
+	4450 7800 4350 7800
+Connection ~ 4450 7800
+Wire Wire Line
+	4450 7650 4450 7800
+$Comp
+L Device:R R?
+U 1 1 5DAC1E2A
+P 4600 7650
+F 0 "R?" V 4393 7650 50  0000 C CNN
+F 1 "140R" V 4484 7650 50  0000 C CNN
+F 2 "" V 4530 7650 50  0001 C CNN
+F 3 "~" H 4600 7650 50  0001 C CNN
+	1    4600 7650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 7800 4450 7800
+Wire Wire Line
+	4350 7900 4750 7900
+Text HLabel 4350 7900 0    50   Input ~ 0
+CANL
+Text HLabel 4350 7800 0    50   Input ~ 0
+CANH
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 5D94B35C
+P 5000 7800
+F 0 "J?" H 5080 7792 50  0000 L CNN
+F 1 "CAN connector" H 5080 7701 50  0000 L CNN
+F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5000 7800 50  0001 C CNN
+F 3 "~" H 5000 7800 50  0001 C CNN
+F 4 "Würth" H 5000 7800 50  0001 C CNN "Manufacturer"
+F 5 "2141 Series" H 5000 7800 50  0001 C CNN "Part no."
+	1    5000 7800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
