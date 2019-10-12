@@ -1369,14 +1369,120 @@ F 5 "2141 Series" H 5000 7800 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR?
+L power:GNDPWR #PWR0102
 U 1 1 5DA363EE
 P 4700 6600
-F 0 "#PWR?" H 4700 6400 50  0001 C CNN
+F 0 "#PWR0102" H 4700 6400 50  0001 C CNN
 F 1 "GNDPWR" H 4704 6446 50  0000 C CNN
 F 2 "" H 4700 6550 50  0001 C CNN
 F 3 "" H 4700 6550 50  0001 C CNN
 	1    4700 6600
 	1    0    0    -1  
 $EndComp
+Text Notes 6200 6600 0    79   ~ 16
+Redundant power output
+Wire Notes Line
+	6100 6300 8200 6300
+$Comp
+L Connector:Screw_Terminal_01x04 J21
+U 1 1 5DA58887
+P 7200 7250
+F 0 "J21" H 7280 7242 50  0000 L CNN
+F 1 "12V connector" H 7280 7151 50  0000 L CNN
+F 2 "ecu-board-footprints:Terminal_Block_4x5.00mm" H 7200 7250 50  0001 C CNN
+F 3 "~" H 7200 7250 50  0001 C CNN
+F 4 "Würth" H 7200 7250 50  0001 C CNN "Manufacturer"
+F 5 "2141 Series" H 7200 7250 50  0001 C CNN "Part no."
+	1    7200 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J22
+U 1 1 5DA5ABE7
+P 7200 7800
+F 0 "J22" H 7280 7792 50  0000 L CNN
+F 1 "PWRGND connector" H 7280 7701 50  0000 L CNN
+F 2 "ecu-board-footprints:Terminal_Block_4x5.00mm" H 7200 7800 50  0001 C CNN
+F 3 "~" H 7200 7800 50  0001 C CNN
+F 4 "Würth" H 7200 7800 50  0001 C CNN "Manufacturer"
+F 5 "2141 Series" H 7200 7800 50  0001 C CNN "Part no."
+	1    7200 7800
+	1    0    0    -1  
+$EndComp
+Text Notes 6250 6850 0    50   ~ 0
+Extra power outputs for unforeseen expansions \nor prototyping.
+$Comp
+L power:GNDPWR #PWR028
+U 1 1 5DA5D5C4
+P 6650 7900
+F 0 "#PWR028" H 6650 7700 50  0001 C CNN
+F 1 "GNDPWR" H 6654 7746 50  0000 C CNN
+F 2 "" H 6650 7850 50  0001 C CNN
+F 3 "" H 6650 7850 50  0001 C CNN
+	1    6650 7900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 7900 6650 7850
+Wire Wire Line
+	6650 7850 6900 7850
+Wire Wire Line
+	6900 7850 6900 7800
+Wire Wire Line
+	6900 7700 7000 7700
+Wire Wire Line
+	6900 7850 6900 7900
+Wire Wire Line
+	6900 8000 7000 8000
+Connection ~ 6900 7850
+Wire Wire Line
+	7000 7900 6900 7900
+Connection ~ 6900 7900
+Wire Wire Line
+	6900 7900 6900 8000
+Wire Wire Line
+	7000 7800 6900 7800
+Connection ~ 6900 7800
+Wire Wire Line
+	6900 7800 6900 7700
+$Comp
+L power:+12V #PWR025
+U 1 1 5DA85A09
+P 6650 7250
+F 0 "#PWR025" H 6650 7100 50  0001 C CNN
+F 1 "+12V" H 6665 7423 50  0000 C CNN
+F 2 "" H 6650 7250 50  0001 C CNN
+F 3 "" H 6650 7250 50  0001 C CNN
+	1    6650 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 7250 6650 7300
+Wire Wire Line
+	6650 7300 6900 7300
+Wire Wire Line
+	6900 7300 6900 7250
+Wire Wire Line
+	6900 7150 7000 7150
+Wire Wire Line
+	7000 7450 6900 7450
+Wire Wire Line
+	6900 7450 6900 7350
+Connection ~ 6900 7300
+Wire Wire Line
+	7000 7350 6900 7350
+Connection ~ 6900 7350
+Wire Wire Line
+	6900 7350 6900 7300
+Wire Wire Line
+	6900 7250 7000 7250
+Connection ~ 6900 7250
+Wire Wire Line
+	6900 7250 6900 7150
+Wire Notes Line
+	6100 8250 8200 8250
+Wire Notes Line
+	8200 6300 8200 8250
+Wire Notes Line
+	6100 6300 6100 8250
 $EndSCHEMATC
