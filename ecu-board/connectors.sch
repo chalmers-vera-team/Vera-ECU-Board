@@ -479,7 +479,7 @@ P 7250 3350
 F 0 "J15" H 7330 3392 50  0000 L CNN
 F 1 "Ignition 1 connector" H 7330 3301 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 7250 3350 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7250 3350 50  0001 C CNN
+F 3 "~" H 7250 3350 50  0001 C CNN
 F 4 "Würth" H 7250 3350 50  0001 C CNN "Manufacturer"
 F 5 "2141 Series" H 7250 3350 50  0001 C CNN "Part no."
 	1    7250 3350
@@ -492,7 +492,7 @@ P 7250 4150
 F 0 "J16" H 7330 4192 50  0000 L CNN
 F 1 "Ignition 2 connector" H 7330 4101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 7250 4150 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7250 4150 50  0001 C CNN
+F 3 "~" H 7250 4150 50  0001 C CNN
 F 4 "Würth" H 7250 4150 50  0001 C CNN "Manufacturer"
 F 5 "2141 Series" H 7250 4150 50  0001 C CNN "Part no."
 	1    7250 4150
@@ -630,6 +630,8 @@ F 0 "R10" H 9320 2046 50  0000 L CNN
 F 1 "10k" H 9320 1955 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9180 2000 50  0001 C CNN
 F 3 "~" H 9250 2000 50  0001 C CNN
+F 4 "Generic" H 9250 2000 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 9250 2000 50  0001 C CNN "Part no."
 	1    9250 2000
 	1    0    0    -1  
 $EndComp
@@ -663,6 +665,8 @@ F 0 "JP2" V 9296 3198 50  0000 L CNN
 F 1 "R_unpopulated" V 9205 3198 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 9250 3150 50  0001 C CNN
 F 3 "~" H 9250 3150 50  0001 C CNN
+F 4 "Generic" H 9250 3150 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 9250 3150 50  0001 C CNN "Part no."
 	1    9250 3150
 	0    -1   -1   0   
 $EndComp
@@ -674,6 +678,8 @@ F 0 "JP3" V 9296 4348 50  0000 L CNN
 F 1 "R_unpopulated" V 9205 4348 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 9250 4300 50  0001 C CNN
 F 3 "~" H 9250 4300 50  0001 C CNN
+F 4 "Generic" H 9250 4300 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 9250 4300 50  0001 C CNN "Part no."
 	1    9250 4300
 	0    -1   -1   0   
 $EndComp
@@ -787,8 +793,9 @@ P 1450 2700
 F 0 "D6" H 1442 2823 50  0000 C CNN
 F 1 "LED" H 1442 2914 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 1450 2700 50  0001 C CNN
-F 3 "" H 1450 2700 50  0001 C CNN
-F 4 "3mm T-1" H 1450 2700 50  0001 C CNN "Part no."
+F 3 "~" H 1450 2700 50  0001 C CNN
+F 4 "0805" H 1450 2700 50  0001 C CNN "Part no."
+F 5 "Generic" H 1450 2700 50  0001 C CNN "Manufacturer"
 	1    1450 2700
 	-1   0    0    1   
 $EndComp
@@ -800,7 +807,8 @@ F 0 "D8" H 1842 4573 50  0000 C CNN
 F 1 "LED" H 1842 4664 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 1850 4450 50  0001 C CNN
 F 3 "~" H 1850 4450 50  0001 C CNN
-F 4 "3mm T-1" H 1850 4450 50  0001 C CNN "Part no."
+F 4 "0805" H 1850 4450 50  0001 C CNN "Part no."
+F 5 "Generic" H 1850 4450 50  0001 C CNN "Manufacturer"
 	1    1850 4450
 	-1   0    0    1   
 $EndComp
@@ -812,7 +820,8 @@ F 0 "D10" H 7392 1245 50  0000 C CNN
 F 1 "LED" H 7392 1336 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 7400 1500 50  0001 C CNN
 F 3 "~" H 7400 1500 50  0001 C CNN
-F 4 "3mm T-1" H 7400 1500 50  0001 C CNN "Part no."
+F 4 "0805" H 7400 1500 50  0001 C CNN "Part no."
+F 5 "Generic" H 7400 1500 50  0001 C CNN "Manufacturer"
 	1    7400 1500
 	-1   0    0    1   
 $EndComp
@@ -824,7 +833,8 @@ F 0 "D9" H 2542 7345 50  0000 C CNN
 F 1 "LED" H 2542 7436 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 2550 7600 50  0001 C CNN
 F 3 "~" H 2550 7600 50  0001 C CNN
-F 4 "3mm T-1" H 2550 7600 50  0001 C CNN "Part no."
+F 4 "0805" H 2550 7600 50  0001 C CNN "Part no."
+F 5 "Generic" H 2550 7600 50  0001 C CNN "Manufacturer"
 	1    2550 7600
 	-1   0    0    1   
 $EndComp
@@ -836,6 +846,8 @@ F 0 "R5" V 985 2700 50  0000 C CNN
 F 1 "1k" V 894 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1030 2700 50  0001 C CNN
 F 3 "~" H 1100 2700 50  0001 C CNN
+F 4 "Generic" H 1100 2700 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 1100 2700 50  0001 C CNN "Part no."
 	1    1100 2700
 	0    1    -1   0   
 $EndComp
@@ -849,6 +861,8 @@ F 0 "R7" V 1615 4450 50  0000 C CNN
 F 1 "1k" V 1706 4450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1430 4450 50  0001 C CNN
 F 3 "~" H 1500 4450 50  0001 C CNN
+F 4 "Generic" H 1500 4450 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 1500 4450 50  0001 C CNN "Part no."
 	1    1500 4450
 	0    1    1    0   
 $EndComp
@@ -880,6 +894,8 @@ F 0 "R9" V 6843 1500 50  0000 C CNN
 F 1 "1k" V 6934 1500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6980 1500 50  0001 C CNN
 F 3 "~" H 7050 1500 50  0001 C CNN
+F 4 "Generic" H 7050 1500 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 7050 1500 50  0001 C CNN "Part no."
 	1    7050 1500
 	0    1    1    0   
 $EndComp
@@ -912,6 +928,8 @@ F 0 "R8" V 1993 7600 50  0000 C CNN
 F 1 "1k" V 2084 7600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2130 7600 50  0001 C CNN
 F 3 "~" H 2200 7600 50  0001 C CNN
+F 4 "Generic" H 2200 7600 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 2200 7600 50  0001 C CNN "Part no."
 	1    2200 7600
 	0    1    1    0   
 $EndComp
@@ -985,7 +1003,7 @@ P 7250 5700
 F 0 "J17" H 7330 5742 50  0000 L CNN
 F 1 "Camera connector" H 7330 5651 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 7250 5700 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2308387.pdf?_ga=2.20224184.1892952727.1549112209-881392492.1520553087" H 7250 5700 50  0001 C CNN
+F 3 "~" H 7250 5700 50  0001 C CNN
 F 4 "Würth" H 7250 5700 50  0001 C CNN "Manufacturer"
 F 5 "2141 Series" H 7250 5700 50  0001 C CNN "Part no."
 	1    7250 5700
@@ -1097,7 +1115,8 @@ F 0 "D7" H 1792 5695 50  0000 C CNN
 F 1 "LED" H 1792 5786 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 1800 5950 50  0001 C CNN
 F 3 "~" H 1800 5950 50  0001 C CNN
-F 4 "3mm T-1" H 1800 5950 50  0001 C CNN "Part no."
+F 4 "0805" H 1800 5950 50  0001 C CNN "Part no."
+F 5 "Generic" H 1800 5950 50  0001 C CNN "Manufacturer"
 	1    1800 5950
 	-1   0    0    1   
 $EndComp
@@ -1109,6 +1128,8 @@ F 0 "R6" V 1243 5950 50  0000 C CNN
 F 1 "1k" V 1334 5950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1380 5950 50  0001 C CNN
 F 3 "~" H 1450 5950 50  0001 C CNN
+F 4 "Generic" H 1450 5950 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 1450 5950 50  0001 C CNN "Part no."
 	1    1450 5950
 	0    1    1    0   
 $EndComp
@@ -1168,7 +1189,7 @@ P 4850 1900
 F 0 "J5" H 5029 1946 50  0000 L CNN
 F 1 "Serial DB9 connector" H 5029 1855 50  0000 L CNN
 F 2 "ecu-board-footprints:TE_5747844-4" H 4850 1900 50  0001 C CNN
-F 3 "" H 4850 1900 50  0001 C CNN
+F 3 "~" H 4850 1900 50  0001 C CNN
 F 4 "TE Connectivity" H 4850 1900 50  0001 C CNN "Manufacturer"
 F 5 "5747844-4" H 5250 1750 50  0000 C CNN "Part no."
 	1    4850 1900
@@ -1245,6 +1266,8 @@ F 0 "D11" V 1654 2579 50  0000 L CNN
 F 1 "1N5820G" V 1745 2579 50  0000 L CNN
 F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 1700 2500 50  0001 C CNN
 F 3 "~" H 1700 2500 50  0001 C CNN
+F 4 "ON Semi" H 1700 2500 50  0001 C CNN "Manufacturer"
+F 5 "1N5820G" H 1700 2500 50  0001 C CNN "Part no."
 	1    1700 2500
 	0    -1   1    0   
 $EndComp
@@ -1344,6 +1367,8 @@ F 0 "R11" V 4393 7650 50  0000 C CNN
 F 1 "120R" V 4484 7650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4530 7650 50  0001 C CNN
 F 3 "~" H 4600 7650 50  0001 C CNN
+F 4 "Generic" H 4600 7650 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 4600 7650 50  0001 C CNN "Part no."
 	1    4600 7650
 	0    1    1    0   
 $EndComp

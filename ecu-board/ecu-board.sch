@@ -21,7 +21,7 @@ P 1450 4300
 F 0 "J1" H 1250 6500 50  0000 C CNN
 F 1 "MicroSquirt_connector" H 1200 6350 50  0000 L BNN
 F 2 "ecu-board-footprints:TE_1-776230-1_35POS_P4.0mm_Vertical" H 1200 6250 50  0001 L BNN
-F 3 "TE CONNECTIVITY" H 1450 4300 50  0001 L BNN
+F 3 "~" H 1450 4300 50  0001 L BNN
 F 4 "TE Connectivity" H 1450 4300 50  0001 C CNN "Manufacturer"
 F 5 "1-776230-1" H 1450 6250 50  0000 C CNN "Part no."
 	1    1450 4300
@@ -37,7 +37,8 @@ F 0 "JP1" H 2850 4085 50  0000 C CNN
 F 1 "Bootload Jumper" H 2850 3994 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2850 3900 50  0001 C CNN
 F 3 "~" H 2850 3900 50  0001 C CNN
-F 4 "2x2.54mm Pin Header" H 2850 3900 50  0001 C CNN "Part no."
+F 4 "2.54mm Pin Header" H 2850 3900 50  0001 C CNN "Part no."
+F 5 "Generic" H 2850 3900 50  0001 C CNN "Manufacturer"
 	1    2850 3900
 	1    0    0    -1  
 $EndComp
@@ -276,7 +277,7 @@ AR Path="/5C731B59" Ref="U1"  Part="1"
 F 0 "U1" H 10122 1821 50  0000 R CNN
 F 1 "MAP Sensor" H 10122 1730 50  0000 R CNN
 F 2 "ecu-board-footprints:SOT1852-1" H 10300 1700 50  0001 C CNN
-F 3 "" H 10300 1700 50  0001 C CNN
+F 3 "~" H 10300 1700 50  0001 C CNN
 F 4 "NXP" H 10300 1800 50  0001 C CNN "Manufacturer"
 F 5 "MPX4250AP" H 9900 1650 50  0000 C CNN "Part no."
 	1    10300 1800
@@ -328,6 +329,8 @@ F 0 "R3" H 8070 1746 50  0000 L CNN
 F 1 "30k" H 8070 1655 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 7930 1700 50  0001 C CNN
 F 3 "~" H 8000 1700 50  0001 C CNN
+F 4 "Generic" H 8000 1700 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 8000 1700 50  0001 C CNN "Part no."
 	1    8000 1700
 	1    0    0    -1  
 $EndComp
@@ -339,6 +342,8 @@ F 0 "R4" H 8070 2146 50  0000 L CNN
 F 1 "30k" H 8070 2055 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 7930 2100 50  0001 C CNN
 F 3 "~" H 8000 2100 50  0001 C CNN
+F 4 "Generic" H 8000 2100 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 8000 2100 50  0001 C CNN "Part no."
 	1    8000 2100
 	1    0    0    -1  
 $EndComp
@@ -390,7 +395,9 @@ P 4100 4150
 F 0 "J3" H 4000 6100 50  0000 C CNN
 F 1 "MS_breakout_conn" H 3850 6000 50  0000 C CNN
 F 2 "ecu-board-footprints:MicroSquirt_35Pin" H 4100 4150 50  0001 C CNN
-F 3 "https://www.phoenixcontact.com/gb/products/1791826" H 4100 4150 50  0001 C CNN
+F 3 "~" H 4100 4150 50  0001 C CNN
+F 4 "Generic" H 4100 4150 50  0001 C CNN "Manufacturer"
+F 5 "2.54mm Pin Header" H 4100 4150 50  0001 C CNN "Part no."
 	1    4100 4150
 	-1   0    0    -1  
 $EndComp
@@ -592,7 +599,8 @@ F 0 "D5" H 5550 2500 50  0000 C CNN
 F 1 "LED" H 5550 2400 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 5550 2600 50  0001 C CNN
 F 3 "~" H 5550 2600 50  0001 C CNN
-F 4 "3mm T-1" H 5550 2600 50  0001 C CNN "Part no."
+F 4 "0805" H 5550 2600 50  0001 C CNN "Part no."
+F 5 "Generic" H 5550 2600 50  0001 C CNN "Manufacturer"
 	1    5550 2600
 	-1   0    0    -1  
 $EndComp
@@ -604,6 +612,8 @@ F 0 "R2" V 5315 2600 50  0000 C CNN
 F 1 "1k" V 5406 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5130 2600 50  0001 C CNN
 F 3 "~" H 5200 2600 50  0001 C CNN
+F 4 "Generic" H 5200 2600 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 5200 2600 50  0001 C CNN "Part no."
 	1    5200 2600
 	0    1    1    0   
 $EndComp
@@ -735,6 +745,8 @@ F 0 "R1" V 2865 2650 50  0000 C CNN
 F 1 "1k" V 2956 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 2680 2650 50  0001 C CNN
 F 3 "~" H 2750 2650 50  0001 C CNN
+F 4 "Generic" H 2750 2650 50  0001 C CNN "Manufacturer"
+F 5 "0805" H 2750 2650 50  0001 C CNN "Part no."
 	1    2750 2650
 	0    1    1    0   
 $EndComp
@@ -746,7 +758,8 @@ F 0 "D4" H 3100 2550 50  0000 C CNN
 F 1 "LED" H 3100 2450 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 3100 2650 50  0001 C CNN
 F 3 "~" H 3100 2650 50  0001 C CNN
-F 4 "3mm T-1" H 3100 2650 50  0001 C CNN "Part no."
+F 4 "0805" H 3100 2650 50  0001 C CNN "Part no."
+F 5 "Generic" H 3100 2650 50  0001 C CNN "Manufacturer"
 	1    3100 2650
 	-1   0    0    -1  
 $EndComp
