@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+12V #PWR020
+L power:+12V #PWR048
 U 1 1 5C5707AA
 P 9400 1750
-F 0 "#PWR020" H 9400 1600 50  0001 C CNN
+F 0 "#PWR048" H 9400 1600 50  0001 C CNN
 F 1 "+12V" H 9415 1923 50  0000 C CNN
 F 2 "" H 9400 1750 50  0001 C CNN
 F 3 "" H 9400 1750 50  0001 C CNN
@@ -28,10 +28,10 @@ $EndComp
 Wire Wire Line
 	9500 2100 9600 2100
 $Comp
-L power:+12V #PWR022
+L power:+12V #PWR049
 U 1 1 5C5707D6
 P 9400 2950
-F 0 "#PWR022" H 9400 2800 50  0001 C CNN
+F 0 "#PWR049" H 9400 2800 50  0001 C CNN
 F 1 "+12V" H 9415 3123 50  0000 C CNN
 F 2 "" H 9400 2950 50  0001 C CNN
 F 3 "" H 9400 2950 50  0001 C CNN
@@ -41,10 +41,10 @@ $EndComp
 Wire Wire Line
 	9500 3250 9600 3250
 $Comp
-L power:GNDS #PWR021
+L power:GNDS #PWR051
 U 1 1 5C570990
 P 9500 2400
-F 0 "#PWR021" H 9500 2150 50  0001 C CNN
+F 0 "#PWR051" H 9500 2150 50  0001 C CNN
 F 1 "GNDS" H 9505 2227 50  0000 C CNN
 F 2 "" H 9500 2400 50  0001 C CNN
 F 3 "" H 9500 2400 50  0001 C CNN
@@ -52,10 +52,10 @@ F 3 "" H 9500 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR023
+L power:GNDS #PWR052
 U 1 1 5C5709C2
 P 9500 3550
-F 0 "#PWR023" H 9500 3300 50  0001 C CNN
+F 0 "#PWR052" H 9500 3300 50  0001 C CNN
 F 1 "GNDS" H 9505 3377 50  0000 C CNN
 F 2 "" H 9500 3550 50  0001 C CNN
 F 3 "" H 9500 3550 50  0001 C CNN
@@ -77,10 +77,10 @@ camshaft_signal
 Text Notes 6200 1100 0    79   ~ 16
 EGO Lambda sensor
 $Comp
-L power:+12V #PWR016
+L power:+12V #PWR036
 U 1 1 5C5738D2
 P 6250 1600
-F 0 "#PWR016" H 6250 1450 50  0001 C CNN
+F 0 "#PWR036" H 6250 1450 50  0001 C CNN
 F 1 "+12V" H 6265 1773 50  0000 C CNN
 F 2 "" H 6250 1600 50  0001 C CNN
 F 3 "" H 6250 1600 50  0001 C CNN
@@ -88,10 +88,10 @@ F 3 "" H 6250 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR019
+L power:GNDS #PWR037
 U 1 1 5C573DA1
 P 6600 1900
-F 0 "#PWR019" H 6600 1650 50  0001 C CNN
+F 0 "#PWR037" H 6600 1650 50  0001 C CNN
 F 1 "GNDS" H 6605 1727 50  0000 C CNN
 F 2 "" H 6600 1900 50  0001 C CNN
 F 3 "" H 6600 1900 50  0001 C CNN
@@ -141,10 +141,10 @@ Motor Coolant Temperature\n
 Wire Notes Line
 	3700 3800 5950 3800
 $Comp
-L power:GNDS #PWR014
+L power:GNDS #PWR035
 U 1 1 5C585D4A
 P 4750 4350
-F 0 "#PWR014" H 4750 4100 50  0001 C CNN
+F 0 "#PWR035" H 4750 4100 50  0001 C CNN
 F 1 "GNDS" H 4755 4177 50  0000 C CNN
 F 2 "" H 4750 4350 50  0001 C CNN
 F 3 "" H 4750 4350 50  0001 C CNN
@@ -174,10 +174,10 @@ iat_signal
 Wire Wire Line
 	4650 3200 4850 3200
 $Comp
-L power:GNDS #PWR013
+L power:GNDS #PWR034
 U 1 1 5C589C08
 P 4750 3350
-F 0 "#PWR013" H 4750 3100 50  0001 C CNN
+F 0 "#PWR034" H 4750 3100 50  0001 C CNN
 F 1 "GNDS" H 4755 3177 50  0000 C CNN
 F 2 "" H 4750 3350 50  0001 C CNN
 F 3 "" H 4750 3350 50  0001 C CNN
@@ -195,10 +195,10 @@ Wire Notes Line
 Wire Notes Line
 	3700 3650 3700 2800
 $Comp
-L Connector:Screw_Terminal_01x02 J9
+L Connector:Screw_Terminal_01x02 J15
 U 1 1 5C594A0D
 P 5050 4200
-F 0 "J9" H 5129 4192 50  0000 L CNN
+F 0 "J15" H 5129 4192 50  0000 L CNN
 F 1 "CLT connector" H 5129 4101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5050 4200 50  0001 C CNN
 F 3 "~" H 5050 4200 50  0001 C CNN
@@ -208,10 +208,10 @@ F 5 "2141 Series" H 5050 4200 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J10
+L Connector:Screw_Terminal_01x02 J7
 U 1 1 5C594BAE
 P 2400 7100
-F 0 "J10" H 2479 7092 50  0000 L CNN
+F 0 "J7" H 2479 7092 50  0000 L CNN
 F 1 "Injector connector" H 2479 7001 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 2400 7100 50  0001 C CNN
 F 3 "~" H 2400 7100 50  0001 C CNN
@@ -221,10 +221,10 @@ F 5 "2141 Series" H 2400 7100 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J13
+L Connector:Screw_Terminal_01x03 J22
 U 1 1 5C5953F1
 P 9800 2200
-F 0 "J13" H 9879 2192 50  0000 L CNN
+F 0 "J22" H 9879 2192 50  0000 L CNN
 F 1 "Chrankshaft Hall connector" H 9879 2101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 9800 2200 50  0001 C CNN
 F 3 "~" H 9800 2200 50  0001 C CNN
@@ -234,10 +234,10 @@ F 5 "2141 Series" H 9800 2200 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J14
+L Connector:Screw_Terminal_01x03 J23
 U 1 1 5C596299
 P 9800 3350
-F 0 "J14" H 9880 3342 50  0000 L CNN
+F 0 "J23" H 9880 3342 50  0000 L CNN
 F 1 "Camshaft Hall connector" H 9880 3251 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 9800 3350 50  0001 C CNN
 F 3 "~" H 9800 3350 50  0001 C CNN
@@ -249,10 +249,10 @@ $EndComp
 Text HLabel 4700 6350 0    50   Output ~ 0
 main_power_signal
 $Comp
-L power:+BATT #PWR09
+L power:+BATT #PWR031
 U 1 1 5C5B2BF7
 P 4500 5700
-F 0 "#PWR09" H 4500 5550 50  0001 C CNN
+F 0 "#PWR031" H 4500 5550 50  0001 C CNN
 F 1 "+BATT" H 4515 5873 50  0000 C CNN
 F 2 "" H 4500 5700 50  0001 C CNN
 F 3 "" H 4500 5700 50  0001 C CNN
@@ -283,10 +283,10 @@ Wire Wire Line
 Wire Wire Line
 	6250 1650 6500 1650
 $Comp
-L Device:Fuse_Small F4
+L Device:Fuse_Small F3
 U 1 1 5C5BEADD
 P 1550 7100
-F 0 "F4" H 1550 7285 50  0000 C CNN
+F 0 "F3" H 1550 7285 50  0000 C CNN
 F 1 "5A Fuse" H 1550 7194 50  0000 C CNN
 F 2 "ecu-board-footprints:Fuseholder_ATO_Blade_Littelfuse_Pudenz_4_Pin" H 1550 7100 50  0001 C CNN
 F 3 "~" H 1550 7100 50  0001 C CNN
@@ -296,10 +296,10 @@ F 5 "178.4265.0002" H 1550 7100 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J2
+L Connector:Screw_Terminal_01x02 J5
 U 1 1 5C5C3CF5
 P 2300 2400
-F 0 "J2" H 2379 2392 50  0000 L CNN
+F 0 "J5" H 2379 2392 50  0000 L CNN
 F 1 "Battery power conenctor" H 2379 2301 50  0000 L CNN
 F 2 "ecu-board-footprints:AMASS_XT60PW" H 2300 2400 50  0001 C CNN
 F 3 "~" H 2300 2400 50  0001 C CNN
@@ -309,10 +309,10 @@ F 5 "XT60PW-M" H 2590 2200 50  0000 C CNN "Part no."
 	1    0    0    1   
 $EndComp
 $Comp
-L power:+BATT #PWR06
+L power:+BATT #PWR021
 U 1 1 5C5D2F4D
 P 1100 2250
-F 0 "#PWR06" H 1100 2100 50  0001 C CNN
+F 0 "#PWR021" H 1100 2100 50  0001 C CNN
 F 1 "+BATT" H 1115 2423 50  0000 C CNN
 F 2 "" H 1100 2250 50  0001 C CNN
 F 3 "" H 1100 2250 50  0001 C CNN
@@ -330,10 +330,10 @@ Wire Notes Line
 Text Notes 950  3750 0    50   ~ 0
 The start motor power is switched by a normally open \nmonostable switch. The motor should be protected by a \n50A in-line fuse.
 $Comp
-L power:GNDPWR #PWR010
+L power:GNDPWR #PWR025
 U 1 1 5C5EA469
 P 2150 4500
-F 0 "#PWR010" H 2150 4300 50  0001 C CNN
+F 0 "#PWR025" H 2150 4300 50  0001 C CNN
 F 1 "GNDPWR" H 2154 4346 50  0000 C CNN
 F 2 "" H 2150 4450 50  0001 C CNN
 F 3 "" H 2150 4450 50  0001 C CNN
@@ -341,10 +341,10 @@ F 3 "" H 2150 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D1
+L Device:D D9
 U 1 1 5C5ECED0
 P 2150 4250
-F 0 "D1" V 2100 4050 50  0000 L CNN
+F 0 "D9" V 2100 4050 50  0000 L CNN
 F 1 "1N5820G" V 2200 3800 50  0000 L CNN
 F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 2150 4250 50  0001 C CNN
 F 3 "~" H 2150 4250 50  0001 C CNN
@@ -376,10 +376,10 @@ Ignition
 Text Notes 6250 2900 0    50   ~ 0
 The electrical system is designed to function \nwith either one or two ignition coils. Currently \nit is only using Ignition 1.
 $Comp
-L power:+12V #PWR011
+L power:+12V #PWR041
 U 1 1 5C628033
 P 6950 3200
-F 0 "#PWR011" H 6950 3050 50  0001 C CNN
+F 0 "#PWR041" H 6950 3050 50  0001 C CNN
 F 1 "+12V" H 6965 3373 50  0000 C CNN
 F 2 "" H 6950 3200 50  0001 C CNN
 F 3 "" H 6950 3200 50  0001 C CNN
@@ -391,10 +391,10 @@ Wire Wire Line
 Wire Wire Line
 	6950 3250 7050 3250
 $Comp
-L power:+12V #PWR012
+L power:+12V #PWR043
 U 1 1 5C62A8FD
 P 6950 4000
-F 0 "#PWR012" H 6950 3850 50  0001 C CNN
+F 0 "#PWR043" H 6950 3850 50  0001 C CNN
 F 1 "+12V" H 6965 4173 50  0000 C CNN
 F 2 "" H 6950 4000 50  0001 C CNN
 F 3 "" H 6950 4000 50  0001 C CNN
@@ -418,10 +418,10 @@ Cockpit connections\n
 Text Notes 3850 5300 0    50   ~ 0
 Connection to the Raspbery Pi based HMI. Button \ninputs for relay control of main power, starter \nmotor and dead man's switch to injector.
 $Comp
-L power:+12V #PWR024
+L power:+12V #PWR032
 U 1 1 5C66BFF7
 P 4700 5600
-F 0 "#PWR024" H 4700 5450 50  0001 C CNN
+F 0 "#PWR032" H 4700 5450 50  0001 C CNN
 F 1 "+12V" H 4715 5773 50  0000 C CNN
 F 2 "" H 4700 5600 50  0001 C CNN
 F 3 "" H 4700 5600 50  0001 C CNN
@@ -441,10 +441,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 1750 6750 1750
 $Comp
-L Connector:Screw_Terminal_01x04 J12
+L Connector:Screw_Terminal_01x04 J16
 U 1 1 5C72F789
 P 7200 1750
-F 0 "J12" H 7280 1742 50  0000 L CNN
+F 0 "J16" H 7280 1742 50  0000 L CNN
 F 1 "EGO connector" H 7280 1651 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_4x5.00mm" H 7200 1750 50  0001 C CNN
 F 3 "~" H 7200 1750 50  0001 C CNN
@@ -454,10 +454,10 @@ F 5 "2141 Series" H 7200 1750 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR041
+L power:GNDPWR #PWR040
 U 1 1 5C74EE64
 P 6900 2000
-F 0 "#PWR041" H 6900 1800 50  0001 C CNN
+F 0 "#PWR040" H 6900 1800 50  0001 C CNN
 F 1 "GNDPWR" H 6904 1846 50  0000 C CNN
 F 2 "" H 6900 1950 50  0001 C CNN
 F 3 "" H 6900 1950 50  0001 C CNN
@@ -473,10 +473,10 @@ Wire Notes Line
 Wire Wire Line
 	6600 1850 7000 1850
 $Comp
-L Connector:Screw_Terminal_01x03 J15
+L Connector:Screw_Terminal_01x03 J19
 U 1 1 5C773356
 P 7250 3350
-F 0 "J15" H 7330 3392 50  0000 L CNN
+F 0 "J19" H 7330 3392 50  0000 L CNN
 F 1 "Ignition 1 connector" H 7330 3301 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 7250 3350 50  0001 C CNN
 F 3 "~" H 7250 3350 50  0001 C CNN
@@ -486,10 +486,10 @@ F 5 "2141 Series" H 7250 3350 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J16
+L Connector:Screw_Terminal_01x03 J20
 U 1 1 5C77363A
 P 7250 4150
-F 0 "J16" H 7330 4192 50  0000 L CNN
+F 0 "J20" H 7330 4192 50  0000 L CNN
 F 1 "Ignition 2 connector" H 7330 4101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 7250 4150 50  0001 C CNN
 F 3 "~" H 7250 4150 50  0001 C CNN
@@ -514,10 +514,10 @@ Wire Wire Line
 Wire Wire Line
 	6950 3450 7050 3450
 $Comp
-L power:GNDPWR #PWR043
+L power:GNDPWR #PWR044
 U 1 1 5C77CEFF
 P 6950 4300
-F 0 "#PWR043" H 6950 4100 50  0001 C CNN
+F 0 "#PWR044" H 6950 4100 50  0001 C CNN
 F 1 "GNDPWR" H 6954 4146 50  0000 C CNN
 F 2 "" H 6950 4250 50  0001 C CNN
 F 3 "" H 6950 4250 50  0001 C CNN
@@ -541,10 +541,10 @@ Wire Notes Line
 Text Label 4700 5850 2    50   ~ 0
 deadmans
 $Comp
-L Connector:Screw_Terminal_01x03 J18
+L Connector:Screw_Terminal_01x03 J24
 U 1 1 5C788398
 P 9800 4500
-F 0 "J18" H 9880 4492 50  0000 L CNN
+F 0 "J24" H 9880 4492 50  0000 L CNN
 F 1 "Wheel Hall connector" H 9880 4401 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 9800 4500 50  0001 C CNN
 F 3 "~" H 9800 4500 50  0001 C CNN
@@ -554,10 +554,10 @@ F 5 "2141 Series" H 9800 4500 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR047
+L power:+12V #PWR050
 U 1 1 5C7883EF
 P 9400 4100
-F 0 "#PWR047" H 9400 3950 50  0001 C CNN
+F 0 "#PWR050" H 9400 3950 50  0001 C CNN
 F 1 "+12V" H 9415 4273 50  0000 C CNN
 F 2 "" H 9400 4100 50  0001 C CNN
 F 3 "" H 9400 4100 50  0001 C CNN
@@ -565,10 +565,10 @@ F 3 "" H 9400 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR048
+L power:GNDS #PWR053
 U 1 1 5C78841E
 P 9500 4700
-F 0 "#PWR048" H 9500 4450 50  0001 C CNN
+F 0 "#PWR053" H 9500 4450 50  0001 C CNN
 F 1 "GNDS" H 9505 4527 50  0000 C CNN
 F 2 "" H 9500 4700 50  0001 C CNN
 F 3 "" H 9500 4700 50  0001 C CNN
@@ -588,10 +588,10 @@ serial_rx
 Text HLabel 4700 6250 0    50   BiDi ~ 0
 serial_tx
 $Comp
-L power:GNDS #PWR040
+L power:GNDS #PWR030
 U 1 1 5C79FD2D
 P 4450 2350
-F 0 "#PWR040" H 4450 2100 50  0001 C CNN
+F 0 "#PWR030" H 4450 2100 50  0001 C CNN
 F 1 "GNDS" H 4455 2177 50  0000 C CNN
 F 2 "" H 4450 2350 50  0001 C CNN
 F 3 "" H 4450 2350 50  0001 C CNN
@@ -623,10 +623,10 @@ Wire Notes Line
 Wire Notes Line
 	3700 6900 5950 6900
 $Comp
-L Device:R R10
+L Device:R R11
 U 1 1 5C9BB785
 P 9250 2000
-F 0 "R10" H 9320 2046 50  0000 L CNN
+F 0 "R11" H 9320 2046 50  0000 L CNN
 F 1 "10k" H 9320 1955 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9180 2000 50  0001 C CNN
 F 3 "~" H 9250 2000 50  0001 C CNN
@@ -730,10 +730,10 @@ Wire Notes Line
 Text Notes 900  8300 0    79   ~ 16
 Start motor controller
 $Comp
-L power:+12V #PWR036
+L power:+12V #PWR023
 U 1 1 5CA43097
 P 1900 8900
-F 0 "#PWR036" H 1900 8750 50  0001 C CNN
+F 0 "#PWR023" H 1900 8750 50  0001 C CNN
 F 1 "+12V" H 1915 9073 50  0000 C CNN
 F 2 "" H 1900 8900 50  0001 C CNN
 F 3 "" H 1900 8900 50  0001 C CNN
@@ -741,10 +741,10 @@ F 3 "" H 1900 8900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR037
+L power:GNDS #PWR024
 U 1 1 5CA430CE
 P 1900 9400
-F 0 "#PWR037" H 1900 9150 50  0001 C CNN
+F 0 "#PWR024" H 1900 9150 50  0001 C CNN
 F 1 "GNDS" H 1905 9227 50  0000 C CNN
 F 2 "" H 1900 9400 50  0001 C CNN
 F 3 "" H 1900 9400 50  0001 C CNN
@@ -787,10 +787,10 @@ deadmans
 Text HLabel 1900 9250 0    50   Output ~ 0
 ~start_motor_signal~
 $Comp
-L Device:LED D6
+L Device:LED D5
 U 1 1 5CA85B37
 P 1450 2700
-F 0 "D6" H 1442 2823 50  0000 C CNN
+F 0 "D5" H 1442 2823 50  0000 C CNN
 F 1 "LED" H 1442 2914 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 1450 2700 50  0001 C CNN
 F 3 "~" H 1450 2700 50  0001 C CNN
@@ -813,10 +813,10 @@ F 5 "Generic" H 1850 4450 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D10
+L Device:LED D11
 U 1 1 5CA85D82
 P 7400 1500
-F 0 "D10" H 7392 1245 50  0000 C CNN
+F 0 "D11" H 7392 1245 50  0000 C CNN
 F 1 "LED" H 7392 1336 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 7400 1500 50  0001 C CNN
 F 3 "~" H 7400 1500 50  0001 C CNN
@@ -826,10 +826,10 @@ F 5 "Generic" H 7400 1500 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D9
+L Device:LED D10
 U 1 1 5CA85E2A
 P 2550 7600
-F 0 "D9" H 2542 7345 50  0000 C CNN
+F 0 "D10" H 2542 7345 50  0000 C CNN
 F 1 "LED" H 2542 7436 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 2550 7600 50  0001 C CNN
 F 3 "~" H 2550 7600 50  0001 C CNN
@@ -887,10 +887,10 @@ Connection ~ 6850 1650
 Wire Wire Line
 	6850 1650 7000 1650
 $Comp
-L Device:R R9
+L Device:R R10
 U 1 1 5CBA36F7
 P 7050 1500
-F 0 "R9" V 6843 1500 50  0000 C CNN
+F 0 "R10" V 6843 1500 50  0000 C CNN
 F 1 "1k" V 6934 1500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6980 1500 50  0001 C CNN
 F 3 "~" H 7050 1500 50  0001 C CNN
@@ -906,10 +906,10 @@ Wire Wire Line
 Wire Wire Line
 	7600 1500 7600 1550
 $Comp
-L power:GNDS #PWR046
+L power:GNDS #PWR047
 U 1 1 5CBAE69C
 P 7600 1550
-F 0 "#PWR046" H 7600 1300 50  0001 C CNN
+F 0 "#PWR047" H 7600 1300 50  0001 C CNN
 F 1 "GNDS" H 7605 1377 50  0000 C CNN
 F 2 "" H 7600 1550 50  0001 C CNN
 F 3 "" H 7600 1550 50  0001 C CNN
@@ -936,10 +936,10 @@ $EndComp
 Wire Wire Line
 	2400 7600 2350 7600
 $Comp
-L Connector:Screw_Terminal_01x10 J11
+L Connector:Screw_Terminal_01x10 J12
 U 1 1 5CBEB4A6
 P 5000 6050
-F 0 "J11" H 5080 6042 50  0000 L CNN
+F 0 "J12" H 5080 6042 50  0000 L CNN
 F 1 "Cockpit connector" H 5080 5951 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_10x5.00mm" H 5000 6050 50  0001 C CNN
 F 3 "~" H 5000 6050 50  0001 C CNN
@@ -957,10 +957,10 @@ Wire Notes Line
 Wire Notes Line
 	5950 4800 5950 6900
 $Comp
-L power:GNDS #PWR039
+L power:GNDS #PWR027
 U 1 1 5CC14543
 P 2850 7650
-F 0 "#PWR039" H 2850 7400 50  0001 C CNN
+F 0 "#PWR027" H 2850 7400 50  0001 C CNN
 F 1 "GNDS" H 2855 7477 50  0000 C CNN
 F 2 "" H 2850 7650 50  0001 C CNN
 F 3 "" H 2850 7650 50  0001 C CNN
@@ -997,10 +997,10 @@ Camera\n
 Wire Notes Line
 	6100 4750 8200 4750
 $Comp
-L Connector:Screw_Terminal_01x03 J17
+L Connector:Screw_Terminal_01x03 J21
 U 1 1 5CE57F74
 P 7250 5700
-F 0 "J17" H 7330 5742 50  0000 L CNN
+F 0 "J21" H 7330 5742 50  0000 L CNN
 F 1 "Camera connector" H 7330 5651 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 7250 5700 50  0001 C CNN
 F 3 "~" H 7250 5700 50  0001 C CNN
@@ -1010,10 +1010,10 @@ F 5 "2141 Series" H 7250 5700 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR044
+L power:+12V #PWR045
 U 1 1 5CE589F7
 P 6950 5550
-F 0 "#PWR044" H 6950 5400 50  0001 C CNN
+F 0 "#PWR045" H 6950 5400 50  0001 C CNN
 F 1 "+12V" H 6965 5723 50  0000 C CNN
 F 2 "" H 6950 5550 50  0001 C CNN
 F 3 "" H 6950 5550 50  0001 C CNN
@@ -1025,10 +1025,10 @@ Wire Wire Line
 Wire Wire Line
 	6950 5600 7050 5600
 $Comp
-L power:GNDS #PWR045
+L power:GNDS #PWR046
 U 1 1 5CE601B5
 P 6950 5850
-F 0 "#PWR045" H 6950 5600 50  0001 C CNN
+F 0 "#PWR046" H 6950 5600 50  0001 C CNN
 F 1 "GNDS" H 6955 5677 50  0000 C CNN
 F 2 "" H 6950 5850 50  0001 C CNN
 F 3 "" H 6950 5850 50  0001 C CNN
@@ -1052,10 +1052,10 @@ Wire Notes Line
 Wire Notes Line
 	6100 4750 6100 6150
 $Comp
-L Connector:Screw_Terminal_01x02 J7
+L Connector:Screw_Terminal_01x02 J8
 U 1 1 5CE82F80
 P 2450 5700
-F 0 "J7" H 2530 5692 50  0000 L CNN
+F 0 "J8" H 2530 5692 50  0000 L CNN
 F 1 "Backlight connector" H 2530 5601 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 2450 5700 50  0001 C CNN
 F 3 "~" H 2450 5700 50  0001 C CNN
@@ -1085,10 +1085,10 @@ The backlight is lit at all times  the start motor is powered.
 Text HLabel 1600 5550 0    50   Input ~ 0
 start_motor_power
 $Comp
-L power:GNDPWR #PWR038
+L power:GNDPWR #PWR026
 U 1 1 5CEF23A7
 P 2150 6050
-F 0 "#PWR038" H 2150 5850 50  0001 C CNN
+F 0 "#PWR026" H 2150 5850 50  0001 C CNN
 F 1 "GNDPWR" H 2154 5896 50  0000 C CNN
 F 2 "" H 2150 6000 50  0001 C CNN
 F 3 "" H 2150 6000 50  0001 C CNN
@@ -1143,10 +1143,10 @@ Wire Wire Line
 	2150 5800 2150 5950
 Connection ~ 2150 5950
 $Comp
-L Device:Fuse_Small F6
+L Device:Fuse_Small F4
 U 1 1 5D23655D
 P 1800 5550
-F 0 "F6" H 1800 5735 50  0000 C CNN
+F 0 "F4" H 1800 5735 50  0000 C CNN
 F 1 "3A Fuse" H 1800 5644 50  0000 C CNN
 F 2 "ecu-board-footprints:Fuseholder_ATO_Blade_Littelfuse_Pudenz_4_Pin" H 1800 5550 50  0001 C CNN
 F 3 "~" H 1800 5550 50  0001 C CNN
@@ -1183,10 +1183,10 @@ Wire Notes Line
 Wire Notes Line
 	800  8050 800  9700
 $Comp
-L Connector:DB9_Female J5
+L Connector:DB9_Female J11
 U 1 1 5C576806
 P 4850 1900
-F 0 "J5" H 5029 1946 50  0000 L CNN
+F 0 "J11" H 5029 1946 50  0000 L CNN
 F 1 "Serial DB9 connector" H 5029 1855 50  0000 L CNN
 F 2 "ecu-board-footprints:TE_5747844-4" H 4850 1900 50  0001 C CNN
 F 3 "~" H 4850 1900 50  0001 C CNN
@@ -1196,10 +1196,10 @@ F 5 "5747844-4" H 5250 1750 50  0000 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR035
+L power:GNDPWR #PWR022
 U 1 1 5D2BFDAA
 P 1700 2800
-F 0 "#PWR035" H 1700 2600 50  0001 C CNN
+F 0 "#PWR022" H 1700 2600 50  0001 C CNN
 F 1 "GNDPWR" H 1704 2646 50  0000 C CNN
 F 2 "" H 1700 2750 50  0001 C CNN
 F 3 "" H 1700 2750 50  0001 C CNN
@@ -1231,10 +1231,10 @@ Wire Notes Line
 Wire Notes Line
 	3400 900  3400 3100
 $Comp
-L Connector:Screw_Terminal_01x02 J8
+L Connector:Screw_Terminal_01x02 J14
 U 1 1 5C594AF2
 P 5050 3200
-F 0 "J8" H 5129 3192 50  0000 L CNN
+F 0 "J14" H 5129 3192 50  0000 L CNN
 F 1 "IAT connector" H 5129 3101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5050 3200 50  0001 C CNN
 F 3 "~" H 5050 3200 50  0001 C CNN
@@ -1244,10 +1244,10 @@ F 5 "2141 Series" H 5050 3200 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J4
+L Connector:Screw_Terminal_01x02 J9
 U 1 1 5C5E639D
 P 2650 4200
-F 0 "J4" H 2730 4192 50  0000 L CNN
+F 0 "J9" H 2730 4192 50  0000 L CNN
 F 1 "Motor connector" H 2730 4101 50  0000 L CNN
 F 2 "ecu-board-footprints:AMASS_XT60PW" H 2650 4200 50  0001 C CNN
 F 3 "~" H 2650 4200 50  0001 C CNN
@@ -1259,10 +1259,10 @@ $EndComp
 Wire Wire Line
 	1700 4050 2000 4050
 $Comp
-L Device:D D11
+L Device:D D6
 U 1 1 5D917DEF
 P 1700 2500
-F 0 "D11" V 1654 2579 50  0000 L CNN
+F 0 "D6" V 1654 2579 50  0000 L CNN
 F 1 "1N5820G" V 1745 2579 50  0000 L CNN
 F 2 "Diodes_THT:D_A-405_P10.16mm_Horizontal" H 1700 2500 50  0001 C CNN
 F 3 "~" H 1700 2500 50  0001 C CNN
@@ -1289,10 +1289,10 @@ Wire Notes Line
 Text Notes 3800 8450 0    79   ~ 16
 Speed sensor input
 $Comp
-L Connector:Screw_Terminal_01x03 J19
+L Connector:Screw_Terminal_01x03 J10
 U 1 1 5DA598D9
 P 4800 8950
-F 0 "J19" H 4880 8942 50  0000 L CNN
+F 0 "J10" H 4880 8942 50  0000 L CNN
 F 1 "Speed sensor connector" H 4880 8851 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 4800 8950 50  0001 C CNN
 F 3 "~" H 4800 8950 50  0001 C CNN
@@ -1302,10 +1302,10 @@ F 5 "2141 Series" H 4800 8950 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDS #PWR051
+L power:GNDS #PWR029
 U 1 1 5DA6AA4C
 P 4400 9150
-F 0 "#PWR051" H 4400 8900 50  0001 C CNN
+F 0 "#PWR029" H 4400 8900 50  0001 C CNN
 F 1 "GNDS" H 4405 8977 50  0000 C CNN
 F 2 "" H 4400 9150 50  0001 C CNN
 F 3 "" H 4400 9150 50  0001 C CNN
@@ -1313,10 +1313,10 @@ F 3 "" H 4400 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR050
+L power:+12V #PWR028
 U 1 1 5DA6B84B
 P 4400 8750
-F 0 "#PWR050" H 4400 8600 50  0001 C CNN
+F 0 "#PWR028" H 4400 8600 50  0001 C CNN
 F 1 "+12V" H 4415 8923 50  0000 C CNN
 F 2 "" H 4400 8750 50  0001 C CNN
 F 3 "" H 4400 8750 50  0001 C CNN
@@ -1360,10 +1360,10 @@ Connection ~ 4450 7800
 Wire Wire Line
 	4450 7650 4450 7800
 $Comp
-L Device:R R11
+L Device:R R9
 U 1 1 5DAC1E2A
 P 4600 7650
-F 0 "R11" V 4393 7650 50  0000 C CNN
+F 0 "R9" V 4393 7650 50  0000 C CNN
 F 1 "120R" V 4484 7650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4530 7650 50  0001 C CNN
 F 3 "~" H 4600 7650 50  0001 C CNN
@@ -1381,10 +1381,10 @@ CANL
 Text HLabel 4350 7800 0    50   Input ~ 0
 CANH
 $Comp
-L Connector:Screw_Terminal_01x02 J20
+L Connector:Screw_Terminal_01x02 J13
 U 1 1 5D94B35C
 P 5000 7800
-F 0 "J20" H 5080 7792 50  0000 L CNN
+F 0 "J13" H 5080 7792 50  0000 L CNN
 F 1 "CAN connector" H 5080 7701 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5000 7800 50  0001 C CNN
 F 3 "~" H 5000 7800 50  0001 C CNN
@@ -1394,10 +1394,10 @@ F 5 "2141 Series" H 5000 7800 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR0102
+L power:GNDPWR #PWR033
 U 1 1 5DA363EE
 P 4700 6600
-F 0 "#PWR0102" H 4700 6400 50  0001 C CNN
+F 0 "#PWR033" H 4700 6400 50  0001 C CNN
 F 1 "GNDPWR" H 4704 6446 50  0000 C CNN
 F 2 "" H 4700 6550 50  0001 C CNN
 F 3 "" H 4700 6550 50  0001 C CNN
@@ -1409,10 +1409,10 @@ Redundant power output
 Wire Notes Line
 	6100 6300 8200 6300
 $Comp
-L Connector:Screw_Terminal_01x04 J21
+L Connector:Screw_Terminal_01x04 J17
 U 1 1 5DA58887
 P 7200 7250
-F 0 "J21" H 7280 7242 50  0000 L CNN
+F 0 "J17" H 7280 7242 50  0000 L CNN
 F 1 "12V connector" H 7280 7151 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_4x5.00mm" H 7200 7250 50  0001 C CNN
 F 3 "~" H 7200 7250 50  0001 C CNN
@@ -1422,10 +1422,10 @@ F 5 "2141 Series" H 7200 7250 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x04 J22
+L Connector:Screw_Terminal_01x04 J18
 U 1 1 5DA5ABE7
 P 7200 7800
-F 0 "J22" H 7280 7792 50  0000 L CNN
+F 0 "J18" H 7280 7792 50  0000 L CNN
 F 1 "PWRGND connector" H 7280 7701 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_4x5.00mm" H 7200 7800 50  0001 C CNN
 F 3 "~" H 7200 7800 50  0001 C CNN
@@ -1437,10 +1437,10 @@ $EndComp
 Text Notes 6250 6850 0    50   ~ 0
 Extra power outputs for unforeseen expansions \nor prototyping.
 $Comp
-L power:GNDPWR #PWR028
+L power:GNDPWR #PWR039
 U 1 1 5DA5D5C4
 P 6650 7900
-F 0 "#PWR028" H 6650 7700 50  0001 C CNN
+F 0 "#PWR039" H 6650 7700 50  0001 C CNN
 F 1 "GNDPWR" H 6654 7746 50  0000 C CNN
 F 2 "" H 6650 7850 50  0001 C CNN
 F 3 "" H 6650 7850 50  0001 C CNN
@@ -1471,10 +1471,10 @@ Connection ~ 6900 7800
 Wire Wire Line
 	6900 7800 6900 7700
 $Comp
-L power:+12V #PWR025
+L power:+12V #PWR038
 U 1 1 5DA85A09
 P 6650 7250
-F 0 "#PWR025" H 6650 7100 50  0001 C CNN
+F 0 "#PWR038" H 6650 7100 50  0001 C CNN
 F 1 "+12V" H 6665 7423 50  0000 C CNN
 F 2 "" H 6650 7250 50  0001 C CNN
 F 3 "" H 6650 7250 50  0001 C CNN

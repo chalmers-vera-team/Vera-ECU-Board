@@ -45,10 +45,10 @@ $EndComp
 Wire Wire Line
 	2750 3900 1850 3900
 $Comp
-L power:GNDS #PWR04
+L power:GNDS #PWR05
 U 1 1 5C63DD34
 P 3050 3950
-F 0 "#PWR04" H 3050 3700 50  0001 C CNN
+F 0 "#PWR05" H 3050 3700 50  0001 C CNN
 F 1 "GNDS" H 3055 3777 50  0000 C CNN
 F 2 "" H 3050 3950 50  0001 C CNN
 F 3 "" H 3050 3950 50  0001 C CNN
@@ -60,10 +60,10 @@ Wire Wire Line
 Wire Wire Line
 	3050 3900 2950 3900
 $Comp
-L power:GNDPWR #PWR02
+L power:GNDPWR #PWR03
 U 1 1 5C63E519
 P 2700 4750
-F 0 "#PWR02" H 2700 4550 50  0001 C CNN
+F 0 "#PWR03" H 2700 4550 50  0001 C CNN
 F 1 "GNDPWR" H 2704 4596 50  0000 C CNN
 F 2 "" H 2700 4700 50  0001 C CNN
 F 3 "" H 2700 4700 50  0001 C CNN
@@ -80,10 +80,10 @@ Connection ~ 2700 4700
 Wire Wire Line
 	2700 4700 2700 4750
 $Comp
-L power:GNDS #PWR03
+L power:GNDS #PWR01
 U 1 1 5C63E8F3
 P 2200 4200
-F 0 "#PWR03" H 2200 3950 50  0001 C CNN
+F 0 "#PWR01" H 2200 3950 50  0001 C CNN
 F 1 "GNDS" H 2205 4027 50  0000 C CNN
 F 2 "" H 2200 4200 50  0001 C CNN
 F 3 "" H 2200 4200 50  0001 C CNN
@@ -208,10 +208,10 @@ ignition_2
 Wire Wire Line
 	1850 5200 2650 5200
 $Comp
-L power:+5V #PWR05
+L power:+5V #PWR02
 U 1 1 5C692295
 P 2650 5150
-F 0 "#PWR05" H 2650 5000 50  0001 C CNN
+F 0 "#PWR02" H 2650 5000 50  0001 C CNN
 F 1 "+5V" H 2665 5323 50  0000 C CNN
 F 2 "" H 2650 5150 50  0001 C CNN
 F 3 "" H 2650 5150 50  0001 C CNN
@@ -243,8 +243,8 @@ L power:+5V #PWR?
 U 1 1 5C731B42
 P 10300 1350
 AR Path="/5C5705F6/5C731B42" Ref="#PWR?"  Part="1" 
-AR Path="/5C731B42" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 10300 1200 50  0001 C CNN
+AR Path="/5C731B42" Ref="#PWR014"  Part="1" 
+F 0 "#PWR014" H 10300 1200 50  0001 C CNN
 F 1 "+5V" H 10315 1523 50  0000 C CNN
 F 2 "" H 10300 1350 50  0001 C CNN
 F 3 "" H 10300 1350 50  0001 C CNN
@@ -256,8 +256,8 @@ L power:GNDS #PWR?
 U 1 1 5C731B4A
 P 10300 2300
 AR Path="/5C5705F6/5C731B4A" Ref="#PWR?"  Part="1" 
-AR Path="/5C731B4A" Ref="#PWR034"  Part="1" 
-F 0 "#PWR034" H 10300 2050 50  0001 C CNN
+AR Path="/5C731B4A" Ref="#PWR015"  Part="1" 
+F 0 "#PWR015" H 10300 2050 50  0001 C CNN
 F 1 "GNDS" H 10305 2127 50  0000 C CNN
 F 2 "" H 10300 2300 50  0001 C CNN
 F 3 "" H 10300 2300 50  0001 C CNN
@@ -357,10 +357,10 @@ Wire Wire Line
 Wire Wire Line
 	8000 1500 8000 1550
 $Comp
-L power:GNDS #PWR032
+L power:GNDS #PWR013
 U 1 1 5C9ADA95
 P 8000 2300
-F 0 "#PWR032" H 8000 2050 50  0001 C CNN
+F 0 "#PWR013" H 8000 2050 50  0001 C CNN
 F 1 "GNDS" H 8005 2127 50  0000 C CNN
 F 2 "" H 8000 2300 50  0001 C CNN
 F 3 "" H 8000 2300 50  0001 C CNN
@@ -378,33 +378,20 @@ Wire Notes Line
 Wire Notes Line
 	9050 700  7250 700 
 $Comp
-L power:+5V #PWR031
+L power:+5V #PWR012
 U 1 1 5C9B7680
 P 8000 1500
-F 0 "#PWR031" H 8000 1350 50  0001 C CNN
+F 0 "#PWR012" H 8000 1350 50  0001 C CNN
 F 1 "+5V" H 8015 1673 50  0000 C CNN
 F 2 "" H 8000 1500 50  0001 C CNN
 F 3 "" H 8000 1500 50  0001 C CNN
 	1    8000 1500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x35 J3
-U 1 1 5D2253E4
-P 4100 4150
-F 0 "J3" H 4000 6100 50  0000 C CNN
-F 1 "MS_breakout_conn" H 3850 6000 50  0000 C CNN
-F 2 "ecu-board-footprints:MicroSquirt_35Pin" H 4100 4150 50  0001 C CNN
-F 3 "~" H 4100 4150 50  0001 C CNN
-F 4 "Generic" H 4100 4150 50  0001 C CNN "Manufacturer"
-F 5 "2.54mm Pin Header" H 4100 4150 50  0001 C CNN "Part no."
-	1    4100 4150
-	-1   0    0    -1  
-$EndComp
 Text Notes 3950 1300 0    79   ~ 16
 MicroSquirt Breakout\n
 Text Notes 4000 1700 0    50   ~ 0
-All pins of the Microsquirt are broken out to a \nmore easily accessible connector to allow for \nfuture modifications. Fuse dimension should \nbe adjusted according to expected load.
+All pins of the Microsquirt are broken out to\nmore easily accessible connectors to allow for \nfuture modifications. Fuse dimension should \nbe adjusted according to expected load.
 Text Label 2050 2600 0    50   ~ 0
 CANH
 Text Label 2050 2700 0    50   ~ 0
@@ -469,10 +456,10 @@ F 5 "178.4265.0002" H 5250 2450 50  0001 C CNN "Part no."
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR018
+L power:+12V #PWR010
 U 1 1 5D29417F
 P 5500 2250
-F 0 "#PWR018" H 5500 2100 50  0001 C CNN
+F 0 "#PWR010" H 5500 2100 50  0001 C CNN
 F 1 "+12V" H 5515 2423 50  0000 C CNN
 F 2 "" H 5500 2250 50  0001 C CNN
 F 3 "" H 5500 2250 50  0001 C CNN
@@ -480,70 +467,70 @@ F 3 "" H 5500 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR017
+L power:GNDPWR #PWR09
 U 1 1 5D294195
-P 5150 4700
-F 0 "#PWR017" H 5150 4500 50  0001 C CNN
-F 1 "GNDPWR" H 5154 4546 50  0000 C CNN
-F 2 "" H 5150 4650 50  0001 C CNN
-F 3 "" H 5150 4650 50  0001 C CNN
-	1    5150 4700
+P 5150 5000
+F 0 "#PWR09" H 5150 4800 50  0001 C CNN
+F 1 "GNDPWR" H 5154 4846 50  0000 C CNN
+F 2 "" H 5150 4950 50  0001 C CNN
+F 3 "" H 5150 4950 50  0001 C CNN
+	1    5150 5000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 4550 5150 4550
+	4300 4850 5150 4850
 Wire Wire Line
-	5150 4550 5150 4650
+	5150 4850 5150 4950
 Wire Wire Line
-	4300 4650 5150 4650
-Connection ~ 5150 4650
+	4300 4950 5150 4950
+Connection ~ 5150 4950
 Wire Wire Line
-	5150 4650 5150 4700
+	5150 4950 5150 5000
 $Comp
-L power:GNDS #PWR08
+L power:GNDS #PWR07
 U 1 1 5D2941A0
-P 4650 4150
-F 0 "#PWR08" H 4650 3900 50  0001 C CNN
-F 1 "GNDS" H 4655 3977 50  0000 C CNN
-F 2 "" H 4650 4150 50  0001 C CNN
-F 3 "" H 4650 4150 50  0001 C CNN
-	1    4650 4150
+P 4650 4450
+F 0 "#PWR07" H 4650 4200 50  0001 C CNN
+F 1 "GNDS" H 4655 4277 50  0000 C CNN
+F 2 "" H 4650 4450 50  0001 C CNN
+F 3 "" H 4650 4450 50  0001 C CNN
+	1    4650 4450
 	1    0    0    -1  
 $EndComp
-Text Label 4500 5650 0    50   ~ 0
+Text Label 4500 6250 0    50   ~ 0
 crank_hall_signal
 Wire Wire Line
-	4500 5650 4300 5650
-Text Label 4500 4450 0    50   ~ 0
+	4500 6250 4300 6250
+Text Label 4500 4750 0    50   ~ 0
 cam_hall_signal
 Wire Wire Line
-	4500 4450 4300 4450
-Text Label 4500 3650 0    50   ~ 0
+	4500 4750 4300 4750
+Text Label 4500 3950 0    50   ~ 0
 serial_RX
 Wire Wire Line
-	4500 3650 4300 3650
-Text Label 4500 3750 0    50   ~ 0
+	4500 3950 4300 3950
+Text Label 4500 4050 0    50   ~ 0
 serial_TX
 Wire Wire Line
-	4500 3750 4300 3750
-Text Label 4500 4750 0    50   ~ 0
+	4500 4050 4300 4050
+Text Label 4500 5350 0    50   ~ 0
 map_signal
 Wire Wire Line
-	4500 4750 4300 4750
-Text Label 4500 4850 0    50   ~ 0
+	4500 5350 4300 5350
+Text Label 4500 5450 0    50   ~ 0
 clt_signal
 Wire Wire Line
-	4500 4850 4300 4850
-Text Label 4500 4950 0    50   ~ 0
+	4500 5450 4300 5450
+Text Label 4500 5550 0    50   ~ 0
 iat_signal
 Wire Wire Line
-	4500 4950 4300 4950
+	4500 5550 4300 5550
 Wire Wire Line
-	4500 5750 4300 5750
-Text Label 4500 5850 0    50   ~ 0
+	4500 6350 4300 6350
+Text Label 4500 6450 0    50   ~ 0
 tachometer
 Wire Wire Line
-	4500 5850 4300 5850
+	4500 6450 4300 6450
 Text Label 4500 3250 0    50   ~ 0
 injector_1
 Wire Wire Line
@@ -557,45 +544,45 @@ Wire Wire Line
 Wire Wire Line
 	4300 3550 4500 3550
 Wire Wire Line
-	4300 5150 5100 5150
+	4300 5750 5100 5750
 $Comp
-L power:+5V #PWR015
+L power:+5V #PWR08
 U 1 1 5D2941BE
-P 5100 5100
-F 0 "#PWR015" H 5100 4950 50  0001 C CNN
-F 1 "+5V" H 5115 5273 50  0000 C CNN
-F 2 "" H 5100 5100 50  0001 C CNN
-F 3 "" H 5100 5100 50  0001 C CNN
-	1    5100 5100
+P 5100 5700
+F 0 "#PWR08" H 5100 5550 50  0001 C CNN
+F 1 "+5V" H 5115 5873 50  0000 C CNN
+F 2 "" H 5100 5700 50  0001 C CNN
+F 3 "" H 5100 5700 50  0001 C CNN
+	1    5100 5700
 	1    0    0    -1  
 $EndComp
-Text Label 4500 5750 0    50   ~ 0
+Text Label 4500 6350 0    50   ~ 0
 ego_signal
 Wire Wire Line
-	4300 4150 4400 4150
+	4300 4450 4400 4450
 Wire Wire Line
-	4300 4250 4400 4250
+	4300 4550 4400 4550
 Wire Wire Line
-	4400 4250 4400 4150
-Connection ~ 4400 4150
+	4400 4550 4400 4450
+Connection ~ 4400 4450
 Wire Wire Line
-	4400 4150 4650 4150
+	4400 4450 4650 4450
 Wire Wire Line
-	4300 4350 4400 4350
+	4300 4650 4400 4650
 Wire Wire Line
-	4400 4350 4400 4250
-Connection ~ 4400 4250
-Text Label 4500 5050 0    50   ~ 0
+	4400 4650 4400 4550
+Connection ~ 4400 4550
+Text Label 4500 5650 0    50   ~ 0
 TPS_input
 Wire Wire Line
-	4500 5050 4300 5050
+	4500 5650 4300 5650
 Wire Wire Line
-	5100 5100 5100 5150
+	5100 5700 5100 5750
 $Comp
-L Device:LED D5
+L Device:LED D2
 U 1 1 5D2941D1
 P 5550 2600
-F 0 "D5" H 5550 2500 50  0000 C CNN
+F 0 "D2" H 5550 2500 50  0000 C CNN
 F 1 "LED" H 5550 2400 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 5550 2600 50  0001 C CNN
 F 3 "~" H 5550 2600 50  0001 C CNN
@@ -622,10 +609,10 @@ Wire Wire Line
 Wire Wire Line
 	5350 2450 5500 2450
 $Comp
-L power:GNDS #PWR030
+L power:GNDS #PWR011
 U 1 1 5D2941DF
 P 5900 2650
-F 0 "#PWR030" H 5900 2400 50  0001 C CNN
+F 0 "#PWR011" H 5900 2400 50  0001 C CNN
 F 1 "GNDS" H 5905 2477 50  0000 C CNN
 F 2 "" H 5900 2650 50  0001 C CNN
 F 3 "" H 5900 2650 50  0001 C CNN
@@ -664,32 +651,30 @@ Wire Wire Line
 	4300 2950 4700 2950
 Wire Wire Line
 	4300 3050 4700 3050
-Text Label 4700 3850 2    50   Italic 0
+Text Label 4700 4150 2    50   Italic 0
 bootload
-Text Label 4700 3950 2    50   Italic 0
+Text Label 4700 4250 2    50   Italic 0
 accel_led
 Wire Wire Line
-	4700 3950 4300 3950
-Text Label 4700 4050 2    50   Italic 0
+	4700 4250 4300 4250
+Text Label 4700 4350 2    50   Italic 0
 warm-up
 Wire Wire Line
-	4700 4050 4300 4050
-Text Label 4700 5350 2    50   Italic 0
+	4700 4350 4300 4350
+Text Label 4700 5950 2    50   Italic 0
 opto_in+
-Text Label 4700 5450 2    50   Italic 0
+Text Label 4700 6050 2    50   Italic 0
 opto_in-
 Wire Wire Line
-	4700 5350 4300 5350
+	4700 5950 4300 5950
 Wire Wire Line
-	4300 5450 4700 5450
-Text Label 4700 5550 2    50   Italic 0
+	4300 6050 4700 6050
+Text Label 4700 6150 2    50   Italic 0
 VRIN1+
 Wire Wire Line
-	4700 5550 4300 5550
-Wire Notes Line
-	3850 1050 3850 6300
+	4700 6150 4300 6150
 Wire Wire Line
-	4700 3850 4300 3850
+	4700 4150 4300 4150
 $Comp
 L Device:Fuse_Small F1
 U 1 1 5C5C2E0F
@@ -706,10 +691,10 @@ $EndComp
 Wire Wire Line
 	2900 2500 3050 2500
 $Comp
-L power:+12V #PWR01
+L power:+12V #PWR04
 U 1 1 5C5C2EC1
 P 3050 2300
-F 0 "#PWR01" H 3050 2150 50  0001 C CNN
+F 0 "#PWR04" H 3050 2150 50  0001 C CNN
 F 1 "+12V" H 3065 2473 50  0000 C CNN
 F 2 "" H 3050 2300 50  0001 C CNN
 F 3 "" H 3050 2300 50  0001 C CNN
@@ -727,10 +712,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 2650 3450 2650
 $Comp
-L power:GNDS #PWR07
+L power:GNDS #PWR06
 U 1 1 5CB6A35F
 P 3450 2700
-F 0 "#PWR07" H 3450 2450 50  0001 C CNN
+F 0 "#PWR06" H 3450 2450 50  0001 C CNN
 F 1 "GNDS" H 3455 2527 50  0000 C CNN
 F 2 "" H 3450 2700 50  0001 C CNN
 F 3 "" H 3450 2700 50  0001 C CNN
@@ -751,10 +736,10 @@ F 5 "0805" H 2750 2650 50  0001 C CNN "Part no."
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D4
+L Device:LED D1
 U 1 1 5CA86402
 P 3100 2650
-F 0 "D4" H 3100 2550 50  0000 C CNN
+F 0 "D1" H 3100 2550 50  0000 C CNN
 F 1 "LED" H 3100 2450 50  0000 C CNN
 F 2 "LEDs:LED_0805_HandSoldering" H 3100 2650 50  0001 C CNN
 F 3 "~" H 3100 2650 50  0001 C CNN
@@ -809,8 +794,6 @@ Wire Wire Line
 	7450 4550 7700 4550
 Wire Wire Line
 	7700 4350 7450 4350
-Wire Notes Line
-	6250 6300 6250 1050
 Wire Wire Line
 	4300 2450 5000 2450
 Wire Wire Line
@@ -827,8 +810,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 2550 4500 2550
 Wire Notes Line
-	3850 6300 6250 6300
-Wire Notes Line
 	3850 1050 6250 1050
 Text Label 10000 4750 0    50   ~ 0
 speed_sensor
@@ -838,8 +819,53 @@ Text Label 2050 5300 0    50   ~ 0
 speed_sensor
 Wire Wire Line
 	2050 5300 1850 5300
-Text Label 4500 5250 0    50   ~ 0
+Text Label 4500 5850 0    50   ~ 0
 speed_sensor
 Wire Wire Line
-	4500 5250 4300 5250
+	4500 5850 4300 5850
+Wire Notes Line
+	3850 6650 6250 6650
+$Comp
+L Connector_Generic:Conn_01x12 J2
+U 1 1 5DAD1D1B
+P 4100 2950
+F 0 "J2" H 4150 3700 50  0000 C CNN
+F 1 "MicroSquirt_Breakout" H 3800 3600 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4100 2950 50  0001 C CNN
+F 3 "~" H 4100 2950 50  0001 C CNN
+F 4 "Generic" H 4100 2950 50  0001 C CNN "Manufacturer"
+F 5 "2.54mm Pin Header" H 4100 2950 50  0001 C CNN "Part no."
+	1    4100 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x12 J4
+U 1 1 5DAE0FD3
+P 4100 5850
+F 0 "J4" H 4150 6600 50  0000 C CNN
+F 1 "MicroSquirt_Breakout" H 3800 6500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 4100 5850 50  0001 C CNN
+F 3 "~" H 4100 5850 50  0001 C CNN
+F 4 "Generic" H 4100 5850 50  0001 C CNN "Manufacturer"
+F 5 "2.54mm Pin Header" H 4100 5850 50  0001 C CNN "Part no."
+	1    4100 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x11 J3
+U 1 1 5DAE2016
+P 4100 4450
+F 0 "J3" H 4150 5200 50  0000 C CNN
+F 1 "MicroSquirt_Breakout" H 3800 5100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical" H 4100 4450 50  0001 C CNN
+F 3 "~" H 4100 4450 50  0001 C CNN
+F 4 "Generic" H 4100 4450 50  0001 C CNN "Manufacturer"
+F 5 "2.54mm Pin Header" H 4100 4450 50  0001 C CNN "Part no."
+	1    4100 4450
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	3850 1050 3850 6650
+Wire Notes Line
+	6250 1050 6250 6650
 $EndSCHEMATC
