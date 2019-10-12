@@ -202,8 +202,8 @@ F 0 "J15" H 5129 4192 50  0000 L CNN
 F 1 "CLT connector" H 5129 4101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5050 4200 50  0001 C CNN
 F 3 "~" H 5050 4200 50  0001 C CNN
-F 4 "Würth" H 5050 4200 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 5050 4200 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 5050 4200 50  0001 C CNN "Manufacturer"
+F 5 "897-0803" H 5050 4200 50  0001 C CNN "Part no."
 	1    5050 4200
 	1    0    0    -1  
 $EndComp
@@ -215,8 +215,8 @@ F 0 "J7" H 2479 7092 50  0000 L CNN
 F 1 "Injector connector" H 2479 7001 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 2400 7100 50  0001 C CNN
 F 3 "~" H 2400 7100 50  0001 C CNN
-F 4 "Würth" H 2400 7100 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 2400 7100 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 2400 7100 50  0001 C CNN "Manufacturer"
+F 5 "897-0803" H 2400 7100 50  0001 C CNN "Part no."
 	1    2400 7100
 	1    0    0    -1  
 $EndComp
@@ -228,8 +228,8 @@ F 0 "J22" H 9879 2192 50  0000 L CNN
 F 1 "Chrankshaft Hall connector" H 9879 2101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 9800 2200 50  0001 C CNN
 F 3 "~" H 9800 2200 50  0001 C CNN
-F 4 "Würth" H 9800 2200 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 9800 2200 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 9800 2200 50  0001 C CNN "Manufacturer"
+F 5 "897-0812" H 9800 2200 50  0001 C CNN "Part no."
 	1    9800 2200
 	1    0    0    -1  
 $EndComp
@@ -241,8 +241,8 @@ F 0 "J23" H 9880 3342 50  0000 L CNN
 F 1 "Camshaft Hall connector" H 9880 3251 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 9800 3350 50  0001 C CNN
 F 3 "~" H 9800 3350 50  0001 C CNN
-F 4 "Würth" H 9800 3350 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 9800 3350 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 9800 3350 50  0001 C CNN "Manufacturer"
+F 5 "897-0812" H 9800 3350 50  0001 C CNN "Part no."
 	1    9800 3350
 	1    0    0    -1  
 $EndComp
@@ -448,8 +448,8 @@ F 0 "J16" H 7280 1742 50  0000 L CNN
 F 1 "EGO connector" H 7280 1651 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_4x5.00mm" H 7200 1750 50  0001 C CNN
 F 3 "~" H 7200 1750 50  0001 C CNN
-F 4 "Würth" H 7200 1750 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 7200 1750 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 7200 1750 50  0001 C CNN "Manufacturer"
+F 5 "897-0803" H 7200 1750 50  0001 C CNN "Part no."
 	1    7200 1750
 	1    0    0    -1  
 $EndComp
@@ -480,8 +480,8 @@ F 0 "J19" H 7330 3392 50  0000 L CNN
 F 1 "Ignition 1 connector" H 7330 3301 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 7250 3350 50  0001 C CNN
 F 3 "~" H 7250 3350 50  0001 C CNN
-F 4 "Würth" H 7250 3350 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 7250 3350 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 7250 3350 50  0001 C CNN "Manufacturer"
+F 5 "897-0812" H 7250 3350 50  0001 C CNN "Part no."
 	1    7250 3350
 	1    0    0    -1  
 $EndComp
@@ -493,8 +493,8 @@ F 0 "J20" H 7330 4192 50  0000 L CNN
 F 1 "Ignition 2 connector" H 7330 4101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 7250 4150 50  0001 C CNN
 F 3 "~" H 7250 4150 50  0001 C CNN
-F 4 "Würth" H 7250 4150 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 7250 4150 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 7250 4150 50  0001 C CNN "Manufacturer"
+F 5 "897-0812" H 7250 4150 50  0001 C CNN "Part no."
 	1    7250 4150
 	1    0    0    -1  
 $EndComp
@@ -548,8 +548,8 @@ F 0 "J24" H 9880 4492 50  0000 L CNN
 F 1 "Wheel Hall connector" H 9880 4401 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 9800 4500 50  0001 C CNN
 F 3 "~" H 9800 4500 50  0001 C CNN
-F 4 "Würth" H 9800 4500 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 9800 4500 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 9800 4500 50  0001 C CNN "Manufacturer"
+F 5 "897-0812" H 9800 4500 50  0001 C CNN "Part no."
 	1    9800 4500
 	1    0    0    -1  
 $EndComp
@@ -759,8 +759,8 @@ F 0 "J6" H 2380 9192 50  0000 L CNN
 F 1 "Controller connector" H 2380 9101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_5x5.00mm" H 2300 9150 50  0001 C CNN
 F 3 "~" H 2300 9150 50  0001 C CNN
-F 4 "Würth" H 2300 9150 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 2300 9150 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 2300 9150 50  0001 C CNN "Manufacturer"
+F 5 "897-0812" H 2300 9150 50  0001 C CNN "Part no."
 	1    2300 9150
 	1    0    0    -1  
 $EndComp
@@ -943,8 +943,8 @@ F 0 "J12" H 5080 6042 50  0000 L CNN
 F 1 "Cockpit connector" H 5080 5951 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_10x5.00mm" H 5000 6050 50  0001 C CNN
 F 3 "~" H 5000 6050 50  0001 C CNN
-F 4 "Würth" H 5000 6050 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 5000 6050 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 5000 6050 50  0001 C CNN "Manufacturer"
+F 5 "897-0803" H 5000 6050 50  0001 C CNN "Part no."
 	1    5000 6050
 	1    0    0    -1  
 $EndComp
@@ -1004,8 +1004,8 @@ F 0 "J21" H 7330 5742 50  0000 L CNN
 F 1 "Camera connector" H 7330 5651 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 7250 5700 50  0001 C CNN
 F 3 "~" H 7250 5700 50  0001 C CNN
-F 4 "Würth" H 7250 5700 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 7250 5700 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 7250 5700 50  0001 C CNN "Manufacturer"
+F 5 "897-0812" H 7250 5700 50  0001 C CNN "Part no."
 	1    7250 5700
 	1    0    0    -1  
 $EndComp
@@ -1059,8 +1059,8 @@ F 0 "J8" H 2530 5692 50  0000 L CNN
 F 1 "Backlight connector" H 2530 5601 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 2450 5700 50  0001 C CNN
 F 3 "~" H 2450 5700 50  0001 C CNN
-F 4 "Würth" H 2450 5700 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 2450 5700 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 2450 5700 50  0001 C CNN "Manufacturer"
+F 5 "897-0803" H 2450 5700 50  0001 C CNN "Part no."
 	1    2450 5700
 	1    0    0    -1  
 $EndComp
@@ -1238,8 +1238,8 @@ F 0 "J14" H 5129 3192 50  0000 L CNN
 F 1 "IAT connector" H 5129 3101 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5050 3200 50  0001 C CNN
 F 3 "~" H 5050 3200 50  0001 C CNN
-F 4 "Würth" H 5050 3200 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 5050 3200 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 5050 3200 50  0001 C CNN "Manufacturer"
+F 5 "897-0803" H 5050 3200 50  0001 C CNN "Part no."
 	1    5050 3200
 	1    0    0    -1  
 $EndComp
@@ -1296,8 +1296,8 @@ F 0 "J10" H 4880 8942 50  0000 L CNN
 F 1 "Speed sensor connector" H 4880 8851 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_3x5.00mm" H 4800 8950 50  0001 C CNN
 F 3 "~" H 4800 8950 50  0001 C CNN
-F 4 "Würth" H 4800 8950 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 4800 8950 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 4800 8950 50  0001 C CNN "Manufacturer"
+F 5 "897-0812" H 4800 8950 50  0001 C CNN "Part no."
 	1    4800 8950
 	1    0    0    -1  
 $EndComp
@@ -1388,8 +1388,8 @@ F 0 "J13" H 5080 7792 50  0000 L CNN
 F 1 "CAN connector" H 5080 7701 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_2x5.00mm" H 5000 7800 50  0001 C CNN
 F 3 "~" H 5000 7800 50  0001 C CNN
-F 4 "Würth" H 5000 7800 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 5000 7800 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 5000 7800 50  0001 C CNN "Manufacturer"
+F 5 "897-0803" H 5000 7800 50  0001 C CNN "Part no."
 	1    5000 7800
 	1    0    0    -1  
 $EndComp
@@ -1416,8 +1416,8 @@ F 0 "J17" H 7280 7242 50  0000 L CNN
 F 1 "12V connector" H 7280 7151 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_4x5.00mm" H 7200 7250 50  0001 C CNN
 F 3 "~" H 7200 7250 50  0001 C CNN
-F 4 "Würth" H 7200 7250 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 7200 7250 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 7200 7250 50  0001 C CNN "Manufacturer"
+F 5 "897-0803" H 7200 7250 50  0001 C CNN "Part no."
 	1    7200 7250
 	1    0    0    -1  
 $EndComp
@@ -1429,8 +1429,8 @@ F 0 "J18" H 7280 7792 50  0000 L CNN
 F 1 "PWRGND connector" H 7280 7701 50  0000 L CNN
 F 2 "ecu-board-footprints:Terminal_Block_4x5.00mm" H 7200 7800 50  0001 C CNN
 F 3 "~" H 7200 7800 50  0001 C CNN
-F 4 "Würth" H 7200 7800 50  0001 C CNN "Manufacturer"
-F 5 "2141 Series" H 7200 7800 50  0001 C CNN "Part no."
+F 4 "RS PRO" H 7200 7800 50  0001 C CNN "Manufacturer"
+F 5 "897-0803" H 7200 7800 50  0001 C CNN "Part no."
 	1    7200 7800
 	1    0    0    -1  
 $EndComp
