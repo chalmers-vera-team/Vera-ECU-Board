@@ -428,17 +428,6 @@ F 3 "" H 4700 5600 50  0001 C CNN
 	1    4700 5600
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDS #PWR025
-U 1 1 5C66C0AC
-P 4700 6600
-F 0 "#PWR025" H 4700 6350 50  0001 C CNN
-F 1 "GNDS" H 4705 6427 50  0000 C CNN
-F 2 "" H 4700 6600 50  0001 C CNN
-F 3 "" H 4700 6600 50  0001 C CNN
-	1    4700 6600
-	1    0    0    -1  
-$EndComp
 Text HLabel 1900 9050 0    50   Input ~ 0
 tachometer
 Wire Wire Line
@@ -1377,6 +1366,17 @@ F 3 "~" H 5000 7800 50  0001 C CNN
 F 4 "Würth" H 5000 7800 50  0001 C CNN "Manufacturer"
 F 5 "2141 Series" H 5000 7800 50  0001 C CNN "Part no."
 	1    5000 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5DA363EE
+P 4700 6600
+F 0 "#PWR?" H 4700 6400 50  0001 C CNN
+F 1 "GNDPWR" H 4704 6446 50  0000 C CNN
+F 2 "" H 4700 6550 50  0001 C CNN
+F 3 "" H 4700 6550 50  0001 C CNN
+	1    4700 6600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
